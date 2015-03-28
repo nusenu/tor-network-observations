@@ -1,0 +1,162 @@
+(based on onionoo data from 2015-03-27 21:00)
+
++------------------------------------------+-----------------------------------------------------------------------------------+------------+------------+
+| fingerprint                              | con                                                                               | countbyfam | countbycon |
++------------------------------------------+-----------------------------------------------------------------------------------+------------+------------+
+| C5BE3AC2B8F27F9E6F9D64FBC36CDEE6E96B6E35 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| ED9F582EB8DF1D541F942E17FA5B476EEF6216C7 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          3 |         44 |
+| E39F4B9C5E67DBE94CD2AE57517DAF25D623D813 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          3 |         44 |
+| E4A0C52C255B1A40FF5E5D104B9B6B14474CF1DD | 1024D/39B9820C admin at perfect minus privacy dot com                             |          2 |         44 |
+| D513F1A774CE80DE48BC5CBACC7511E09BF15683 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          3 |         44 |
+| 2E71C432FD9E2CC89D178704789638B973056B65 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          2 |         44 |
+| 02B4C86406CE6312C37F58A72B0A8D5C08475A47 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          2 |         44 |
+| 400697A95BDA2F1BC3DDC6CE5CD8EE8604352DD9 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| 8398D000AE278F04C875FF1B3A3CB8830CE2A32C | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| 26258AB816A9FAD57FC1E33143DBDEC93A631E52 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          2 |         44 |
+| 7E0C26A59C6BC56E8058425138EA2AAB642A1AD3 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          2 |         44 |
+| 75A98554F3B490F19C5E7074EF91BE372E023674 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          3 |         44 |
+| 9CF0CD2A145D692575DDE9C396AA4436AA47B677 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| 6653E5EA07B442C76132F8E76FC9021B5944BADE | 1024D/39B9820C admin at perfect minus privacy dot com                             |          4 |         44 |
+| BD4DD9C4C1B1D64655CF8691D25C7F0D092F8761 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          2 |         44 |
+| 14660721626EE190BD9E7332363BF43616A6289C | 1024D/39B9820C admin at perfect minus privacy dot com                             |          2 |         44 |
+| 24729734CC790B8CEC6CF5BAA410BEB678E09FD8 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| BD713BC8C6D80C388601AAF71666A01F95D70467 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| 1BA793957E83A313780A4BA179C365FD2007D67B | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| 97DCF36D932A6F2E9CEDAA6E0CFBAD0682FA2416 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| BE87D63AAF7CDCAFDDD62C6DA0A2576075D4086A | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| AC7AE98C33189F359A26113C5B0D7D9BB06D2881 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| DD48BA45CD510B18B3F0F5802D7C13A28C0826C5 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| 1D878D6C696A65A2EDB5920362871F64F89AC256 | 1024D/39B9820C admin at perfect minus privacy dot com                             |          2 |         44 |
+| 2704A6D7A819DCCFD891197524133853858F2F3B | 1024D/39B9820C admin at perfect minus privacy dot com                             |          1 |         44 |
+| E6E18151300F90C235D3809F90B31330737CEB43 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| BAACCB29197DB833F107E410E2BFAE5009EE7583 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 70C55A114C0EF3DC5784A4FAEE64388434A3398F | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 6D3A3ED5671E4E3F58D4951438B10AE552A5FA0F | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 6A29FD8C00D573E6C1D47852345B0E5275BA3307 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| A37C47B03FF31CA6937D3D68366B157997FE7BCD | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |         18 |         38 |
+| 1811047B4E441D698EF05970BCF60618FB3E2243 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| B35C5739C8C5AB72094EB2B05738FD1F8EEF6EBD | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 65412F88561312CA30814AA6DDBD14315D0E995E | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 4436A57FFE36F09368718BCFFF750EB86A4E00B9 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 169019BFFECBBB9A35878BCF4C7AE1FF37AD8452 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 75C4495F4D80522CA6F6A3FB349F1B009563F4B7 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 5A551BF2E46BF26CC50A983F7435CB749C752553 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| E8495F9D8891264CDB19983BD4A781157CFEE8DB | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 6A37488DD4321F0A649F6F3A77E896FAD6930C99 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 0C77421C890D16B6D201283A2244F43DF5BC89DD | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 0B454C7EBA58657B91133A587C1BDAEDC6E23142 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| E11B6AE135B5A43244656C27ECEE0C09DE9E286B | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 8073670F8F852971298F8AF2C5B23AE012645901 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 28A9A065BC5143CA439141E6D4F18E76DF101302 | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 0D95B0ADF084F29819845563AC9EF8D4A706690A | torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF                     |          1 |         38 |
+| 488239E03C4FBC22BA7C5EC76178C4E683A21B0D | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 64D500C4D7F989ECD74B42ABB068818EF95525F3 | Torservers.net <support .AT. torservers .DOT. net>                                |          4 |         24 |
+| 20B0038D7A2FD73C696922551B8344CB0893D1F8 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| A0D858F81FAA7CE6B5B746106A35E44ADA0045B9 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| B4F883DB3D478C7AE569C9F6CB766FD58650DC6A | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 9B41B9B3D4661566C660096B715BC647FBD72A72 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 4A0C3E177AF684581EF780981AEAF51A98A6B5CF | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 84567A5BDFE927B35E4D868BE2AA39AF9CD5F5EF | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 7BB160A8F54BD74F3DA5F2CE701E8772B841859D | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 770BE0CDAF2B3C5F3517B72E41B0A6B5D89D8017 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 5C84C35936B7100B949AC75764EEF1352550550B | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 10E13E340651D0EF66B4DEBF610B3C0981168107 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 78213EC898E96E919D19EB9F0F85A59C3DD00D0C | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 6B1E001929AF4DDBB747D02EC28340792B7724A6 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 73834871A46790E65D6966131522DA7E2AD84DB1 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| BB4290811B315E0BC779AE1368C95A88EB2D2E45 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 29CAF11F1732D9C532002C467643792CD9B79B9D | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 5714542DCBEE1DD9864824723638FD44B2122CEA | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| A08B0F041474BC94806374EF0BABDD348EBF0003 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| C46524E586E1B997329703D356C07EE12B28C722 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 06E123865C590189B3181114F23F0F13A7BC0E69 | Torservers.net <support .AT. torservers .DOT. net>                                |          1 |         24 |
+| 5DEF69E67BAF2CF26D36B5AC2A925BB2EA376593 | noc@cymru.com                                                                     |         12 |         14 |
+| 714AF90AFF324373D6F6A4393084D781C4219FFD | noc@cymru.com                                                                     |          1 |         14 |
+| 665D9EF8A274547208189531A534AF2249E9D360 | noc@cymru.com                                                                     |          1 |         14 |
+| 0D5F164990C69AE16B25F3800897B6B37C1C2935 | Abuse Department <abuse AT hartvoorinternetvrijheid dot nl>                       |         12 |         14 |
+| 0540E460D7E724F9A2A6D09B748FC71574829598 | Abuse Department <abuse AT hartvoorinternetvrijheid dot nl>                       |          1 |         14 |
+| 4F7CAE3C1DDB23A6BA01CF4F8EBB4257AD40875C | Abuse Department <abuse AT hartvoorinternetvrijheid dot nl>                       |          1 |         14 |
+| 0011BD2485AD45D984EC4159C88FC066E5E3300E | Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr |          1 |         11 |
+| 1B9FACF25E17D26E307EA7CFA7D455B144B032E5 | Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr |          1 |         11 |
+| B34CC9056250847D1980F08285B01CF0B718C0B6 | Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr |          1 |         11 |
+| 6C143720FFF8469EF6A5C5B4066366340CF6C0D1 | Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr |          1 |         11 |
+| 51BFE90C64B84C912D3D1D303605CE2A67970EC0 | Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr |          6 |         11 |
+| 7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2 | Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr |          1 |         11 |
+| 6F4E9FD00D4251D98BE96FB1AA546FE34676A95B | Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr |          1 |         11 |
+| A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E | Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr |          1 |         11 |
+| C52D67A20194831EDD62FD5DBE6C381593874150 | http://www.privacyfoundation.ch/abuse/                                            |          6 |         10 |
+| B7580D392853F23597E11575F061B8097ADD92B6 | http://www.privacyfoundation.ch/abuse/                                            |          1 |         10 |
+| 5CF34032536306A64CFE9F5D3393AE6E46CFAE78 | http://www.privacyfoundation.ch/abuse/                                            |          1 |         10 |
+| 21ABB9584677EEB54514265F24756AD0B04E0EFA | http://www.privacyfoundation.ch/abuse/                                            |          1 |         10 |
+| 527ED954F9E7800AB00BCE366542CB074B42DD2A | http://www.privacyfoundation.ch/abuse/                                            |          1 |         10 |
+| 7B2553AEA4A3FC9E1B513D772ECA652C8CC15337 | Pascal666 at Users dot SourceForge dot Net - 1EYFAi9UUJVLPohiGLaFhxHA7uoY48rR3q   |          1 |         10 |
+| F2C4B2B7628F48D293AFD841B868B13914C7D570 | Pascal666 at Users dot SourceForge dot Net - 1EYFAi9UUJVLPohiGLaFhxHA7uoY48rR3q   |          3 |         10 |
+| 237C733E2D1BAD26FAABEAFB612BDA0CD3BC6AF4 | Pascal666 at Users dot SourceForge dot Net - 1EYFAi9UUJVLPohiGLaFhxHA7uoY48rR3q   |          1 |         10 |
+| 30BAB8EE7606CBD12F3CC269AE976E0153E7A58D | Pascal666 at Users dot SourceForge dot Net - 1EYFAi9UUJVLPohiGLaFhxHA7uoY48rR3q   |          1 |         10 |
+| 350F35705CDEFC1C4ED318C8CB7EE493421109CB | Pascal666 at Users dot SourceForge dot Net - 1EYFAi9UUJVLPohiGLaFhxHA7uoY48rR3q   |          1 |         10 |
+| 5B7AEB1421AC575E1A545A2092B32C0AA4760748 | Pascal666 at Users dot SourceForge dot Net - 1EYFAi9UUJVLPohiGLaFhxHA7uoY48rR3q   |          1 |         10 |
+| A1A8E2C578047E441F2412C91894E2785176CCE9 | Pascal666 at Users dot SourceForge dot Net - 1EYFAi9UUJVLPohiGLaFhxHA7uoY48rR3q   |          1 |         10 |
+| 5C67A9CE8B9A03DCEA0CC94ED77A7FF9C6A4B0C0 | Pascal666 at Users dot SourceForge dot Net - 1EYFAi9UUJVLPohiGLaFhxHA7uoY48rR3q   |          1 |         10 |
+| 5A31190BF658891EF2C14577325CB4AD4ED1E0BB | <periplanetaamericanus AT gmail dot com>                                          |          1 |          8 |
+| 4B21CBF3FCD464611564AD8848FA412EFF7F3335 | <periplanetaamericanus AT gmail dot com>                                          |          1 |          8 |
+| F5B2B357C84D7DF13107FDE45F521DA0B71950E9 | <periplanetaamericanus AT gmail dot com>                                          |          1 |          8 |
+| 7A29FEA97CC41E3121B52B4EBE97FD447EB3E150 | <periplanetaamericanus AT gmail dot com>                                          |          1 |          8 |
+| 9471282EA0075E84E70490D13B579A8B07CC486D | <periplanetaamericanus AT gmail dot com>                                          |          1 |          8 |
+| 6ED605774DB7D5B41F680498AC5CEC2EBAFC9E80 | <periplanetaamericanus AT gmail dot com>                                          |          1 |          8 |
+| F4E86FC336659038DC80774D5917ACFB6178B7CC | <periplanetaamericanus AT gmail dot com>                                          |          1 |          8 |
+| 8BFD4BAAD59C64D43DD2221C700C8D6CE9F2C7AA | <periplanetaamericanus AT gmail dot com>                                          |          1 |          8 |
+| F12452C32A4295C50C5625E1B37B305F29F71150 | 1MTUwHFknUyUgRYqpNDYiA2j7sXTYoCe2P                                                |          7 |          8 |
+| 6C386FB93AC5570711106C00F2A0075BB972076F | 1MTUwHFknUyUgRYqpNDYiA2j7sXTYoCe2P                                                |          1 |          8 |
+| A46D31B2C91C7E1C860CE124EC93875524C3C494 | poiuty@lepus.su                                                                   |          1 |          7 |
+| E959A8F68C4C083170B20AA82A74075927EFCC4A | poiuty@lepus.su                                                                   |          1 |          7 |
+| 1F4526E4686B0695170C3BDA1395EFF8BDDAEE4D | poiuty@lepus.su                                                                   |          1 |          7 |
+| C43E439D730795FDA595E8870C0407E2F027C2EF | poiuty@lepus.su                                                                   |          1 |          7 |
+| ACA73F5072466385E10B61078276C352C57223BB | poiuty@lepus.su                                                                   |          1 |          7 |
+| 5155AD17D4AD03146F714272ABE09E2C056DAD5A | poiuty@lepus.su                                                                   |          2 |          7 |
+| 06DB5454DA6974251D77B2BAC37416320B689844 | linuxthefish <me @ linuxthefish . net>                                            |          1 |          7 |
+| D07F7D4A35BBD1029CF28AADE21A7BEBE982C300 | linuxthefish <me @ linuxthefish . net>                                            |          1 |          7 |
+| 9E8E20CD0B6F0DD91F320C9149CD51958E4C0357 | linuxthefish <me @ linuxthefish . net>                                            |          1 |          7 |
+| 128FE8512AA10016158360D515AF80380F4A7CCA | linuxthefish <me @ linuxthefish . net>                                            |          1 |          7 |
+| E4F80CFABB0E3236F7B52C5E8A42E4A18F50F822 | linuxthefish <me @ linuxthefish . net>                                            |          1 |          7 |
+| 4930C684F2D0FCBD3901FA535B1015373ACF1934 | linuxthefish <me @ linuxthefish . net>                                            |          1 |          7 |
+| 2D3115D0C24E5B63D7FEB20379179D6F38A25BF6 | linuxthefish <me @ linuxthefish . net>                                            |          1 |          7 |
+| B0BBE07E42E433E64B445B51F6D82984DFEC1879 | linuxthefish <me (AT) linuxthefish (DOT) net>                                     |          1 |          6 |
+| 037F1A83C71C73F6D70F76933F8A930C4CE0612D | linuxthefish <me (AT) linuxthefish (DOT) net>                                     |          1 |          6 |
+| 97FAFE4F461D2AB72D6C9E080C58D66923D7BE80 | linuxthefish <me (AT) linuxthefish (DOT) net>                                     |          1 |          6 |
+| 8EB87357CCAF696A6AE40ABAEDE08E80F2EB21F8 | linuxthefish <me (AT) linuxthefish (DOT) net>                                     |          1 |          6 |
+| F07B864CB26A3D47E74132376844DFF078B217CC | linuxthefish <me (AT) linuxthefish (DOT) net>                                     |          1 |          6 |
+| 8EF5BB5E12AF572821313E265E93E7B2FB7B9B29 | linuxthefish <me (AT) linuxthefish (DOT) net>                                     |          1 |          6 |
+| 2E8561C1C887D432B01AE9B8704A8E051932F0E7 | tor@meo.ws - 1L3NkCq7GPctWknh5sTEczdmeCafn7a68a                                   |          1 |          7 |
+| 16B9833CF947BCB27905212DD182ABA1EBE2DA96 | tor@meo.ws - 1L3NkCq7GPctWknh5sTEczdmeCafn7a68a                                   |          1 |          7 |
+| 528F6FA4246EA26D60268272D5D3853F8BF4535F | tor@meo.ws - 1L3NkCq7GPctWknh5sTEczdmeCafn7a68a                                   |          1 |          7 |
+| CEB7F02E51A14D4BF867AA1A20CB94A1CFFF7957 | tor@meo.ws - 1L3NkCq7GPctWknh5sTEczdmeCafn7a68a                                   |          1 |          7 |
+| 9D5A5D54EC2B63CBDA5345EAEA9768539E926C5E | tor@meo.ws - 1L3NkCq7GPctWknh5sTEczdmeCafn7a68a                                   |          1 |          7 |
+| 6E58558F2BB4F318B01D1FD2680827DDEB0CA2A2 | tor@meo.ws - 1L3NkCq7GPctWknh5sTEczdmeCafn7a68a                                   |          1 |          7 |
+| 68651544DC720A5F71FA06F2713EA6C0B7E836DB | tor@meo.ws - 1L3NkCq7GPctWknh5sTEczdmeCafn7a68a                                   |          1 |          7 |
+| B9122392A201701BE9497AC2B3B88E0E831A05B3 | Bauruine <torcontact aatt tuxli.ch> - 1CVkdZfRGWXETqVu8ctEKKMPC8Xj2Xnqcp          |          1 |          7 |
+| 63C1904FFE2DCB48B4F0FE8A4551CF53412EA289 | Bauruine <torcontact aatt tuxli.ch> - 1CVkdZfRGWXETqVu8ctEKKMPC8Xj2Xnqcp          |          3 |          7 |
+| F596E1B1EF98E1DDBBDC934DB722AF54069868F6 | Bauruine <torcontact aatt tuxli.ch> - 1CVkdZfRGWXETqVu8ctEKKMPC8Xj2Xnqcp          |          1 |          7 |
+| CD6B850159CFF4C068A8D0F1BA5296AE4EDCAB39 | Bauruine <torcontact aatt tuxli.ch> - 1CVkdZfRGWXETqVu8ctEKKMPC8Xj2Xnqcp          |          1 |          7 |
+| A62F9AC6E22BE14A0CB888A03BFEF2A9533D3DA2 | Bauruine <torcontact aatt tuxli.ch> - 1CVkdZfRGWXETqVu8ctEKKMPC8Xj2Xnqcp          |          1 |          7 |
+| 824B3ACB68E2E7ED59954BC49556D88DAEBC7CC4 | http://www.onion.network/ <info at onion dot network>                             |          6 |          7 |
+| F89A52385D85F7EF6F9B892CE99EE0FAD36882DA | http://www.onion.network/ <info at onion dot network>                             |          1 |          7 |
+| D8B7EB0A3CB2F7CB566B3050A58D67EC319A8EF8 | Francois Deppierraz <francois@ctrlaltdel.ch>                                      |          1 |          6 |
+| CFEC81B97F6C15689ED8451C3DB0F8C399C01724 | Francois Deppierraz <francois@ctrlaltdel.ch>                                      |          1 |          6 |
+| 030F202056BA760F66047AC51B187DC1739D704C | Francois Deppierraz <francois@ctrlaltdel.ch>                                      |          1 |          6 |
+| 40F32747DA9C12CF59B7CAF2EA0FA918528C993B | Francois Deppierraz <francois@ctrlaltdel.ch>                                      |          1 |          6 |
+| 798918CD09D1A78C8D50B5D03C2BE8A0AC30A755 | Francois Deppierraz <francois@ctrlaltdel.ch>                                      |          1 |          6 |
+| 543363A9238673DFE92544E18EF426D6A48B75B2 | Francois Deppierraz <francois@ctrlaltdel.ch>                                      |          1 |          6 |
+| 3818DC661C38E5AA1F6E86F262222E37895FCADE | Exit Operator <admin@telostor.ca> - 1LjJDEnMeEGKXgurTDhak9fwnksYbj2rMt            |          1 |          6 |
+| E187D52F9EF0630A7E17CC4016EB49DEAB684F42 | Exit Operator <admin@telostor.ca> - 1LjJDEnMeEGKXgurTDhak9fwnksYbj2rMt            |          3 |          6 |
+| 9331C71FF20BBDF386DBECA4F5E1CA649C0996AD | Exit Operator <admin@telostor.ca> - 1LjJDEnMeEGKXgurTDhak9fwnksYbj2rMt            |          1 |          6 |
+| 5AEA964D4F73649D58243DD774E677F4B1B9178D | Exit Operator <admin@telostor.ca> - 1LjJDEnMeEGKXgurTDhak9fwnksYbj2rMt            |          1 |          6 |
+| 445F1C853966624FB3CF1E12442570DC553CC2EC | 0x6F6D60C1 Security Dept <hello@brasshorncommunications.uk>                       |          1 |          6 |
+| 6462CA5FB0D730EEA99A302FC72EB66978E4B819 | @kosjoli                                                                          |          1 |          6 |
+| 2A59B1B31B35CD549D5B2D76B5A460241854FBE1 | @kosjoli                                                                          |          1 |          6 |
+| D9065F9E57899B3D272AA212317AF61A9B14D204 | @kosjoli                                                                          |          1 |          6 |
+| A1EB8D8F1EE28DB98BBB1EAA3B4BEDD303BAB911 | @kosjoli                                                                          |          1 |          6 |
+| 7E2F94EA9214EC6CD05A0FC1BA51A0FA30FC83C7 | @kosjoli                                                                          |          2 |          6 |
+| 8BC046B0B42962DBD27358DF4B8388088323764B | dd408090@gmail.com                                                                |          4 |          5 |
+| 8CAFFBDAAC667469CC0FDE906B36C004E5E1E1E7 | tor-relays [at] teqnix.net                                                        |          1 |          5 |
+| 93FB9216985433B05793C346E40DA6DCB44BFC01 | Christian <tornodes AT chrismail d o t  d e>                                      |          1 |          5 |
++------------------------------------------+-----------------------------------------------------------------------------------+------------+------------+
