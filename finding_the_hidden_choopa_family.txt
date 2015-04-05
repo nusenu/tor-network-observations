@@ -1,0 +1,89 @@
+The first of April 2015 has been an unusual day on the tor network:
+
+relays added    Date
++----------+-------------------------+
+|       73 | 2015-04-04              |
+|       72 | 2015-04-03              |
+|       67 | 2015-04-02              |
+|   >>  96 | 2015-04-01  <<          | 
+|       73 | 2015-03-31              |
+|       66 | 2015-03-30              |
+|       78 | 2015-03-29              |
++----------+-------------------------+
+
+Top 5 autonomous systems on that day (2015-04-01):
++------------+---------------------+
+| relaycount | as_name             |
++------------+---------------------+
+|         20 | Choopa, LLC         |
+|          8 | OVH SAS             |
+|          6 | Hetzner Online AG   |
+|          4 | Centrilogic, Inc.   |
+|          4 | Deutsche Telekom AG |
++------------+---------------------+
+
+
+On 2015-04-01 20 exit relays where added in AS20473 (undefined contactinfo).
+Going back in time shows similar events (2015-03-24) in that AS.
+
+Extrapolating identified properties to the entire tor network 
+gives us 55 exit relays that are likely operated by a single entity.
++---------------------+---------+----------+-------------+------------------------+-------------+------------------------------------------+
+| first_seen          | or_port | dir_port | nickname    | as_name                | tor_version | fingerprint                              |
++---------------------+---------+----------+-------------+------------------------+-------------+------------------------------------------+
+| 2014-11-14 19:00:00 |     443 |    59303 | Hypogre     | Serverius Holding B.V. | 0.2.5.11    | EAFA24F082AC794C546DA843DF85682C9C8CCD69 |
+| 2015-02-04 07:00:00 |     443 |    46658 | Ardenem     | Serverius Holding B.V. | 0.2.5.11    | B3F4BDA5D01F34C28B0013B068C1C5F1F92D6A62 |
+| 2015-02-13 06:00:00 |      80 |    41343 | Danalwor    | Serverius Holding B.V. | 0.2.5.11    | 1FC2680C04543AAD5B232A95FD3A416A7BDBA02D |
+| 2015-02-13 19:00:00 |      80 |    34393 | Ismche      | Serverius Holding B.V. | 0.2.5.11    | EAA8CC6749B53E9C791A7942BDE250EBD54DEDA7 |
+| 2015-02-13 19:00:00 |      80 |    56469 | Obana       | Choopa, LLC            | 0.2.5.11    | DADD257FDB3C67EF81A09B1A6FDF5FDAABC9E6B5 |
+| 2015-02-13 19:00:00 |     443 |    59697 | Dardyn      | Choopa, LLC            | 0.2.5.11    | B50FC1BB56197EA66F8780AD99B983B3ED19564A |
+| 2015-02-13 20:00:00 |      80 |    57658 | Bywadu      | Portlane AB            | 0.2.5.11    | 5A0DE94C95E2276B4BAC974A7D8FC6463C4FE8A4 |
+| 2015-02-13 20:00:00 |      80 |    38546 | Tanran      | OVH SAS                | 0.2.5.11    | 6AF25023BF27AFE0454ADC1991BDA2E893218D0C |
+| 2015-02-16 21:00:00 |     443 |    59733 | Darctur     | Choopa, LLC            | 0.2.5.11    | B1A6B1D6A2B83E16B46CBED623B22BF3B656CED7 |
+| 2015-02-16 21:00:00 |      80 |    47518 | Gartora     | Choopa, LLC            | 0.2.5.11    | 6A9F422837F40CAC4BD7BF4AE7A8DED570A5201C |
+| 2015-03-24 17:00:00 |     110 |    43275 | Enthory     | Choopa, LLC            | 0.2.5.11    | DB19FE1475371C2ECA68583A54F6979047D876D7 |
+| 2015-03-24 17:00:00 |     110 |    56831 | Samest      | Choopa, LLC            | 0.2.5.11    | D678FAAB8A080C115B32E6605FB6F11934B46265 |
+| 2015-03-24 17:00:00 |      80 |    52111 | Estturray   | Choopa, LLC            | 0.2.5.11    | 464C1257DD60CD9D5AFF86CA4C4BD92CC989BC3A |
+| 2015-03-24 17:00:00 |     443 |    49675 | Moslald     | Choopa, LLC            | 0.2.5.11    | 19646047F74BD1BEC9776FFB6C89555A25D38EA9 |
+| 2015-03-24 17:00:00 |      80 |    54292 | Enddeli     | Choopa, LLC            | 0.2.5.11    | 67A654F70220A5A82AB815C3947F059EBC50F60F |
+| 2015-03-24 17:00:00 |     443 |    34636 | Keyar       | Choopa, LLC            | 0.2.5.11    | 6F73B844AEAA5747743EEFFBAE2601FFF95B54AE |
+| 2015-03-24 17:00:00 |     443 |    44720 | Engbeli     | Choopa, LLC            | 0.2.5.11    | AFB3638F85D492F5CB8C42C1DC9BE30236C4288D |
+| 2015-03-24 17:00:00 |      80 |    59222 | Rothtai     | Choopa, LLC            | 0.2.5.11    | 0B10DF9DFBCAE4CB07EAA6D4666A01AE1B900B29 |
+| 2015-03-24 17:00:00 |      80 |    39123 | Imeld       | Choopa, LLC            | 0.2.5.11    | 46C745DFEE068107595F4A5E61255452E44A60A3 |
+| 2015-03-24 19:00:00 |     443 |    54011 | Orod        | Choopa, LLC            | 0.2.5.11    | 113B858FE85EEB3B390E2EBF4FF1178C1936E1A7 |
+| 2015-03-24 19:00:00 |     443 |    50181 | Tanworton   | Choopa, LLC            | 0.2.5.11    | 142CBFF08B3FCAECF88F106F9886EB74ED97B2FE |
+| 2015-03-24 19:00:00 |     443 |    39144 | Bybaru      | Choopa, LLC            | 0.2.5.11    | A92B2EAF875489B886B51CCF348C65A1EC45DDE5 |
+| 2015-03-25 02:00:00 |     443 |    53900 | Isarkin     | Choopa, LLC            | 0.2.5.11    | 3302AD8F7387A3ABB236FDF5F4B1AC4EABAA4072 |
+| 2015-03-25 02:00:00 |      80 |    35956 | Zimath      | Choopa, LLC            | 0.2.5.11    | 334A015E13556BFFE72A338D1A7DF5BAD8C13D76 |
+| 2015-03-26 22:00:00 |     443 |    34641 | Bynib       | Choopa, LLC            | 0.2.5.11    | 0E751988D2BC01A6ABE9418498045982F0FE3003 |
+| 2015-03-26 22:00:00 |     443 |    40883 | Oldaleight  | NULL                   | 0.2.5.11    | 03E96645D51BEA7FA5899F459706326894BDE1FA |
+| 2015-03-26 22:00:00 |     110 |    38088 | Nalani      | Choopa, LLC            | 0.2.5.11    | 6F7B0444838F54C6DE87C0F48D4250868E22EE82 |
+| 2015-03-26 23:00:00 |      80 |    57335 | Etves       | NULL                   | 0.2.5.11    | 3498944B0AAFD6602057541A83F98774B4BA8E33 |
+| 2015-03-27 00:00:00 |     443 |    33234 | Rodtan      | NULL                   | 0.2.5.11    | 6D35C271C9FC8E0C5F70936783F5B77E2E03461F |
+| 2015-03-27 00:00:00 |     110 |    39877 | Oildo       | NULL                   | 0.2.5.11    | 0CFD5492BCBC5F2638E61620A4BF772C91759AB1 |
+| 2015-03-31 03:00:00 |     443 |    45913 | Snevorine   | Portlane AB            | 0.2.5.11    | 6A3701B12A4B893C67A9534703CECA33AE860C38 |
+| 2015-04-01 06:00:00 |      80 |    58508 | Ravid       | Choopa, LLC            | 0.2.5.11    | 44984A22B5629457E91BE3DF4B366EFD1C0B5820 |
+| 2015-04-01 06:00:00 |     443 |    33301 | Isarsay     | Centrilogic, Inc.      | 0.2.5.11    | A0096619CC99D5EFDE105A60BFC17386876DCDC7 |
+| 2015-04-01 06:00:00 |      80 |    39333 | Eldend      | Centrilogic, Inc.      | 0.2.5.11    | 70508F6D9AB6D92FAE0C5CA25495F0CC3CAEEEB8 |
+| 2015-04-01 06:00:00 |      80 |    41390 | Awche       | Centrilogic, Inc.      | 0.2.5.11    | D0C5893CFB1D6DB871A24B9F3D54B4BCB9732E48 |
+| 2015-04-01 06:00:00 |      80 |    33861 | Ottmar      | Choopa, LLC            | 0.2.5.11    | 250F47DCBCA3F31BD050AB97F286DD5C1FE1BEF0 |
+| 2015-04-01 06:00:00 |      80 |    39087 | Chrysanthos | Choopa, LLC            | 0.2.5.11    | 7B41271240C0A0C6E4A1EE731D29DB1B483EF28E |
+| 2015-04-01 06:00:00 |      80 |    55495 | Maximianus  | Choopa, LLC            | 0.2.5.11    | 8300C6DC6E64708808245410D7264D901397B95A |
+| 2015-04-01 06:00:00 |     443 |    34384 | Adilet      | Choopa, LLC            | 0.2.5.11    | 2811DF57928305F80D43B63E09CDD866882B33D3 |
+| 2015-04-01 06:00:00 |      80 |    39271 | Dagda       | Choopa, LLC            | 0.2.5.11    | AF5BF61EE0D171D3B9929DFD9FEF202F50D000A4 |
+| 2015-04-01 06:00:00 |      80 |    53241 | Kyriakos    | Choopa, LLC            | 0.2.5.11    | CB1F5320223B1DB51F19717BE95E20AB9BF51523 |
+| 2015-04-01 06:00:00 |     443 |    53025 | Byxus       | Centrilogic, Inc.      | 0.2.5.11    | 0BA2E89074CD42A9D0384D8B2FCAA2AED9B67B4D |
+| 2015-04-01 07:00:00 |     443 |    39530 | Joash       | Choopa, LLC            | 0.2.5.11    | D1B2A28CA84271FBD52FC7C71F0FC22EFB9010E6 |
+| 2015-04-01 07:00:00 |     443 |    35192 | Darijo      | Choopa, LLC            | 0.2.5.11    | 0765EA35DB2BC97E167A17181D6290856228CEDC |
+| 2015-04-01 07:00:00 |     443 |    49314 | Lucrece     | Choopa, LLC            | 0.2.5.11    | A13652BD401E536BBB36FCCAEBAD187D96C1B277 |
+| 2015-04-01 07:00:00 |     443 |    59397 | Urias       | Choopa, LLC            | 0.2.5.11    | 95A5A464BE88C2E924F5B675445FC233E92B23DB |
+| 2015-04-01 08:00:00 |      80 |    42877 | Calbhach    | Choopa, LLC            | 0.2.5.11    | 5B738EDE3544C4CE4EA1CB29D3C387EEC64D6165 |
+| 2015-04-01 08:00:00 |     443 |    45124 | Chifuniro   | Choopa, LLC            | 0.2.5.11    | CC6339702D3AB62DE86F693474FFDB4C22B1FCA0 |
+| 2015-04-01 08:00:00 |     443 |    53623 | Menelaus    | Choopa, LLC            | 0.2.5.11    | C9507B38DD99E3D187D5702F553500CD6044CFA6 |
+| 2015-04-01 14:00:00 |     443 |    60654 | Vanni       | Choopa, LLC            | 0.2.5.11    | 0366093A87FA24D2D04BFA850F0B1ACE58EA0FBA |
+| 2015-04-01 14:00:00 |      80 |    37552 | Lycus       | Choopa, LLC            | 0.2.5.11    | 177E0F701EBCBAC6AB070289AA433C364F805FD6 |
+| 2015-04-01 16:00:00 |      80 |    37611 | Gennadios   | Choopa, LLC            | 0.2.5.11    | 3147930008B5C65CF50DB975E8FA53E7A9E74C72 |
+| 2015-04-01 16:00:00 |     443 |    33437 | Teigue      | Choopa, LLC            | 0.2.5.11    | BC572EFA08DF4F01725A3FE8FAE3C9E68B5882CC |
+| 2015-04-01 17:00:00 |      80 |    56103 | Ayokunle    | Choopa, LLC            | 0.2.5.11    | 81294472798E7F47E9871AF1D657087DEC51EE28 |
+| 2015-04-01 17:00:00 |     443 |    54961 | Eduard      | Choopa, LLC            | 0.2.5.11    | A2E4C9ABDB999B52CFB827DB655C5498D68A49A3 |
++---------------------+---------+----------+-------------+------------------------+-------------+------------------------------------------+
