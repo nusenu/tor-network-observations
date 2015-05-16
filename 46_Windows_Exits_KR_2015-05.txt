@@ -1,0 +1,52 @@
+based on onionoo data from 2015-05-16 14:00:00 (20 relays running)
+
++---------------------+---------+------+------+--------------------------+----------+---------+------+--------------------------------------+
+| first_seen          | advbw   | ORp  | DirP | platform                 | nickname | contact | CC   | as_name                              |
++---------------------+---------+------+------+--------------------------+----------+---------+------+--------------------------------------+
+| 2015-05-07 04:00:00 |   66610 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | th   | JasTel Network International Gateway |
+| 2015-05-07 04:00:00 |   77955 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-07 04:00:00 |  230400 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | jp   | KDDI CORPORATION                     |
+| 2015-05-11 07:00:00 |  532151 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-11 07:00:00 |   65536 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | DreamcityMedia                       |
+| 2015-05-11 07:00:00 |  197632 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-11 07:00:00 |   60221 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | LG DACOM Corporation                 |
+| 2015-05-11 07:00:00 | 1156096 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-11 07:00:00 |   65266 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-12 04:00:00 |   88064 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-12 04:00:00 |  655360 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | KRNIC                                |
+| 2015-05-12 04:00:00 |  109568 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-12 04:00:00 |   53248 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-12 04:00:00 |  528280 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-12 05:00:00 |   52224 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Seokyung Cable Television Co..LTD.   |
+| 2015-05-12 05:00:00 |  133120 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | CMB DONGSEO BROADCASTING             |
+| 2015-05-12 05:00:00 | 1340416 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-12 05:00:00 |   60416 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-12 05:00:00 |  142893 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Qrix, Inc.                           |
+| 2015-05-12 06:00:00 |   54272 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-12 06:00:00 |   53248 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | DreamcityMedia                       |
+| 2015-05-12 06:00:00 |   55296 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-12 12:00:00 |  380630 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-14 06:00:00 |  590428 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-14 06:00:00 |   53248 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | HYUNDAI COMMUNICATIONS & NETWORK     |
+| 2015-05-14 06:00:00 |  390910 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-14 06:00:00 |       0 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-14 06:00:00 |  740352 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-14 07:00:00 |   61440 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-14 09:00:00 |  594440 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-15 06:00:00 |  613376 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-15 06:00:00 |  147456 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | KRNIC                                |
+| 2015-05-15 06:00:00 |  370688 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | C&M Communication Co.,Ltd.           |
+| 2015-05-15 06:00:00 |  147456 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-15 06:00:00 |  210191 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-15 06:00:00 |  475136 | 4437 | 9097 | Tor 0.2.6.7 on Windows 8 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-15 06:00:00 |  296983 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-15 06:00:00 |  169984 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-15 06:00:00 |  417102 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | SooSystem                            |
+| 2015-05-15 06:00:00 |  217213 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-15 06:00:00 |   95548 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-15 06:00:00 |  407229 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-15 06:00:00 |  119047 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                  |
+| 2015-05-15 06:00:00 |  159744 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
+| 2015-05-15 15:00:00 |   76800 | 4437 | 9097 | Tor 0.2.6.7 on Windows 8 | default  | NULL    | kr   | Qrixjongrojunggucable, Inc.          |
+| 2015-05-16 00:00:00 |   88064 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                        |
++---------------------+---------+------+------+--------------------------+----------+---------+------+--------------------------------------+
