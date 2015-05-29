@@ -1,0 +1,44 @@
+based on onionoo data from 2015-05-29 13:00:00
+
++---------------------+---------------------+------+------+--------------------------+----------+---------+------+---------------------------------------+
+| first_seen          | last_seen           | ORp  | DirP | platform                 | nickname | contact | CC   | as_name                               |
++---------------------+---------------------+------+------+--------------------------+----------+---------+------+---------------------------------------+
+| 2015-05-18 06:00:00 | 2015-05-24 08:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | PUSAN CABLE TV SYSTEM CO., LTD.       |
+| 2015-05-18 06:00:00 | 2015-05-25 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Jeil CATV Co.,Ltd                     |
+| 2015-05-19 06:00:00 | 2015-05-27 03:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | KRNIC                                 |
+| 2015-05-19 06:00:00 | 2015-05-24 13:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | KRNIC                                 |
+| 2015-05-19 06:00:00 | 2015-05-24 05:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | us   | Comcast Cable Communications, Inc.    |
+| 2015-05-19 06:00:00 | 2015-05-26 08:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | LG DACOM Corporation                  |
+| 2015-05-19 06:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 8 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-19 06:00:00 | 2015-05-24 12:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Taegu Cable Network Co., Ltd          |
+| 2015-05-26 05:00:00 | 2015-05-27 03:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | LG DACOM Corporation                  |
+| 2015-05-26 05:00:00 | 2015-05-26 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | LG DACOM Corporation                  |
+| 2015-05-26 05:00:00 | 2015-05-26 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                   |
+| 2015-05-26 05:00:00 | 2015-05-27 03:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-27 09:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | HYUNDAI COMMUNICATIONS & NETWORK      |
+| 2015-05-26 05:00:00 | 2015-05-27 02:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | DreamcityMedia                        |
+| 2015-05-26 05:00:00 | 2015-05-27 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | KRNIC                                 |
+| 2015-05-26 05:00:00 | 2015-05-26 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | CJ-CABLENET                           |
+| 2015-05-26 05:00:00 | 2015-05-26 09:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | LG DACOM Corporation                  |
+| 2015-05-26 05:00:00 | 2015-05-27 03:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | TBROAD Dongdaemun cable networks,Inc. |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-28 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 8 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | ca   | Shaw Communications Inc.              |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | SOOSUNG CABLE TELEVISION INC          |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Saero Network Service LTD             |
+| 2015-05-26 05:00:00 | 2015-05-29 13:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-26 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-26 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                   |
+| 2015-05-26 05:00:00 | 2015-05-27 14:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                   |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                   |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Hanaro Telecom Inc.                   |
+| 2015-05-26 05:00:00 | 2015-05-26 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | KRNIC                                 |
+| 2015-05-26 05:00:00 | 2015-05-26 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-27 04:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 05:00:00 | 2015-05-27 19:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-26 10:00:00 | 2015-05-26 10:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | Korea Telecom                         |
+| 2015-05-27 00:00:00 | 2015-05-27 00:00:00 | 4437 | 9097 | Tor 0.2.6.7 on Windows 7 | default  | NULL    | kr   | ChungNam Broadcastin Co.              |
++---------------------+---------------------+------+------+--------------------------+----------+---------+------+---------------------------------------+
