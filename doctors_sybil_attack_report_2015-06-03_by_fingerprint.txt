@@ -1,0 +1,87 @@
+based on onionoo data from 2015-06-03 20:00:00
+
+likely false positives (see timeing+AS+old list):
+- siccam
+- Cannabinoid420
+- 467A957A5923616A92B63E69030C547F1C546370
+- DF6D49F7FF2327B8383B07521CDDF3DF12B5638D
+- 9D5BA8ACB8EDFD41F82351B563738CC4DE354A52
+- Hackosaurusrex
+- 6C405EC95C51E1D796392AAE29CF35B9E9B3468F
+
++---------------------+---------------------+------+------+---------------------------+------+-------------------------------------+--------------------+------------------------------------------+---------------------+
+| first_seen          | last_restarted      | orp  | dirp | platform                  | cc   | as_name                             | nickname           | fingerprint                              | flags               |
++---------------------+---------------------+------+------+---------------------------+------+-------------------------------------+--------------------+------------------------------------------+---------------------+
+| 2015-06-03 19:00:00 | 2015-06-03 17:57:21 | 9001 | 9030 | Tor 0.2.5.10 on OpenBSD   | se   | Telenor Norge AS                    | siccam             | 9639DFAAC02A10075A68265633FCC19932B68A3A | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:04:03 | 9001 | NULL | Tor 0.2.5.12 on Linux     | de   | myLoc managed IT AG                 | Cannabinoid420     | D59406F5BD297B6C19A31551286FCB890AE899A3 | Running Valid       |
+| 2015-06-03 19:00:00 | 2015-06-03 18:05:16 |  443 | NULL | Tor 0.2.4.23 on Windows 7 | ru   | OJSC Vimpelcom                      | default            | 467A957A5923616A92B63E69030C547F1C546370 | Running Valid       |
+| 2015-06-03 19:00:00 | 2015-06-03 18:14:53 | 9001 | NULL | Tor 0.2.4.27 on Linux     | de   | Vodafone GmbH                       | astronom           | DF6D49F7FF2327B8383B07521CDDF3DF12B5638D | Running Valid       |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:30 | 9008 | 9037 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | AlongProxy         | F5E5478BC96AF37BFCE20DE562FD7F437F3BC990 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:30 | 9009 | 9038 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | IrateConcept       | 3C8FFB73B51B903C11D29D1E20012EB8485C7164 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:30 | 9005 | 9034 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | MightyMercury      | 3981ECBC3A9DABB2C087D60EAB5150F54F0E0475 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:31 | 9004 | 9033 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | DanalFrequent      | 69B6E785EAC83B672E253761BDD1F282BCA65459 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:31 | 9010 | 9039 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | ObnoxiousLiar      | 589C81B4619E00606E7D5B5E31F0A884D0887036 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:31 | 9003 | 9032 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | CapitalDensity     | 9424270479BC1E7C6C6AB6B4132B78DF355993AF | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:31 | 9001 | 9030 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | LocustModest       | 3AFA6261B0567043B06D8F8F39B12CA1EB8617EB | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:31 | 9002 | 9031 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | AllergyOfUniverse  | 1B51455668E2EDAD1E09CDA992CAE51FF45197AA | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:31 | 9006 | 9035 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | ProactiveBox       | C4292299D9C755795C2E052F74448A6847A9E231 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:22:31 | 9007 | 9036 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | LimpyPurse         | 7B87C7BED4D1EE7FFB4C0E41FFB44E0C97C46808 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:01 | 9008 | 9037 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | Soda               | B1EDD1F9F8ADED4A62DCB5CB75CBE895826CCF1E | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:01 | 9002 | 9031 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | FreeAndRiseUpAgain | 812B0FC000E60CB1AE025EE8A3679865C6378CAF | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:01 | 9006 | 9035 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | Joker              | 8DF41D9D122ADC83A8B97142FA61DCD1404573AA | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:01 | 9003 | 9032 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | Barnaby            | 889B930CF628C23633D30068C30C685E0233CEE0 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:01 | 9005 | 9034 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | Batman             | CE48D44F07276B98D0FCACDF2D93402745EF61A3 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:01 | 9009 | 9038 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | Chronos            | C4A8B06FE82A4742DC78917C471F4D86FC00D903 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:01 | 9001 | 9030 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | FreeAndRiseUp      | C6DEA6E50F96BEFCBA8FAEA66B3A93D01CEFF1EF | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:01 | 9010 | 9039 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | Ananke             | 7FCF72AF1C9A3E0072CAAD055DB79A3627F352AA | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:02 | 9007 | 9036 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | Scotch             | E2CE17913733D0603BF9B939537F24C62FE564CF | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:27:02 | 9004 | 9033 | Tor 0.2.4.27 on Linux     | us   | Net Access Corporation              | Loki               | CC9A5AF154795AEC18CAF781D50A67C3FE218770 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9009 | 9038 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | RiotSpiral         | EC6196D7E642F0FA0D715014D5262989F3973D53 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9005 | 9034 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | EliteRelay         | 937D4CDE156AC7051B98CA2B9CA824D6D3552F02 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9010 | 9039 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | OpticalRelay       | 2CE02322DC3462D5B943F2553DB6DCDE12533415 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9004 | 9033 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | JungleOfTheUnhappy | 25AC37B91D8297D59F82E4131F414B4652BB0C8A | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9003 | 9032 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | Scorpio            | B8D84556E8BDC31949FCB68296CA691E530C5ABD | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9001 | 9030 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | kanpai             | B429EC313027021D26738F2143600ACEB3289D3B | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9002 | 9031 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | Maru               | F57F148D68860163C868AC83D808027DFD64BD16 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9006 | 9035 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | SumoConfidence     | AAECD6DE29A7188D69DB02CE137D40BD24C60786 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9007 | 9036 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | RelayOfTheMiracle  | CFAA1F5599FE2BB5ECC04006B4F97A4EE6E2B852 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:28:21 | 9008 | 9037 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | PornoLiberation    | 5959037B50C40BCC6E5AA47D0C68296586B5D4B2 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:32:55 | 9008 | 9037 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | EstrangedAir       | 6CCE6990E1CD2903BA6E4ED65C8A04146CBF70FB | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:32:55 | 9010 | 9039 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | PatheticOcean      | FF54E2CA8EB69302868B9A9CDF96B0620D20FF76 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:32:55 | 9004 | 9033 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | RumpFrolic         | 39C83F9DF58C3030E98D315F5A04CA40BB6485A8 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:32:55 | 9003 | 9032 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | VegetableJockey    | 8C5E66C44CAA8BB3C201291BB7734165B87A9733 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:32:55 | 9006 | 9035 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | LanceHumor         | 1BFB7296063BFFB946F5C9D8A0977FA2AB6B3C4D | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:32:55 | 9005 | 9034 | Tor 0.2.4.27 on Linux     | jp   | KDDI CORPORATION                    | RiskSlide          | EDB09E769A552F88C4235E24F2E25FF7AC21505F | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:14 | 9010 | 9039 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | DerelictWhale      | 012FAF961E20C65508D429560E025128CB749E5E | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:15 | 9003 | 9032 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | FairSharp          | DD06FF26F9FA3FB4733DAC253E66D116137BCCEF | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:15 | 9008 | 9037 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | CrapMage           | E202901A52312E426B5F5BD0E1B2280E248D18A8 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:15 | 9006 | 9035 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | UndefeatedAlloy    | 9D8E9B4F3958D24EFE9EA57FAC37EE4A88FDB929 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:15 | 9001 | 9030 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | GarlicPriest       | 2B270401D63984CC7D59F07E706D6BFB9E9189A3 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:15 | 9007 | 9036 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | DidacticTerrorism  | 45EC4311436B17A4CE4505872D274863FD4DF0BC | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:15 | 9005 | 9034 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | CinematicPlunger   | 44263033E7947F30F53EDCCE0EF59B79A2209160 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:15 | 9009 | 9038 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | NebulaScript       | 570F6912FBC76F8196E6B1DCA09E9A9DC9C2115F | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:34:15 | 9002 | 9031 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | LoopyAfternoon     | E9D28D43AD3876695E10CF5E688FDA387C28DB11 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:36:26 | 9009 | 9038 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | HerdOfOffense      | 242563B853E1308D50046CCCB227B10E192002B3 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:36:26 | 9007 | 9036 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | LavenderSouth      | 11DDCC89DA6D1B6BCF7D07E98A45B86EC2A60993 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:36:26 | 9008 | 9037 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | FuzzyPharoah       | 362B6F0A0C22A6FDE4222FE73E9C3CE8F8E1B10B | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:36:26 | 9005 | 9034 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | GapingIntrusion    | 2DBC855E054C852E6CD6CF69C94BD2FF07A639E5 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:36:27 | 9003 | 9032 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | OnionOfIncision    | D377EF2D27BFD9F779B23A9CF90C44223AAA8A54 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:36:27 | 9004 | 9033 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | HackerOfPhysics    | 842B9A2C9344B6669B386D2E98F7ED8000A14A68 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:36:27 | 9001 | 9030 | Tor 0.2.4.27 on Linux     | us   | SoftLayer Technologies Inc.         | ChromeAutopsy      | F141B9C3B13B10D5B11C26DFAABAB37EB3942806 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:01 | 9001 | 9030 | Tor 0.2.4.20 on Linux     | de   | Individual Network Berlin e.V.      | Unnamed            | 9D5BA8ACB8EDFD41F82351B563738CC4DE354A52 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:32 | 9005 | 9034 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | PlethoraTor        | 136A3E53323F7C3A06E50906DF69E874CAE3BC2F | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:33 | 9006 | 9035 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | LoadedDetermined   | C5DDBFB492E178E5D5769EF13308B1C0219D4D53 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:33 | 9004 | 9033 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | TorOfTheFreedom    | E4760893D12FF428EE24099F4C51D60BE82FE138 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:33 | 9001 | 9030 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | TORtastic          | 0AD68A8CC3B61A0A71244974C2E7C79CE399D3BC | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:33 | 9007 | 9036 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | RelayOfTheMagic    | 5F080EADE337945FF1CDB08B7F977E6A40028753 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:33 | 9002 | 9031 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | AtlantaTORJunction | F79FD8EB7C066797C16CDBFB5786504B985A7FBF | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:33 | 9009 | 9038 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | RelayUprising      | FA44D2BCC32D5F898A04C3E01EC222072E5A3CFE | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:37:33 | 9003 | 9032 | Tor 0.2.4.27 on Linux     | us   | Global Net Access, LLC              | TorScorpion        | 79A8D4FBFD51F8C8BA70ABE19EA70223EFBB0ABD | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:39:22 | 9006 | 9035 | Tor 0.2.4.27 on Linux     | gb   | TELECITYGROUP INTERNATIONAL LIMITED | DelicateJacket     | 45544D0C400F3A6B916767A02D140A12CD908EA1 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:39:22 | 9010 | 9039 | Tor 0.2.4.27 on Linux     | gb   | TELECITYGROUP INTERNATIONAL LIMITED | HealthyNevada      | CB4C252ECE7E086C857A933F2BA5012F079BE418 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:39:22 | 9009 | 9038 | Tor 0.2.4.27 on Linux     | gb   | TELECITYGROUP INTERNATIONAL LIMITED | BionicNavel        | E991B4E4F5D0B7EF81FFD27DF8182885D865D35E | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:39:22 | 9005 | 9034 | Tor 0.2.4.27 on Linux     | gb   | TELECITYGROUP INTERNATIONAL LIMITED | GogglesSausage     | 349449C996207BD96AAC4C86A98F6CC28FB2D147 | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:39:23 | 9008 | 9037 | Tor 0.2.4.27 on Linux     | gb   | TELECITYGROUP INTERNATIONAL LIMITED | WantedLube         | 38E9356E733F07359E7DAF1D6FDF9AD7C7E195CD | Running V2Dir Valid |
+| 2015-06-03 19:00:00 | 2015-06-03 18:47:06 | 9001 | NULL | Tor 0.2.5.12 on Linux     | de   | STRATO AG                           | Hackosaurusrex     | 09A880567B0839B4085C2EC14002DE34AAFE8548 | Running Valid       |
+| 2015-06-03 19:00:00 | 2015-06-03 19:20:40 | 9001 | NULL | Tor 0.2.5.12 on Linux     | ru   | OJSC Vimpelcom                      | Unnamed            | 6C405EC95C51E1D796392AAE29CF35B9E9B3468F | Running Valid       |
++---------------------+---------------------+------+------+---------------------------+------+-------------------------------------+--------------------+------------------------------------------+---------------------+
