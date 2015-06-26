@@ -1,0 +1,9 @@
++---------------------+--------+---------+----------+----------------+----------------+---------------+---------------------------------------+---------+--------------------------------------------------+
+| first_seen          | cw     | running | FP       | IP             | nickname       | os            | as_name                               | country | flags                                            |
++---------------------+--------+---------+----------+----------------+----------------+---------------+---------------------------------------+---------+--------------------------------------------------+
+| 2015-05-21 17:00:00 | 142000 |       1 | 5C83EF01 | 91.230.121.131 | AviatoChortler | Linux         | FOP Smirnov V'yacheslav Valentunovuch | ua      | Exit Fast Guard HSDir Running Stable V2Dir Valid |
+| 2015-06-03 19:00:00 |  21700 |       0 | 09A88056 | 85.214.98.239  | Hackosaurusrex | Linux         | STRATO AG                             | de      | Exit Fast Guard Running Stable Valid             |
+| 2014-04-09 12:00:00 |      2 |       1 | 816CBF7F | 120.56.169.210 | Blog1          | Windows Vista | Mahanagar Telephone Nigam Ltd.        | in      | Exit Running V2Dir Valid                         |
+| 2014-04-09 13:00:00 |      2 |       1 | 286779D0 | 59.177.74.161  | glory          | Windows Vista | Mahanagar Telephone Nigam Ltd.        | in      | Exit Running V2Dir Valid                         |
+| 2014-04-09 12:00:00 |      2 |       1 | 27D0D46A | 120.59.42.197  | softtools      | Windows Vista | Mahanagar Telephone Nigam Ltd.        | in      | Exit Running V2Dir Valid                         |
++---------------------+--------+---------+----------+----------------+----------------+---------------+---------------------------------------+---------+--------------------------------------------------+
