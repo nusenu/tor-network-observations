@@ -1,0 +1,61 @@
+https://lists.torproject.org/pipermail/tor-consensus-health/2015-July/005955.html
+
++---------------------+-----------------+------+----------+---------------+------------------------------+---------+------------------------------------------+
+| last_restarted      | IP              | orp  | nickname | flags         | exit_policy_summary          | running | fingerprint                              |
++---------------------+-----------------+------+----------+---------------+------------------------------+---------+------------------------------------------+
+| 2015-07-02 17:15:11 | 213.187.242.83  | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | EB31D480E61877538D8BEDE06F4A59E77DC684B6 |
+| 2015-07-02 17:31:17 | 85.222.227.61   | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 5D839986FB9BAEF83DAB3C50811387691533E456 |
+| 2015-07-02 17:14:39 | 213.187.243.103 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | 56574F83A322A0EAEE4F51D75EC96A0DD5F2C75D |
+| 2015-07-02 17:29:56 | 85.222.227.223  | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 47CEBC77FB9D16A119F766907262F941999F76B1 |
+| 2015-07-02 17:14:44 | 213.187.242.70  | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | 10EDE462915C3AB81491BFF2BB3B8ED5076FECA5 |
+| 2015-07-02 17:14:32 | 85.222.225.110  | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | 73C83B889839766FE4C116A524563E4B7217EF01 |
+| 2015-07-02 17:16:08 | 85.222.225.83   | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | 1B6BEC8BC8A87FF61CE18B018EE20FBA31299B8D |
+| 2015-07-02 17:29:38 | 213.187.245.199 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 957A441F051CAFA042421F59D329623B7EE2A6C0 |
+| 2015-07-02 17:29:38 | 213.187.245.194 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 51E7B364F78F7BA6242F02AF78AEC7C412FF1A9C |
+| 2015-07-02 17:29:42 | 213.187.245.209 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | E5DDDA82D4ACB0BFE96ACBD5AE8C58A665F9E55E |
+| 2015-07-02 17:14:14 | 213.187.243.131 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | 235DA9BA8A548D2B172800846028F81A2FA87E9C |
+| 2015-07-02 17:31:06 | 85.222.227.73   | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 67A88C994F2F299EE497AD4C67308D7870263F30 |
+| 2015-07-02 17:31:16 | 85.222.227.4    | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | D5D10C0117733C30CE68E6594CBAE5F6106EBF5D |
+| 2015-07-02 17:14:37 | 213.187.243.226 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | ED5DF032EC81A282F9C927875569BAF955FB6DC8 |
+| 2015-07-02 17:14:59 | 213.187.242.107 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | 718A8A60EAC45EDE6C0FD4ACAAAC17D12A083732 |
+| 2015-07-02 17:14:26 | 85.222.225.112  | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | 230B40FB7DD74EAC35913F891B4D69A0B32F825A |
+| 2015-07-02 17:31:42 | 213.187.245.23  | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 0A5B360B9FBEF34355630D41C44D3D0AAA2DCD9D |
+| 2015-07-02 17:31:02 | 213.187.245.218 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | A1592E6D331B18C900A321CFD734082EDF620B14 |
+| 2015-07-02 17:30:26 | 213.187.245.223 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 58558A70802A9CF8D9C8EDA461680A056D7B923C |
+| 2015-07-02 17:30:14 | 85.222.227.148  | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 97365C5037A5A5C63E0E61F5230EEEE9CC1AD730 |
+| 2015-07-02 17:29:59 | 213.187.245.215 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 06D935518D1DC06E2CE48C1B1D4071C0EA038448 |
+| 2015-07-02 17:29:53 | 213.187.245.183 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | EC0169C9202348C777F0DBB9D8F99566255C3563 |
+| 2015-07-02 17:30:11 | 213.187.245.178 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 8DEA73749D59233DC5504CA95D5EA203B1EA366D |
+| 2015-07-02 17:32:31 | 85.222.227.78   | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       1 | 100D857E1CDA47CC2935D38AD3480347967D5D9B |
+| 2015-07-02 17:14:07 | 213.187.243.130 | 9001 | cloudvps | Running Valid | {u'accept': [u'80', u'443']} |       0 | F2D716B0620E97F5A828A47A8EC571C8F627ED27 |
+| 2015-07-02 17:08:25 | 213.187.240.69  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 157211361CAEEBD7B0020E81E72C9C4BF84C02E2 |
+| 2015-07-02 17:08:40 | 85.222.224.163  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 7A95326F084B47ACC16732E34219280674BDDA82 |
+| 2015-07-02 17:04:57 | 213.187.245.183 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 509844651FD84F26FC398C5A7BD8C340E3128B69 |
+| 2015-07-02 17:08:23 | 85.222.224.10   | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | CEDB7BB62E3BA5EB82FE688D134C34084003C15B |
+| 2015-07-02 17:07:59 | 213.187.240.200 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 00B99EE3F99B63E7837D300FD44EBE4CC95CA7D3 |
+| 2015-07-02 17:07:59 | 213.187.240.103 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 2967E6EECA29C56B5B583DECE3F4F216B4E9A003 |
+| 2015-07-02 17:05:58 | 213.187.245.215 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | CB3758FDBEE5244A69C21FE7D0A97D090EB5EB70 |
+| 2015-07-02 17:06:46 | 85.222.227.148  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 224ECDCD7F7A46016E0253704F8D6541E6C5056F |
+| 2015-07-02 17:07:23 | 213.187.240.239 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | A0002753F9B1042B413CF331FAD2406DB4C1DE1A |
+| 2015-07-02 17:06:39 | 213.187.240.170 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 9702B86D55E1544341669CD69186633E55872C6F |
+| 2015-07-02 17:08:56 | 213.187.246.165 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | B530BF30986244C01FA0329B79B99286D00EF0E9 |
+| 2015-07-02 17:06:57 | 213.187.245.209 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 7BFF63CAB208CF2EB4A39796FC4254DDE624674F |
+| 2015-07-02 17:05:45 | 213.187.245.199 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 7D8D65D308598FA013EBEC78D8D7A6819F037544 |
+| 2015-07-02 17:08:47 | 85.222.224.111  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 2A78D27A34D7EB9DA692D6FCA59F0509B48C523E |
+| 2015-07-02 17:06:45 | 213.187.245.23  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 3FCCF759B52D28465BEADEFB8A245AE2C549C032 |
+| 2015-07-02 17:06:18 | 85.222.227.232  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | CEDA569D626322DD580A51D3A6E2BAB71DF582B5 |
+| 2015-07-02 17:07:17 | 85.222.227.78   | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 476049721519E914E710810F109845BB2BEE63F6 |
+| 2015-07-02 17:07:23 | 85.222.227.61   | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | F17A6DE473920842F28CD625CFC32A85DD22DC86 |
+| 2015-07-02 17:07:30 | 213.187.246.109 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 67D54C457109FAEA7D7E2473E396B66924CB1C69 |
+| 2015-07-02 17:07:23 | 213.187.240.227 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 7D0C1F039D487B715045DF4AB307BBFF14EE2F84 |
+| 2015-07-02 17:07:22 | 213.187.245.223 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | E3AEA43BBBEC245D53B73A0724121A7E1CA1AEC8 |
+| 2015-07-02 17:05:31 | 213.187.245.194 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 1870069414C76EDD8D78123C2C7D155720229778 |
+| 2015-07-02 17:07:23 | 213.187.240.27  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | F3ACB84346F48E70789E0A0B5F05E7FD07DB62EC |
+| 2015-07-02 17:07:18 | 85.222.227.73   | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | D4ADBDF3C8B01B764AF44378CA2202BECA777341 |
+| 2015-07-02 17:07:31 | 213.187.240.84  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 02E0930ED07495BD13488CEFBCE553FA3CFD805F |
+| 2015-07-02 17:06:44 | 213.187.245.227 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 7B8F000B51A4F5CB21D34E16998C075B7A7E1D89 |
+| 2015-07-02 17:07:16 | 213.187.245.218 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 5362CE10AA681526B7CC4D5BFFD95A4D7BBD2054 |
+| 2015-07-02 17:08:02 | 85.222.224.106  | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | F9278725DC7F3F5BC30B724ACC90C07688C35CDD |
+| 2015-07-02 17:07:07 | 85.222.227.81   | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | C1939A2148A01290ED0041E867D6154ACB096FE9 |
+| 2015-07-02 17:06:59 | 213.187.245.240 | 9001 | cloudvps | Running Valid | {u'reject': [u'1-65535']}    |       0 | 7907B4BB9AF12C11BF953F4203BC348CEF3671BE |
++---------------------+-----------------+------+----------+---------------+------------------------------+---------+------------------------------------------+
