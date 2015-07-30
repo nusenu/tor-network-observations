@@ -120,3 +120,53 @@ restart event on 2015-06-01 01:00:00:
 | 0192D34F7A122EC65A0FB65C2A514BB64A0F81F2 | 2015-02-05 04:00:00 | 2015-06-01 01:00:00 |    9001 |     NULL | NULL    | 0.2.5.10    | babyhacker          |
 | D3BDC4C51ECEBB98C37DC627BE48BE3C7A77EB61 | 2015-02-05 04:00:00 | 2015-06-01 01:00:00 |    9001 |     NULL | NULL    | 0.2.5.10    | moucusin            |
 +------------------------------------------+---------------------+---------------------+---------+----------+---------+-------------+---------------------+
+
+added from onionoo data (2015-07-30):
+family likely contains 43 members:
++---------------------+------+---------+--------+------+-------+------+---------------+-----------------+-------+---------------------+------------------------------------------+
+| first_seen          | exit | badexit | stable | fast | hsdir | cw   | IP            | asn             | con25 | nickname            | fingerprint                              |
++---------------------+------+---------+--------+------+-------+------+---------------+-----------------+-------+---------------------+------------------------------------------+
+| 2015-02-04 23:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.94.238.181 | Amazon.com, Inc | NULL  | elf4cho             | 351103FBD3079361C4DB4C6973AEAC1F27FBBB99 |
+| 2015-02-04 23:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.94.240.151 | Amazon.com, Inc | NULL  | n1cktheworld        | AE8EEED65BA2AB60EA47EC11424468F759CFC365 |
+| 2015-02-04 23:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.94.241.181 | Amazon.com, Inc | NULL  | grupm4ster          | E83B6DF0638F7928E316B003E5997DC433FD32A2 |
+| 2015-02-04 23:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.94.240.5   | Amazon.com, Inc | NULL  | r4t4bl4ck           | 295379BD7D9BA86C43BD64BDC74EBAF6F6B25113 |
+| 2015-02-05 00:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.94.241.184 | Amazon.com, Inc | NULL  | le4mrse             | 1A2853EF6341D777FB7AB688187F9D154628BE01 |
+| 2015-02-05 00:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.94.241.171 | Amazon.com, Inc | NULL  | t0rsup              | 6385394AE12B0E4DA847F8E266A11D6FF38575F7 |
+| 2015-02-05 00:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.94.137.164 | Amazon.com, Inc | NULL  | byth3w4y            | D8A907E857CF544358A2552EF34BA7F88E555386 |
+| 2015-02-05 00:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.94.241.168 | Amazon.com, Inc | NULL  | dh4ck               | A3D5E0230043B312848B0C03001CBB45BC8DEE81 |
+| 2015-02-05 00:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.94.241.162 | Amazon.com, Inc | NULL  | obamaNSAsucks       | 9CEE656486AEE6F16C9EB6AF3D562E49CEDCE4E9 |
+| 2015-02-05 00:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.94.241.0   | Amazon.com, Inc | NULL  | hackt00ls           | 2CF74578EBCD56DCE6B2AFB55F695921524B601B |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.65.206.52  | Amazon.com, Inc | NULL  | omygood             | ACF7966DB1565E0833433D5D143A3076B623455F |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    0 |     0 |   14 | 54.65.206.23  | Amazon.com, Inc | NULL  | noob2pi             | F4212B1ACD513ED72EC694E910ABBCE61C3D75FB |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.65.206.44  | Amazon.com, Inc | NULL  | TORnODE             | A7EA5789FA94877C15BBDDF5A381B15680F8221B |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.64.35.244  | Amazon.com, Inc | NULL  | arrund3w0rld        | 0809C89B92A9441E2317D2EF27996C210C16BA09 |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.65.206.67  | Amazon.com, Inc | NULL  | tokyopTorFr33       | CE1970A1E2ADA55E84399F7AFC630F1D77FDBD6E |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.65.206.74  | Amazon.com, Inc | NULL  | Eutor69             | F095559345FC8B77430CB167FF49ADFB7F8EBA5B |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.65.172.254 | Amazon.com, Inc | NULL  | l1bhack             | EB31F10B1DB8ED3A94FBE69CC86AEB44D7F94AF4 |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.65.206.60  | Amazon.com, Inc | NULL  | l0v34nds3x          | C86AFAAADA0C3CC4E67E63794A1E16AA99B33693 |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.65.206.79  | Amazon.com, Inc | NULL  | s2pp0rtfreeInternet | B80F9AEDEC9D12071582075F5F4F9E4F82101952 |
+| 2015-02-05 01:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 54.65.206.57  | Amazon.com, Inc | NULL  | c0k0br4ak4r         | A103C4E37D221805C889A8075CC3C0BECF9162C5 |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.69.139 | Amazon.com, Inc | NULL  | rootpwndss          | B4BEF0963E2D8B2B9331AA0FE5B26486AFED19BB |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.74.83  | Amazon.com, Inc | NULL  | w3r0ck              | D376C8FDEF85FC8E6FC100BC86A410CE50D46A16 |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.75.48  | Amazon.com, Inc | NULL  | b0bm4rley           | 10A302F74887942D2899E8856446C788C0EEB43F |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.75.229 | Amazon.com, Inc | NULL  | f1sc2my             | 52C518073F0F422E2C1A613A6F5DF4F06F8F2292 |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.73.60  | Amazon.com, Inc | NULL  | w4k32pc4ll          | AFA38F8D2565EE2EA030C90AF9FBBFF40DD1397F |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.74.246 | Amazon.com, Inc | NULL  | babyhacker          | 0192D34F7A122EC65A0FB65C2A514BB64A0F81F2 |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.8.220  | Amazon.com, Inc | NULL  | l2cys3c             | BA9C883CC7F4153AE643DCBF53978D782AD7FBAD |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.74.49  | Amazon.com, Inc | NULL  | moucusin            | D3BDC4C51ECEBB98C37DC627BE48BE3C7A77EB61 |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.66.33  | Amazon.com, Inc | NULL  | Codersshellcodes    | F0DF8826E277832C5179A31CBDE126147E5A7A38 |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.74.162 | Amazon.com, Inc | NULL  | backshit            | 41BE705292F4C71085C856596FC91A0FA169410D |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.68.101 | Amazon.com, Inc | NULL  | gruppwnd            | 95F81D3A35C0626777EEAAE1175B9D9C1DBBA4B8 |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.73.44  | Amazon.com, Inc | NULL  | xxxxtor             | 6213921D67A43B921F76489E4324B7A871B7734F |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.74.18  | Amazon.com, Inc | NULL  | u2hack              | EC0C8D6AD5368FA99A84645029FAED9FA8DD71AF |
+| 2015-02-05 04:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 54.153.68.88  | Amazon.com, Inc | NULL  | the000zone          | 3F8BC49B61D9184E98F09DCE520FDC6AC36C29FF |
+| 2015-04-14 23:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 52.8.62.128   | Amazon.com, Inc | NULL  | CatchMe             | 0D1E10434B68EC344E7AC1EC745B171D7BDEB818 |
+| 2015-04-14 23:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 52.8.59.206   | Amazon.com, Inc | NULL  | FatNinja            | 1E2AC7FD2622457553F149070D714C266D9B7CD3 |
+| 2015-04-14 23:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 52.8.62.153   | Amazon.com, Inc | NULL  | TKEiNTERnet         | 9FE1A53AF2DFED1946FC0D624473D8D50D2F4532 |
+| 2015-04-14 23:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 52.8.62.161   | Amazon.com, Inc | NULL  | FuckUMan            | EB634A2D5B770DED5726EBCB2D7A98A195EA7BBA |
+| 2015-04-14 23:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 52.8.59.233   | Amazon.com, Inc | NULL  | Codersshellcodes    | 2BDABD4663336BDF730C98BF8755D8BCA70059A5 |
+| 2015-04-15 00:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 52.68.75.110  | Amazon.com, Inc | NULL  | VeryGoodSense       | A2ED78AA06F8653FA83832EB0E27AC1DCF6DDC38 |
+| 2015-04-15 00:00:00 |    1 |       0 |      1 |    0 |     0 |   20 | 52.68.94.115  | Amazon.com, Inc | NULL  | SugarTown           | 1915969FE7291A96C9C11298FFE3634F33B6F3B6 |
+| 2015-04-15 00:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 52.68.54.232  | Amazon.com, Inc | NULL  | CrazyRabbit         | 8A37BD496D96233535FB21786FCDB17B68954C65 |
+| 2015-04-15 00:00:00 |    1 |       0 |      1 |    1 |     0 |   20 | 52.68.94.105  | Amazon.com, Inc | NULL  | MyStuffCs           | 7B076AC53EAFED3ADB567E9D841537806FF86F57 |
++---------------------+------+---------+--------+------+-------+------+---------------+-----------------+-------+---------------------+------------------------------------------+
