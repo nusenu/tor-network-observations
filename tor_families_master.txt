@@ -1,7 +1,10 @@
 
-# This file contains one family per line (definied by tor relay fingerprints, separated by ',')
+# This file contains one likely family per line (definied by tor relay fingerprints, separated by ',')
 
 
+# plab-experiments@gmx.de family
+# https://raw.githubusercontent.com/nusenu/tor-network-observations/master/2015-06-03-15_non-exit-linux-planet-labs.txt
+06B220FAA8846BC076469F1FA4211DFB327D2C46,041BCD84B2425BBC955077A5F272B16CF420D874,0448236B848D1FE817FC6570C7C04081CA2E245A,000FA8EC2253B226C08B4CD3C1EFA818BDC9FF38,02FCAACD4CE7D825FABEB9C413AB8DC07139F44B,047C2C0B27E8CAFC41699605E7D7FE08E98804A7,00307EF1DC66477BD51B034EB18BA3A80B57EDB5,014C3B1CCCDCC895C72757B3EA46A3EA3C647916
 
 
 #Prefix: torpid
