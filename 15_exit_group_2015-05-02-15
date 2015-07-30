@@ -1,0 +1,52 @@
+linking properties:
+- signup timestamp
+- exit policy (unique across the entire tor network)
+- restart timestamps
+
+onionoo data from 2015-07-30:
++---------------------+------+---------+-------+-----------------+---------------------+------+----------+------+-----------------+---------------------------+--------------------+------------------------------------------+
+| first_seen          | exit | badexit | cw    | IP              | last_restarted      | orp  | torv     | cc   | asn             | con25                     | nickname           | fingerprint                              |
++---------------------+------+---------+-------+-----------------+---------------------+------+----------+------+-----------------+---------------------------+--------------------+------------------------------------------+
+| 2015-05-02 23:00:00 |    1 |       0 | 33400 | 50.7.138.125    | 2015-05-29 21:20:05 | 9001 | 0.2.5.12 | nl   | Cogent Communic | tharleereorganizing@secur | unaddicteddisclaim | DE88511BD143C7D9EC7281B1832B5FB49A4387A1 |
+| 2015-05-02 23:00:00 |    1 |       0 | 38600 | 50.7.139.243    | 2015-05-29 21:21:05 | 9001 | 0.2.5.12 | nl   | Cogent Communic | guarddiscolored@hmamail.c | ConquetemightLee   | 38A1550B8C6F77D7CD32E7F23F7AC786870313BC |
+| 2015-05-02 23:00:00 |    1 |       0 | 46000 | 50.7.159.178    | 2015-06-06 21:34:05 | 9001 | 0.2.5.12 | de   | Abovenet Commun | whitcombziff@sigaint.org  | MarsigliBout       | 33D30B45F4B8B482BB2DE79FAF6BB33313620013 |
+| 2015-05-02 23:00:00 |    1 |       0 | 58100 | 50.7.143.20     | 2015-06-17 01:51:05 | 9001 | 0.2.5.12 | nl   | Abovenet Commun | deliverpyrex@sezham.cz    | Sureoryza          | 0D6ECA8B6328557377ED171A5E15A94852238EE0 |
+| 2015-05-02 23:00:00 |    1 |       0 | 62700 | 50.7.143.60     | 2015-06-17 01:51:05 | 9001 | 0.2.5.12 | nl   | Abovenet Commun | shecarmen@gmail.com       | Grandpasmoonlit    | FE7954C509ACE043BCC905FFDFA8511D9788C899 |
+| 2015-05-02 23:00:00 |    1 |       0 | 39100 | 198.255.2.6     | 2015-07-03 22:48:05 | 9001 | 0.2.5.12 | us   | Abovenet Commun | convergencerockfall@hotma | ceterisMum         | 7D0CC1F45689A33359F3C879DA368827F301C615 |
+| 2015-05-15 23:00:00 |    1 |       0 | 12700 | 198.255.2.4     | 2015-07-03 22:48:05 | 9001 | 0.2.5.12 | us   | Abovenet Commun | clawsbeausobre@mail.com   | togaPROCD          | 507BE2B541F68410F6C0E79512C529598EAC52DF |
+| 2015-05-15 23:00:00 |    1 |       0 | 21900 | 198.255.2.3     | 2015-07-03 23:15:05 | 9001 | 0.2.5.12 | us   | Abovenet Commun | assembledvalentinian@siga | approOklahoma      | 7F546D0CC18D4DD3A168081E0FFBD4F6C0F270F1 |
+| 2015-05-02 23:00:00 |    1 |       0 | 42400 | 50.7.205.156    | 2015-07-10 09:22:05 | 9001 | 0.2.5.12 | cz   | FDCservers.net  | yearmacon@hmamail.com     | hortsFleet         | A51D28638E5A4D6D98FFD931F05C0BA07F903CE6 |
+| 2015-05-02 23:00:00 |    1 |       0 | 32500 | 50.7.227.27     | 2015-07-10 09:22:06 | 9001 | 0.2.5.12 | cz   | FDCservers.net  | verglasflies@wp.pl        | PisanBoduragol     | 51922F59C7EF45C0688534E26D6CF7EA0DFCA683 |
+| 2015-05-15 23:00:00 |    1 |       0 | 37100 | 50.7.159.195    | 2015-07-14 10:05:56 | 9001 | 0.2.5.12 | de   | Abovenet Commun | beticsono@hmamail.com     | Miladyhusbanding   | 964AD583C3F4B5D9F5632F85837A932DE8EDE307 |
+| 2015-05-02 23:00:00 |    1 |       0 | 10700 | 46.19.137.132   | 2015-07-24 16:08:04 | 9001 | 0.2.5.12 | ch   | Private Layer I | disposueritkhui@sezham.cz | pipestemRuinart    | BFE43662402C8C9C129ABCAF8BC3B63B7CF764C8 |
+| 2015-05-02 23:00:00 |    1 |       0 | 12600 | 141.255.167.101 | 2015-07-24 16:08:05 | 9001 | 0.2.5.12 | ch   | Private Layer I | enclomoderator@unseen.is  | Ineverimponat      | 22262BADD5A1FB0A5299D42ED6D3C706411067D6 |
+| 2015-05-02 23:00:00 |    1 |       0 | 30500 | 50.7.71.173     | 2015-07-27 17:49:06 | 9001 | 0.2.5.12 | us   | Abovenet Commun | spoonnewcomers@sezham.cz  | Siamesesurrender   | 6951CFE88482C57F9BFBA95F0EFD63E927637410 |
+| 2015-05-15 23:00:00 |    1 |       0 | 56200 | 50.7.159.196    | 2015-07-28 00:38:06 | 9001 | 0.2.5.12 | de   | Abovenet Commun | popscomely@secure-mail.bi | ExpertMetal        | 841A97F2DABCD062EE41BF4DA20A7B37C392DA34 |
++---------------------+------+---------+-------+-----------------+---------------------+------+----------+------+-----------------+---------------------------+--------------------+------------------------------------------+
+
+onionoo data from 2015-05-03 03:00:
++---------------------+-----------------+------+----------+------+-----------------+---------------------------+--------------------+------------------------------------------+
+| signup timestamp    | IP              | orp  | torv     | cc   | asn             | con25                     | nickname           | fingerprint                              |
++---------------------+-----------------+------+----------+------+-----------------+---------------------------+--------------------+------------------------------------------+
+| 2015-05-02 22:04:02 | 198.255.2.6     | 9001 | 0.2.5.12 | us   | Abovenet Commun | convergencerockfall@hotma | ceterisMum         | 7D0CC1F45689A33359F3C879DA368827F301C615 |
+| 2015-05-02 22:05:02 | 46.19.137.132   | 9001 | 0.2.5.12 | ch   | Private Layer I | disposueritkhui@sezham.cz | pipestemRuinart    | BFE43662402C8C9C129ABCAF8BC3B63B7CF764C8 |
+| 2015-05-02 22:05:02 | 141.255.167.101 | 9001 | 0.2.5.12 | ch   | Private Layer I | enclomoderator@unseen.is  | Ineverimponat      | 22262BADD5A1FB0A5299D42ED6D3C706411067D6 |
+| 2015-05-02 22:05:02 | 50.7.143.60     | 9001 | 0.2.5.12 | nl   | Abovenet Commun | shecarmen@gmail.com       | Grandpasmoonlit    | FE7954C509ACE043BCC905FFDFA8511D9788C899 |
+| 2015-05-02 22:05:02 | 50.7.138.125    | 9001 | 0.2.5.12 | nl   | Cogent Communic | tharleereorganizing@secur | unaddicteddisclaim | DE88511BD143C7D9EC7281B1832B5FB49A4387A1 |
+| 2015-05-02 22:05:02 | 50.7.205.156    | 9001 | 0.2.5.12 | cz   | FDCservers.net  | yearmacon@hmamail.com     | hortsFleet         | A51D28638E5A4D6D98FFD931F05C0BA07F903CE6 |
+| 2015-05-02 22:05:02 | 50.7.159.178    | 9001 | 0.2.5.12 | de   | Abovenet Commun | whitcombziff@sigaint.org  | MarsigliBout       | 33D30B45F4B8B482BB2DE79FAF6BB33313620013 |
+| 2015-05-02 22:05:02 | 50.7.139.243    | 9001 | 0.2.5.12 | nl   | Cogent Communic | guarddiscolored@hmamail.c | ConquetemightLee   | 38A1550B8C6F77D7CD32E7F23F7AC786870313BC |
+| 2015-05-02 22:05:02 | 50.7.71.173     | 9001 | 0.2.5.12 | us   | Abovenet Commun | spoonnewcomers@sezham.cz  | Siamesesurrender   | 6951CFE88482C57F9BFBA95F0EFD63E927637410 |
+| 2015-05-02 22:05:03 | 50.7.143.20     | 9001 | 0.2.5.12 | nl   | Abovenet Commun | deliverpyrex@sezham.cz    | Sureoryza          | 0D6ECA8B6328557377ED171A5E15A94852238EE0 |
+| 2015-05-02 22:05:03 | 50.7.227.27     | 9001 | 0.2.5.12 | cz   | FDCservers.net  | verglasflies@wp.pl        | PisanBoduragol     | 51922F59C7EF45C0688534E26D6CF7EA0DFCA683 |
++---------------------+-----------------+------+----------+------+-----------------+---------------------------+--------------------+------------------------------------------+
+
+onionoo data from 2015-05-16 00:00:00:
++---------------------+--------------+------+----------+------+-----------------+---------------------------+------------------+------------------------------------------+
+| signup timestamp    | IP           | orp  | torv     | cc   | asn             | con25                     | nickname         | fingerprint                              |
++---------------------+--------------+------+----------+------+-----------------+---------------------------+------------------+------------------------------------------+
+| 2015-05-15 22:26:03 | 198.255.2.3  | 9001 | 0.2.5.12 | us   | Abovenet Commun | assembledvalentinian@siga | approOklahoma    | 7F546D0CC18D4DD3A168081E0FFBD4F6C0F270F1 |
+| 2015-05-15 22:27:02 | 198.255.2.4  | 9001 | 0.2.5.12 | us   | Abovenet Commun | clawsbeausobre@mail.com   | togaPROCD        | 507BE2B541F68410F6C0E79512C529598EAC52DF |
+| 2015-05-15 22:40:03 | 50.7.159.195 | 9001 | 0.2.5.12 | de   | Abovenet Commun | beticsono@hmamail.com     | Miladyhusbanding | 964AD583C3F4B5D9F5632F85837A932DE8EDE307 |
+| 2015-05-15 22:42:03 | 50.7.159.196 | 9001 | 0.2.5.12 | de   | Abovenet Commun | popscomely@secure-mail.bi | ExpertMetal      | 841A97F2DABCD062EE41BF4DA20A7B37C392DA34 |
++---------------------+--------------+------+----------+------+-----------------+---------------------------+------------------+------------------------------------------+
