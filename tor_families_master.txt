@@ -2,6 +2,364 @@
 # This file contains one likely family per line (definied by tor relay fingerprints, separated by ',')
 
 
+#contact: Torservers.net <support .AT. torservers .DOT. net>
+#+---------------------+------------------------+------+----------------+---------+----------+-------------------+-------+-------------------------------------+----------------+------+------+
+#| first_seen          | AS                     | cc   | IP             | or_port | dir_port | tor_version       | OS    | contact                             | nickname       | exit | efam |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------------+-------+-------------------------------------+----------------+------+------+
+#| 2013-12-14 12:00:00 | Abovenet Communication | us   | 91.234.22.48   |    9443 |     NULL | 0.2.4.21          | Linux | Torservers.net <support .AT. torser | proxysh        |    1 | NULL |
+#| 2014-05-01 12:00:00 | Teknikbyran i Sverige  | se   | 78.108.63.46   |     443 |       80 | 0.2.6.10          | Linux | Torservers.net <support .AT. torser | assk           |    1 | NULL |
+#| 2014-09-02 17:00:00 | Voxility S.R.L.        | ro   | 109.163.234.7  |     443 |       80 | 0.2.6.9           | Linux | Torservers.net <support .AT. torser | edwardsnowden0 |    1 |   16 |
+#| 2014-09-02 17:00:00 | Voxility S.R.L.        | ro   | 109.163.234.9  |     443 |       80 | 0.2.6.9           | Linux | Torservers.net <support .AT. torser | edwardsnowden2 |    1 |   16 |
+#| 2014-09-02 17:00:00 | Voxility S.R.L.        | ro   | 109.163.234.8  |     443 |       80 | 0.2.6.9           | Linux | Torservers.net <support .AT. torser | edwardsnowden1 |    1 |   16 |
+#| 2014-09-02 22:00:00 | Voxility S.R.L.        | ro   | 109.163.234.4  |     443 |       80 | 0.2.6.7           | Linux | Torservers.net <support .AT. torser | hessel1        |    1 |   16 |
+#| 2014-09-02 22:00:00 | Voxility S.R.L.        | ro   | 109.163.234.2  |     443 |       80 | 0.2.6.7           | Linux | Torservers.net <support .AT. torser | hessel0        |    1 |   16 |
+#| 2014-09-02 22:00:00 | Voxility S.R.L.        | ro   | 109.163.234.5  |     443 |       80 | 0.2.6.7           | Linux | Torservers.net <support .AT. torser | hessel2        |    1 |   16 |
+#| 2014-11-27 00:00:00 | NFOrce Entertainment B | nl   | 77.247.181.162 |     443 |       80 | 0.2.6.2-alpha     | Linux | Torservers.net <support .AT. torser | sofia          |    1 |   19 |
+#| 2014-11-27 00:00:00 | NFOrce Entertainment B | nl   | 77.247.181.166 |     443 |       80 | 0.2.6.2-alpha     | Linux | Torservers.net <support .AT. torser | alf            |    1 |   19 |
+#| 2014-11-27 00:00:00 | NFOrce Entertainment B | nl   | 77.247.181.164 |     443 |       80 | 0.2.6.2-alpha     | Linux | Torservers.net <support .AT. torser | HaveHeart      |    1 |   19 |
+#| 2014-12-23 01:00:00 | QuadraNet, Inc         | us   | 96.44.189.101  |      80 |     NULL | 0.2.7.1-alpha-dev | Linux | Torservers.net <support .AT. torser | kingara        |    1 |   16 |
+#| 2014-12-23 01:00:00 | QuadraNet, Inc         | us   | 96.44.189.102  |      80 |     NULL | 0.2.7.1-alpha-dev | Linux | Torservers.net <support .AT. torser | ivpn           |    1 |   16 |
+#| 2014-12-23 01:00:00 | QuadraNet, Inc         | us   | 96.44.189.100  |     443 |       80 | 0.2.7.1-alpha-dev | Linux | Torservers.net <support .AT. torser | mendes         |    1 |   16 |
+#| 2015-07-05 02:00:00 | QuadraNet, Inc         | us   | 96.47.226.20   |     443 |     NULL | 0.2.6.9           | Linux | Torservers.net <support .AT. torser | dorrisdeebrown |    1 | NULL |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------------+-------+-------------------------------------+----------------+------+------+
+#fingerprints:
+4A0C3E177AF684581EF780981AEAF51A98A6B5CF,0FCF071AC02CC433EFA82D0E60878117BBDE26ED,7BB160A8F54BD74F3DA5F2CE701E8772B841859D,C46524E586E1B997329703D356C07EE12B28C722,488239E03C4FBC22BA7C5EC76178C4E683A21B0D,6B1E001929AF4DDBB747D02EC28340792B7724A6,5714542DCBEE1DD9864824723638FD44B2122CEA,73834871A46790E65D6966131522DA7E2AD84DB1,06E123865C590189B3181114F23F0F13A7BC0E69,B4F883DB3D478C7AE569C9F6CB766FD58650DC6A,5C84C35936B7100B949AC75764EEF1352550550B,10E13E340651D0EF66B4DEBF610B3C0981168107,20B0038D7A2FD73C696922551B8344CB0893D1F8,78213EC898E96E919D19EB9F0F85A59C3DD00D0C,770BE0CDAF2B3C5F3517B72E41B0A6B5D89D8017,4E021F36F95EDD4F93F824020E3C5BFEA7B595CC,91E23CFBFA76645ECD092D9E34B5B966C12287B0,F657ACB301CBAB4283F9CEC6D82ABE2FA62A398A,01385FC8399D0DC894DD3769AC08C82181B11F22,374D731BB11F69F87589AAB9CFA4B334C399001F,64D500C4D7F989ECD74B42ABB068818EF95525F3,9670D1C33838B99340CA8A4CD408DE210F83F68A
+
+#contact: https://www.torservers.net/donate.html <support .AT. torservers .DOT. net>  (merged into previous section)
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------------+------+------+
+#| first_seen          | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | nickname       | exit | efam |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------------+------+------+
+#| 2014-02-13 15:00:00 | NFOrce Entertainment B | nl   | 77.247.181.163 |     443 |       80 | 0.2.6.9     | Linux | https://www.torservers.net/donate.h | lumumba        |    1 |   16 |
+#| 2014-02-13 15:00:00 | NFOrce Entertainment B | nl   | 77.247.181.165 |     110 |     NULL | 0.2.6.9     | Linux | https://www.torservers.net/donate.h | politkovskaja2 |    1 |   16 |
+#| 2014-02-13 15:00:00 | NFOrce Entertainment B | nl   | 77.247.181.165 |     443 |     NULL | 0.2.6.9     | Linux | https://www.torservers.net/donate.h | politkovskaja  |    1 |   16 |
+#| 2015-07-05 02:00:00 | QuadraNet, Inc         | us   | 96.47.226.21   |     443 |     NULL | 0.2.6.9     | Linux | https://www.torservers.net/donate.h | impastato      |    1 | NULL |
+#| 2015-07-05 02:00:00 | QuadraNet, Inc         | us   | 96.47.226.22   |      80 |     NULL | 0.2.6.9     | Linux | https://www.torservers.net/donate.h | shifidi        |    1 | NULL |
+#| 2015-07-29 14:00:00 | Portlane AB            | se   | 91.240.67.8    |     443 |       80 | 0.2.6.10    | Linux | https://www.torservers.net/donate.h | SWETOR         |    1 | NULL |
+#| 2015-07-31 00:00:00 | CYBERDYNE              | se   | 46.246.52.10   |     443 |       80 | 0.2.6.10    | Linux | https://www.torservers.net/donate.h | SthTOR         |    1 | NULL |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------------+------+------+
+
+
+
+#contact: noc@cymru.com
+#+---------------------+-----------------+------+--------------+---------+----------+-------------+-------+---------------+-------------+------+------+
+#| first_seen          | AS              | cc   | IP           | or_port | dir_port | tor_version | OS    | contact       | nickname    | exit | efam |
+#+---------------------+-----------------+------+--------------+---------+----------+-------------+-------+---------------+-------------+------+------+
+#| 2010-05-05 21:00:00 | Team Cymru Inc. | us   | 38.229.70.33 |    9001 |     9030 | 0.2.5.10    | Linux | noc@cymru.com | FordModelA  |    0 |   12 |
+#| 2010-12-21 00:00:00 | Team Cymru Inc. | us   | 38.229.70.42 |     443 |     NULL | 0.2.5.10    | Linux | noc@cymru.com | laurel      |    0 | NULL |
+#| 2010-12-23 21:00:00 | Team Cymru Inc. | us   | 38.229.70.42 |      80 |     NULL | 0.2.5.10    | Linux | noc@cymru.com | hardy       |    0 | NULL |
+#| 2011-11-29 19:00:00 | Team Cymru Inc. | us   | 38.229.70.51 |     443 |     8080 | 0.2.5.10    | Linux | noc@cymru.com | RedDragon   |    0 |   12 |
+#| 2011-11-29 19:00:00 | Team Cymru Inc. | us   | 38.229.70.52 |     443 |     8080 | 0.2.5.10    | Linux | noc@cymru.com | WhiteDragon |    0 |   12 |
+#| 2011-11-29 19:00:00 | Team Cymru Inc. | us   | 38.229.70.54 |     443 |     8080 | 0.2.5.10    | Linux | noc@cymru.com | GoldDragon  |    0 |   12 |
+#| 2011-11-29 19:00:00 | Team Cymru Inc. | us   | 38.229.70.53 |     443 |     8080 | 0.2.5.10    | Linux | noc@cymru.com | GreenDragon |    0 |   12 |
+#| 2011-11-30 16:00:00 | Team Cymru Inc. | us   | 38.229.79.2  |     443 |     8080 | 0.2.5.10    | Linux | noc@cymru.com | BigBoy      |    0 |   12 |
+#| 2011-12-15 16:00:00 | Team Cymru Inc. | us   | 38.229.70.61 |     443 |     8080 | 0.2.5.10    | Linux | noc@cymru.com | Ramsgate    |    0 |   12 |
+#| 2013-05-02 15:00:00 | Team Cymru Inc. | us   | 38.229.70.34 |    9001 |     9030 | 0.2.5.10    | Linux | noc@cymru.com | jacknbox    |    0 |   12 |
+#| 2013-07-26 21:00:00 | Team Cymru Inc. | us   | 38.229.0.29  |    9001 |     NULL | 0.2.5.10    | Linux | noc@cymru.com | cliffjumper |    0 |   12 |
+#| 2013-08-14 18:00:00 | Team Cymru Inc. | us   | 38.229.0.28  |    9001 |     9030 | 0.2.5.10    | Linux | noc@cymru.com | cliffhanger |    0 |   12 |
+#+---------------------+-----------------+------+--------------+---------+----------+-------------+-------+---------------+-------------+------+------+
+#fingerprints:
+9F89491CAB7B03685DEABD358E193FFA74D8D836,714AF90AFF324373D6F6A4393084D781C4219FFD,2AD9B14FAC296B479A379F8FD3CCF6FC7F775EDB,9735D88B8345E57DFB07BE0DAEEBD217E9003E87,5CA270839485FDB08828CA095EF49F465F897B8A,665D9EF8A274547208189531A534AF2249E9D360,5DEF69E67BAF2CF26D36B5AC2A925BB2EA376593,8B9AD4D3055E9F9A5A027BD98F61583E673FF84B,896FCE19CB53A73A21DC874977C06B28FC9A8BBA,7ED90E2833EE38A75795BA9237B0A4560E51E1A0,E0184ED4D50CBF82E9AE4D7C3EFD4AD4D25DE3B5,FA1A2C660AD4FDE689F2F4ECFA428BBCE7212E21
+
+#contact: anders.io
+#+---------------------+---------------------+------+-----------------+---------+----------+-------------+-------+-----------+--------------+------+------+
+#| first_seen          | AS                  | cc   | IP              | or_port | dir_port | tor_version | OS    | contact   | nickname     | exit | efam |
+#+---------------------+---------------------+------+-----------------+---------+----------+-------------+-------+-----------+--------------+------+------+
+#| 2014-07-27 22:00:00 | Makonix SIA         | se   | 95.215.44.110   |     443 |       80 | 0.2.6.10    | Linux | anders.io | tor1andersio |    0 |    5 |
+#| 2014-07-27 22:00:00 | Makonix SIA         | se   | 95.215.44.111   |     443 |       80 | 0.2.6.10    | Linux | anders.io | tor2andersio |    0 |    5 |
+#| 2014-08-04 22:00:00 | Makonix SIA         | se   | 95.215.44.122   |     443 |       80 | 0.2.6.10    | Linux | anders.io | tor5andersio |    0 | NULL |
+#| 2014-08-16 21:00:00 | Digital Ocean, Inc. | sg   | 128.199.133.154 |   33443 |     NULL | 0.2.6.10    | Linux | anders.io | tor7andersio |    0 |    5 |
+#| 2014-08-16 21:00:00 | Digital Ocean, Inc. | nl   | 146.185.189.203 |   33443 |     NULL | 0.2.6.10    | Linux | anders.io | tor6andersio |    0 |    5 |
+#| 2015-07-16 08:00:00 | 31173 Services AB   | se   | 193.138.219.233 |   27980 |    29674 | 0.2.6.10    | Linux | anders.io | torandersio  |    0 | NULL |
+#+---------------------+---------------------+------+-----------------+---------+----------+-------------+-------+-----------+--------------+------+------+
+#fingerprints:
+998D8FE06B867AA3F8D257A7D28FFF16964D53E2,D56AA4A1AA71961F5279FB70A6DCF7AD7B993EB5,3A2192F50518491A6130BE0A5CA870E8252ED0EF,103C5B541924597EC64744DE5DC591085ED692BA,A7C7FD510B20BC8BE8F2A1D911364E1A23FBD09F,91361C96C91204B6BDABBB964C912FF6E9EB4C58
+
+
+#contact: @kosjoli
+#+---------------------+-------------------+------+--------------+---------+----------+-------------+-------+----------+---------------------+------+------+
+#| first_seen          | AS                | cc   | IP           | or_port | dir_port | tor_version | OS    | contact  | nickname            | exit | efam |
+#+---------------------+-------------------+------+--------------+---------+----------+-------------+-------+----------+---------------------+------+------+
+#| 2013-05-23 06:00:00 | Hetzner Online AG | de   | 5.9.158.68   |    9001 |     9030 | 0.2.6.9     | Linux | @kosjoli | freespeech4thedumb1 |    0 |    4 |
+#| 2014-06-19 14:00:00 | Hetzner Online AG | de   | 46.4.111.124 |    9001 |     9030 | 0.2.5.10    | Linux | @kosjoli | freespeech4thedumb3 |    0 |    4 |
+#| 2015-02-04 00:00:00 | Hetzner Online AG | de   | 5.9.117.212  |    9001 |     9030 | 0.2.6.9     | Linux | @kosjoli | freespeech4thedumb5 |    0 | NULL |
+#| 2015-02-05 17:00:00 | Hetzner Online AG | de   | 78.46.107.15 |    9001 |     9030 | 0.2.5.12    | Linux | @kosjoli | freespeech4thedumb4 |    0 | NULL |
+#| 2015-02-12 17:00:00 | Hetzner Online AG | de   | 176.9.5.116  |    9001 |     9030 | 0.2.5.10    | Linux | @kosjoli | freespeech4thedumb6 |    0 | NULL |
+#+---------------------+-------------------+------+--------------+---------+----------+-------------+-------+----------+---------------------+------+------+
+#fingerprints:
+6462CA5FB0D730EEA99A302FC72EB66978E4B819,7E2F94EA9214EC6CD05A0FC1BA51A0FA30FC83C7,2A59B1B31B35CD549D5B2D76B5A460241854FBE1,06923B596647244629FE3447C8E4795BFC6AAB3D,A1EB8D8F1EE28DB98BBB1EAA3B4BEDD303BAB911
+
+
+#contact: 0x1D921BF9 <tor-node-operations AT mesanova DOT com>
+#+---------------------+------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------------+------+------+
+#| first_seen          | AS               | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | nickname   | exit | efam |
+#+---------------------+------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------------+------+------+
+#| 2015-02-03 14:00:00 | Amazon.com, Inc. | ie   | 54.154.14.26   |     443 |     NULL | 0.2.6.10    | Linux | 0x1D921BF9 <tor-node-operations AT  | 0xFLOURINE |    0 | NULL |
+#| 2015-02-03 18:00:00 | OVH SAS          | ca   | 198.50.145.207 |     443 |     NULL | 0.2.6.10    | Linux | 0x1D921BF9 <tor-node-operations AT  | 0xARSENIC  |    0 | NULL |
+#| 2015-02-11 22:00:00 | OVH SAS          | fr   | 5.196.14.51    |     443 |     NULL | 0.2.6.10    | Linux | 0x1D921BF9 <tor-node-operations AT  | 0xSILICIUM |    0 | NULL |
+#| 2015-02-11 22:00:00 | OVH SAS          | fr   | 5.196.227.161  |     443 |     NULL | 0.2.6.10    | Linux | 0x1D921BF9 <tor-node-operations AT  | 0xANTIMON  |    0 | NULL |
+#+---------------------+------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------------+------+------+
+#fingerprints:
+AE152B5E2114FACD23D3E17A70279CC850636931,E7B43854F995F6D9932523EBA6369EA0E8D58B85,E9195229232EB52C306945BFBE1C7C80F2358E56,F7DF13BA0E56BFF68FCF5AED7CB86FC0291D5712
+
+#contact: cstdenis <cstdenis AT ctgameinfo dot com>
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+--------------+------+------+
+#| first_seen          | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS      | contact                             | nickname     | exit | efam |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+--------------+------+------+
+#| 2013-02-10 23:00:00 | A1COLO.COM             | us   | 216.17.105.203 |     443 |       80 | 0.2.6.9     | FreeBSD | cstdenis <cstdenis AT ctgameinfo do | KosakaKirino |    0 | NULL |
+#| 2013-12-21 00:00:00 | Choopa, LLC            | us   | 64.237.51.46   |     443 |       80 | 0.2.6.9     | FreeBSD | cstdenis <cstdenis AT ctgameinfo do | KuroNeko     |    0 | NULL |
+#| 2014-04-12 20:00:00 | GorillaServers, Inc.   | us   | 23.239.113.101 |     443 |       80 | 0.2.6.9     | FreeBSD | cstdenis <cstdenis AT ctgameinfo do | MarinAsagi   |    0 | NULL |
+#| 2014-04-12 20:00:00 | Hosting Solutions Inte | us   | 69.64.48.168   |    9001 |     9030 | 0.2.4.27    | Linux   | cstdenis <cstdenis AT ctgameinfo do | Konata       |    0 | NULL |
+#| 2015-07-06 06:00:00 | OVH SAS                | ca   | 167.114.103.19 |     443 |       80 | 0.2.6.9     | FreeBSD | cstdenis <cstdenis AT ctgameinfo do | Nana         |    0 | NULL |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+--------------+------+------+
+#fingerprints:
+F98A70E5427BFF111640011F7AE31E537ECF1DD2,2B76359D3AAA94CA107F447D2D14E481A99EB207,827BF0F1E52B82D69B3CE3DFEE1F1FE3A11042FD,2C064760AA6657E2C575DD897C2588B170A3FF12,95C4EF3787069A3A1A3B5FD4057A34CA97C171C3
+
+
+#contact: John Wayne <waynejohn1123@gmail.com>
+#+---------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#| first_seen          | AS                 | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | nickname | exit | efam |
+#+---------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#| 2015-05-15 04:00:00 | HostDime.com, Inc. | us   | 198.49.78.242  |    9001 |     9030 | 0.2.6.7     | Linux | John Wayne <waynejohn1123@gmail.com | jw2      |    0 | NULL |
+#| 2015-05-15 04:00:00 | HostDime.com, Inc. | us   | 198.49.78.241  |    9001 |     9030 | 0.2.6.7     | Linux | John Wayne <waynejohn1123@gmail.com | jw1      |    0 | NULL |
+#| 2015-05-15 04:00:00 | HostDime.com, Inc. | us   | 198.49.73.11   |    9001 |     9030 | 0.2.6.7     | Linux | John Wayne <waynejohn1123@gmail.com | jw4      |    0 | NULL |
+#| 2015-05-15 04:00:00 | QuadraNet, Inc     | us   | 155.94.246.179 |    9001 |     9030 | 0.2.6.7     | Linux | John Wayne <waynejohn1123@gmail.com | jw3      |    0 | NULL |
+#+---------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#fingerprints:
+D971383FC178C687E356A6BD1322B685DF7076ED,1A7E275C3C0AE28565C9D0308ABA479ACD537EDE,31708A0E43469F09CBF7BEE57815E4C6D069CC70,EE08B86087E154E5B297F17CB2A656BF5A3E1071
+
+#contact: Riseup Networks <collective at riseup dot net> - 1nNzekuHGGzBYRzyjfjFEfeisNvxkn4RT
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------------+------+------+
+#| first_seen          | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | nickname       | exit | efam |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------------+------+------+
+#| 2014-04-08 04:00:00 | Init7 (Switzerland) Lt | ch   | 77.109.139.87  |    9001 |       80 | 0.2.6.10    | Linux | Riseup Networks <collective at rise | wagtail        |    1 | NULL |
+#| 2014-04-08 05:00:00 | Riseup Networks        | us   | 199.254.238.44 |    9001 |       80 | 0.2.6.10    | Linux | Riseup Networks <collective at rise | pipit          |    1 | NULL |
+#| 2014-10-18 14:00:00 | Riseup Networks        | us   | 199.254.238.52 |     443 |       80 | 0.2.6.10    | Linux | Riseup Networks <collective at rise | longclaw       |    0 | NULL |
+#| 2015-03-10 14:00:00 | Riseup Networks        | us   | 199.254.238.52 |    9999 |     NULL | 0.2.6.9     | Linux | Riseup Networks <collective at rise | longclawbwscan |    0 | NULL |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------------+------+------+
+#fingerprints:
+B96B6B616CC1B9575D59A4EB77E4EFA6B5CD6FBD,74A910646BCEEFBCD2E874FC1DC997430F968145,AA249521990DFB1138BB285426883D8A88D49383,CB980AEB7740D30E3E17E2F74E8736F07B9C2512
+
+#contact: speedpott@hotmail.de
+#+---------------------+------------------------+------+---------------+---------+----------+-------------+-------+----------------------+----------+------+------+
+#| first_seen          | AS                     | cc   | IP            | or_port | dir_port | tor_version | OS    | contact              | nickname | exit | efam |
+#+---------------------+------------------------+------+---------------+---------+----------+-------------+-------+----------------------+----------+------+------+
+#| 2014-02-28 02:00:00 | Accelerated IT Service | de   | 84.200.17.134 |    9001 |     NULL | 0.2.6.10    | Linux | speedpott@hotmail.de | neo2     |    0 | NULL |
+#| 2015-06-18 17:00:00 | Digital Ocean, Inc.    | gb   | 178.62.1.213  |    9001 |     NULL | 0.2.6.10    | Linux | speedpott@hotmail.de | neo1     |    0 | NULL |
+#| 2015-06-22 21:00:00 | ONLINE S.A.S.          | fr   | 195.154.97.43 |    9001 |     NULL | 0.2.6.10    | Linux | speedpott@hotmail.de | neo4     |    0 | NULL |
+#| 2015-06-26 12:00:00 | Ikoula Net SAS         | fr   | 213.246.58.35 |    9001 |     NULL | 0.2.6.10    | Linux | speedpott@hotmail.de | neo3     |    0 | NULL |
+#+---------------------+------------------------+------+---------------+---------+----------+-------------+-------+----------------------+----------+------+------+
+#fingerprints:
+675F6EF3ECF4D6246BC861EF6D7950500C761E74,5006B7FF6E1DFF12E718D9ED1BB7A3700CFD5FD5,63E39E8E5961451F3E00D6DEE0C6A2187FA039BF,7098CBDC4D6695C65932E9B560F1052188565DA2
+
+
+
+#contact: 0x88888888 Ole Tange..
+#+---------------------+-------------------+------+--------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#| first_seen          | AS                | cc   | IP           | or_port | dir_port | tor_version | OS    | contact                             | nickname | exit | efam |
+#+---------------------+-------------------+------+--------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#| 2014-05-04 00:00:00 | ComX Networks A/S | dk   | 87.72.85.217 |   19001 |    19030 | 0.2.4.27    | Linux | 0x88888888 Ole Tange <ole@tange.dk> | TangeNLV |    0 | NULL |
+#| 2014-09-15 22:00:00 | ComX Networks A/S | dk   | 87.72.85.217 |   29001 |    29030 | 0.2.5.7-rc  | Linux | 0x88888888 Ole Tange <ole@tange.dk> | Tange2LV |    0 | NULL |
+#| 2014-05-27 20:00:00 | Altibox AS          | dk   | 188.228.49.148 |   29001 |    29030 | 0.2.4.27    | Linux | 0x88888888 Ole Tange <tor@tange.dk> | TangeGRB |    0 | NULL |
+#| 2014-06-17 22:00:00 | Digital Ocean, Inc. | nl   | 95.85.3.191    |   65432 |     NULL | 0.2.4.27    | Linux | 0x88888888 Ole Tange <tor@tange.dk> | TangeDO  |    0 | NULL |
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#fingerprints:
+440020EF923D71BBE59EDEFAB5708B5343A85495,E5664DBCBE5B05CC6F1E607CD991FB979FCECD6D,63C6AB74A5C288C2159DDC783BB00F88AB44427C,547C1CDB516798EC66A01F04A5884DCE1A151919
+
+
+#contact: 8192R/0xB431B67770E4AA38 Mikal Villa <meeh@sigterm.no>
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+-------------------+------+------+
+#| first_seen          | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | nickname          | exit | efam |
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+-------------------+------+------+
+#| 2013-12-18 23:00:00 | SIGTERM MIKAL VILLA | no   | 193.150.121.26 |    9001 |     NULL | 0.2.4.23    | Linux | 8192R/0xB431B67770E4AA38 Mikal Vill | MeehSigtermNode02 |    0 |    2 |
+#| 2014-07-20 19:00:00 | SIGTERM MIKAL VILLA | no   | 193.150.121.66 |    9420 |     NULL | 0.2.6.10    | Linux | 8192R/0xB431B67770E4AA38 Mikal Vill | MeehSigtermNode01 |    0 | NULL |
+#| 2015-01-06 04:00:00 | Hetzner Online AG   | de   | 5.9.110.133    |    9001 |     9030 | 0.2.4.24    | Linux | 8192R/0xB431B67770E4AA38 Mikal Vill | MeehSigtermI2P    |    1 | NULL |
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+-------------------+------+------+
+#fingerprints:
+F4E0DD37E79F3BD982180FFDC6A2CC1A3C8FF1D4,FE305F8ED74843CEA68D3926F072032D0A8D93AE,ECCEEA672E503E6A4069F36FA850E1D0D9DAD8A5
+
+
+#contact: mmcco <a> mykolab <d> com - 1KjWtgsrSRJ6mBMjAuKhqSGvEPVJ8rRoqV
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+---------------+------+------+
+#| first_seen          | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS      | contact                             | nickname      | exit | efam |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+---------------+------+------+
+#| 2014-10-24 21:00:00 | Digital Ocean, Inc.    | us   | 104.131.106.55  |    9050 |     NULL | 0.2.6.10    | Linux   | mmcco <a> mykolab <d> com - 1KjWtgs | gadsden       |    0 |    4 |
+#| 2014-12-06 23:00:00 | EBL Global Networks, I | us   | 108.166.168.158 |     443 |       80 | 0.2.6.10    | OpenBSD | mmcco <a> mykolab <d> com - 1KjWtgs | puffy         |    1 | NULL |
+#| 2015-01-02 19:00:00 | EBL Global Networks, I | us   | 108.166.168.158 |      23 |       21 | 0.2.6.10    | OpenBSD | mmcco <a> mykolab <d> com - 1KjWtgs | puffyReloaded |    1 | NULL |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+---------------+------+------+
+#fingerprints:
+24ABB796289B1674ACBA42CA89ACAC031359B73E,9EBD054D8FCFCB8662FD33A7222380279B5C5A99,CDAB3AE06A8C9C6BF817B3B0F1877A4B91465699
+
+
+#contact: #tor at thedarkNet
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+------------+--------------------+--------------+------+------+
+#| first_seen          | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS         | contact            | nickname     | exit | efam |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+------------+--------------------+--------------+------+------+
+#| 2014-12-18 06:00:00 | National Internet Back | in   | 61.1.240.95     |     443 |     9030 | 0.2.4.23    | Windows XP | #tor at thedarkNet | default      |    0 | NULL |
+#| 2015-05-06 10:00:00 | TIME dotCom Berhad     | my   | 149.129.144.172 |     443 |     9030 | 0.2.4.20    | Windows 8  | #tor at thedarkNet | Unnamed      |    0 | NULL |
+#| 2015-07-03 02:00:00 | Cox Communications Inc | us   | 174.71.78.116   |     443 |     NULL | 0.2.6.9     | Windows 7  | #tor at thedarkNet | TORnadoAlley |    0 | NULL |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+------------+--------------------+--------------+------+------+
+#fingerprints:
+BCDC257EAC4FF1374CB0014B17243F372C5EE114,1B3C249EAA3C762B8F9CB7ED56254E805F758064,8E643D3D5E59DE53785256D5627CEF9FB626541A
+
+#contact: 1024D/BE2F8A87 Wim Biemolt <wimbie AT sec dot nl>
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+----------------+------+------+
+#| first_seen          | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS      | contact                             | nickname       | exit | efam |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+----------------+------+------+
+#| 2013-05-26 19:00:00 | SURFnet, The Netherlan | nl   | 192.87.28.28    |    9001 |     9030 | 0.2.6.7     | FreeBSD | 1024D/BE2F8A87 Wim Biemolt <wimbie  | SEC6xFreeBSD64 |    0 | NULL |
+#| 2014-04-13 21:00:00 | SURFnet, The Netherlan | nl   | 195.169.125.226 |    9001 |     9030 | 0.2.6.7     | FreeBSD | 1024D/BE2F8A87 Wim Biemolt <wimbie  | SECxFreeBSD64  |    0 | NULL |
+#| 2014-07-06 16:00:00 | SURFnet, The Netherlan | nl   | 192.87.28.82    |    9001 |     9030 | 0.2.6.7     | FreeBSD | 1024D/BE2F8A87 Wim Biemolt <wimbie  | SEC6xFreeBSD64 |    0 | NULL |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+----------------+------+------+
+#fingerprints:
+844AE9CAD04325E955E2BE1521563B79FE7094B7,ED2338CAC2711B3E331392E1ED2831219B794024,D7DB8E82604F806766FC3F80213CF719A0481D0B
+
+
+
+#contact: admin at hidemyassnet dot net
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+------------+-------------------------------+---------------------+------+------+
+#| first_seen          | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS         | contact                       | nickname            | exit | efam |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+------------+-------------------------------+---------------------+------+------+
+#| 2014-09-29 22:00:00 | BT Public Internet Ser | gb   | 217.34.135.225 |     446 |     9030 | 0.2.4.23    | Windows 7  | admin at hidemyassnet dot net | Hidemyassnetdotnet  |    0 | NULL |
+#| 2015-01-01 22:00:00 | BT Public Internet Ser | gb   | 217.34.135.230 |     443 |     9030 | 0.2.4.23    | Windows XP | admin at hidemyassnet dot net | Hidemyassnetdotnet2 |    0 | NULL |
+#| 2015-06-19 15:00:00 | BT Public Internet Ser | gb   | 217.37.19.115  |     446 |     9030 | 0.2.4.23    | Windows 8  | admin at hidemyassnet dot net | Hidemyassnetdotnet3 |    0 | NULL |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+------------+-------------------------------+---------------------+------+------+
+#fingerprints:
+68F70BFCB2A5400ED6F98C8DB30C41A36743962D,FA4E22CFC0802D6738837DE980AFC7199F7DB040,71434A44BA198F51C86BD907F4D60080D0D26F85
+
+#contact: admin@avenueoftor.com
+#+---------------------+---------------------+------+---------------+---------+----------+-------------+-------+-----------------------+---------------+------+------+
+#| first_seen          | AS                  | cc   | IP            | or_port | dir_port | tor_version | OS    | contact               | nickname      | exit | efam |
+#+---------------------+---------------------+------+---------------+---------+----------+-------------+-------+-----------------------+---------------+------+------+
+#| 2015-07-05 11:00:00 | OVH SAS             | gb   | 178.32.53.129 |     443 |       80 | 0.2.6.10    | Linux | admin@avenueoftor.com | torproject337 |    1 | NULL |
+#| 2015-07-05 15:00:00 | UAB DUOMENU CENTRAS | lt   | 5.199.165.3   |     443 |       80 | 0.2.6.10    | Linux | admin@avenueoftor.com | balticnodess  |    1 | NULL |
+#| 2015-07-05 19:00:00 | UAB DUOMENU CENTRAS | lt   | 5.199.164.108 |     443 |       80 | 0.2.6.10    | Linux | admin@avenueoftor.com | Busyglidelt   |    1 | NULL |
+#+---------------------+---------------------+------+---------------+---------+----------+-------------+-------+-----------------------+---------------+------+------+
+#fingerprints:
+C4F0FFD70EFD76D367B861863BA9C3195D752B6E,2953B2139C256C4B8B3FFEDDD05E2D0F01CD9807,0C62906CCA9BE38D40744A7EE50CF27045D9C1E3
+
+#contact: bjh1004 <bjh1004@gmail.com>
+#+---------------------+---------------------+------+-----------------+---------+----------+-------------+-------+-----------------------------+----------+------+------+
+#| first_seen          | AS                  | cc   | IP              | or_port | dir_port | tor_version | OS    | contact                     | nickname | exit | efam |
+#+---------------------+---------------------+------+-----------------+---------+----------+-------------+-------+-----------------------------+----------+------+------+
+#| 2014-11-10 08:00:00 | Hanaro Telecom Inc. | kr   | 218.232.104.220 |    9001 |     9030 | 0.2.5.10    | Linux | bjh1004 <bjh1004@gmail.com> | Unnamed  |    0 | NULL |
+#| 2014-11-10 08:00:00 | Hanaro Telecom Inc. | kr   | 218.232.104.221 |    9001 |     9030 | 0.2.5.10    | Linux | bjh1004 <bjh1004@gmail.com> | Unnamed  |    0 | NULL |
+#| 2014-11-10 08:00:00 | Digital Ocean, Inc. | us   | 104.131.154.116 |    9001 |     NULL | 0.2.5.10    | Linux | bjh1004 <bjh1004@gmail.com> | Unnamed  |    0 | NULL |
+#+---------------------+---------------------+------+-----------------+---------+----------+-------------+-------+-----------------------------+----------+------+------+
+#fingerprints:
+640EA5182A5FA7D43FACC385CF40E79DE804A91C,78EB816AB933FFABF8B22C91D875C96AFF0B611F,DAC579C62A55C9950EBA80586380E412DBF8D850
+
+#contact: contact at peersm.com
+#+---------------------+---------+------+-------------+---------+----------+-------------+--------------+-----------------------+----------+------+------+
+#| first_seen          | AS      | cc   | IP          | or_port | dir_port | tor_version | OS           | contact               | nickname | exit | efam |
+#+---------------------+---------+------+-------------+---------+----------+-------------+--------------+-----------------------+----------+------+------+
+#| 2013-07-15 11:00:00 | OVH SAS | fr   | 37.59.47.27 |    8005 |     NULL | 0.1.0       | Linux x86_64 | contact at peersm.com | ordb2    |    0 | NULL |
+#| 2014-01-06 17:00:00 | OVH SAS | fr   | 37.59.47.27 |    8001 |     NULL | 0.1.0       | Linux x86_64 | contact at peersm.com | ordb1    |    0 | NULL |
+#| 2014-01-20 15:00:00 | OVH SAS | fr   | 37.59.47.27 |    8004 |     NULL | 0.1.0       | Linux x86_64 | contact at peersm.com | ordb3    |    0 | NULL |
+#+---------------------+---------+------+-------------+---------+----------+-------------+--------------+-----------------------+----------+------+------+
+#fingerprints:
+2679B51C906158F3DF4C59AFD73E2B1FDA6535E1,E0671CF9CB593F27CD389CD4DD819BF9448EA834,179B10784BF8955C73313CCB195904AE133E5F53
+
+#contact: Francois Deppierraz <francois@ctrlaltdel.ch>
+#+---------------------+------------------------+------+---------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#| first_seen          | AS                     | cc   | IP            | or_port | dir_port | tor_version | OS    | contact                             | nickname | exit | efam |
+#+---------------------+------------------------+------+---------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#| 2014-06-26 21:00:00 | Saitis Network, N.Desi | ch   | 62.220.148.87 |     443 |       80 | 0.2.5.12    | Linux | Francois Deppierraz <francois@ctrla | Unnamed  |    0 | NULL |
+#| 2014-06-26 21:00:00 | Saitis Network, N.Desi | ch   | 62.220.148.94 |     443 |       80 | 0.2.5.12    | Linux | Francois Deppierraz <francois@ctrla | Unnamed  |    0 | NULL |
+#| 2014-06-26 21:00:00 | Saitis Network, N.Desi | ch   | 62.220.148.97 |     443 |       80 | 0.2.5.12    | Linux | Francois Deppierraz <francois@ctrla | Unnamed  |    0 | NULL |
+#+---------------------+------------------------+------+---------------+---------+----------+-------------+-------+-------------------------------------+----------+------+------+
+#fingerprints:
+40F32747DA9C12CF59B7CAF2EA0FA918528C993B,030F202056BA760F66047AC51B187DC1739D704C,CFEC81B97F6C15689ED8451C3DB0F8C399C01724
+
+#contact: lugar976@gmail.com
+#+---------------------+---------------------+------+--------------+---------+----------+-------------+-----------+--------------------+----------+------+------+
+#| first_seen          | AS                  | cc   | IP           | or_port | dir_port | tor_version | OS        | contact            | nickname | exit | efam |
+#+---------------------+---------------------+------+--------------+---------+----------+-------------+-----------+--------------------+----------+------+------+
+#| 2015-07-10 12:00:00 | Blizoo DOOEL Skopje | mk   | 92.53.36.215 |    9001 |     9030 | 0.2.6.10    | Linux     | lugar976@gmail.com | TorMe    |    1 | NULL |
+#| 2015-07-11 19:00:00 | Blizoo DOOEL Skopje | mk   | 92.53.36.215 |    9001 |     9030 | 0.2.4.23    | Windows 8 | lugar976@gmail.com | TorMe    |    0 | NULL |
+#| 2015-07-25 18:00:00 | Blizoo DOOEL Skopje | mk   | 92.53.36.215 |    9001 |     9030 | 0.2.4.23    | Windows 8 | lugar976@gmail.com | TorMe    |    0 | NULL |
+#+---------------------+---------------------+------+--------------+---------+----------+-------------+-----------+--------------------+----------+------+------+
+#fingerprints:
+92637BCEE1900DA980D6D18B83DF6B030708EA6E,9C701366566647E04312E8D302E3584986863AEE,40EA85CFEDD71B202600C49FDBA26861DA325E7C
+
+#contact: Mail
+#+---------------------+--------------+------+---------------+---------+----------+-------------+-------+---------+----------+------+------+
+#| first_seen          | AS           | cc   | IP            | or_port | dir_port | tor_version | OS    | contact | nickname | exit | efam |
+#+---------------------+--------------+------+---------------+---------+----------+-------------+-------+---------+----------+------+------+
+#| 2015-01-09 10:00:00 | uvensys GmbH | de   | 185.26.156.29 |   61058 |     NULL | 0.2.5.10    | Linux | Mail    | raz0r    |    0 | NULL |
+#| 2015-07-12 11:00:00 | uvensys GmbH | de   | 185.26.156.47 |   63353 |     NULL | 0.2.6.9     | Linux | Mail    | chickpea |    0 | NULL |
+#| 2015-07-21 17:00:00 | uvensys GmbH | de   | 185.26.156.49 |   61821 |     NULL | 0.2.6.9     | Linux | Mail    | kl3      |    0 | NULL |
+#+---------------------+--------------+------+---------------+---------+----------+-------------+-------+---------+----------+------+------+
+#fingerprints:
+EB1A8576B6012CBB631659FF473EA0E828DFE287,0E6504618DACC99C0A4CFC0F82B44DE646F2B0F1,DABF2D4CCCA5C2EEFE645D67E9D468D48D386243
+
+#contact: Rich Rolled <richard8@tuta.io>
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+--------------------------------+------------+------+------+
+#| first_seen          | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact                        | nickname   | exit | efam |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+--------------------------------+------------+------+------+
+#| 2015-07-16 06:00:00 | Cox Communications Inc | us   | 70.162.152.12   |    9001 |     9030 | 0.2.6.10    | Linux | Rich Rolled <richard8@tuta.io> | Arashiyama |    0 | NULL |
+#| 2015-07-17 18:00:00 | Digital Ocean, Inc.    | us   | 104.131.177.255 |    9001 |     9030 | 0.2.6.9     | Linux | Rich Rolled <richard8@tuta.io> | Acheron1   |    0 | NULL |
+#| 2015-07-19 01:00:00 | NULL                   | de   | 46.101.237.246  |    9001 |     9030 | 0.2.6.10    | Linux | Rich Rolled <richard8@tuta.io> | sapporo    |    0 | NULL |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+--------------------------------+------------+------+------+
+#fingerprints:
+129E566E5B96649D0F413901D3D5894F12EAF780,26FCEAEDC0739A336141D6C3872D8307189C0B54,BBFDFB6EE6F420F1146111A52CE9D75D4613D116
+
+#contact: Rod G <tor@mhockey.us>
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+------------------------+----------+------+------+
+#| first_seen          | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                | nickname | exit | efam |
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+------------------------+----------+------+------+
+#| 2014-12-04 15:00:00 | Digital Ocean, Inc. | us   | 107.170.65.197 |    9001 |     NULL | 0.2.5.12    | Linux | Rod G <tor@mhockey.us> | RLG01    |    0 | NULL |
+#| 2014-12-11 20:00:00 | ColoCrossing        | us   | 23.95.39.161   |    9001 |     NULL | 0.2.4.20    | Linux | Rod G <tor@mhockey.us> | RLG03    |    0 | NULL |
+#| 2014-12-11 20:00:00 | ColoCrossing        | us   | 192.3.94.54    |    9001 |     NULL | 0.2.4.20    | Linux | Rod G <tor@mhockey.us> | RLG02    |    0 | NULL |
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+------------------------+----------+------+------+
+#fingerprints:
+2395967EE38B83A4BF5A6DA2A2E56CB60DD918C0,2E6608775F95C986181384E0C732CA0B1DF1164E,69B3AD9900B50B2B699A1ED5312CE8A3CED45FA0
+
+#contact: Tor.sx <nodes .AT. tor .DOT. sx>
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+----------------------------------+-----------+------+------+
+#| first_seen          | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                          | nickname  | exit | efam |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+----------------------------------+-----------+------+------+
+#| 2015-02-12 08:00:00 | Seflow S.N.C. Di Marco | it   | 158.58.169.126 |    9001 |     NULL | 0.2.5.12    | Linux | Tor.sx <nodes .AT. tor .DOT. sx> | TorSxIT01 |    0 | NULL |
+#| 2015-02-12 08:00:00 | Bradler & Krantz GmbH  | de   | 5.45.180.57    |    9001 |     NULL | 0.2.5.12    | Linux | Tor.sx <nodes .AT. tor .DOT. sx> | TorSxDE01 |    0 | NULL |
+#| 2015-05-03 03:00:00 | EDIS GmbH              | at   | 149.154.152.32 |    9001 |     NULL | 0.2.5.12    | Linux | Tor.sx <nodes .AT. tor .DOT. sx> | TorSxAT01 |    0 | NULL |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+----------------------------------+-----------+------+------+
+#fingerprints:
+661ACF3DBE82548389C6FC39EDC805DC34730404,8DFADAFACFBB8375F6C5AEA5A14A98320C8D9876,309B8584C3902EF1FD6E607FB2A930C2050E3A3E
+
+#contact: Tor20-29@Donnerstein88.de
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+---------------------------+----------+------+------+
+#| first_seen          | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                   | nickname | exit | efam |
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+---------------------------+----------+------+------+
+#| 2014-10-12 16:00:00 | Deutsche Telekom AG | de   | 84.183.68.114  |    9001 |     NULL | 0.2.4.27    | Linux | Tor20-29@Donnerstein88.de | Unnamed  |    0 | NULL |
+#| 2015-04-12 20:00:00 | Deutsche Telekom AG | de   | 84.141.138.208 |    9001 |     NULL | 0.2.4.27    | Linux | Tor20-29@Donnerstein88.de | Unnamed  |    0 | NULL |
+#| 2015-04-12 21:00:00 | Deutsche Telekom AG | de   | 87.181.197.114 |    9001 |     NULL | 0.2.4.27    | Linux | Tor20-29@Donnerstein88.de | Unnamed  |    0 | NULL |
+#+---------------------+---------------------+------+----------------+---------+----------+-------------+-------+---------------------------+----------+------+------+
+#fingerprints:
+6E23EDA1E063C34B37E0D32C14391D0C6FBFF6BB,157B9248E4FD12851898A45F2B3F51BD327A7AF3,05B81FC31102801F9C149C5B57C5C0588E555ABA
+
+#contact: tor@d-coded.de
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+----------------+-------------+------+------+
+#| first_seen          | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS    | contact        | nickname    | exit | efam |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+----------------+-------------+------+------+
+#| 2014-03-11 09:00:00 | OMCnet Internet Servic | de   | 212.77.226.245 |   44444 |     NULL | 0.2.4.25    | Linux | tor@d-coded.de | s1decodedeu |    0 | NULL |
+#| 2014-03-18 23:00:00 | OMCnet Internet Servic | de   | 212.77.226.16  |   44444 |     NULL | 0.2.4.25    | Linux | tor@d-coded.de | s2decodedeu |    0 | NULL |
+#| 2014-03-18 23:00:00 | OMCnet Internet Servic | de   | 212.77.226.18  |   44444 |     NULL | 0.2.4.25    | Linux | tor@d-coded.de | s4decodedeu |    0 | NULL |
+#+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+----------------+-------------+------+------+
+#fingerprints:
+7959B238C060D414BB6C44E925C1415B8068BB87,7E7797CB8FD38D8BF6AFF2B68F090AFF431AF4D0,37AB1387DEE480629A7F1D817168232DA38B52BD
+
+#contact: unknow
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+----------+------+------+
+#| first_seen          | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact | nickname | exit | efam |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+----------+------+------+
+#| 2015-07-22 13:00:00 | Global Village Telecom | br   | 191.250.2.209   |    9001 |     NULL | 0.2.6.10    | Linux | unknow  | unknow   |    0 | NULL |
+#| 2015-07-24 17:00:00 | Global Village Telecom | br   | 191.250.2.209   |    9001 |     NULL | 0.2.6.10    | Linux | unknow  | unknow   |    0 | NULL |
+#| 2015-07-30 13:00:00 | Global Village Telecom | br   | 179.187.167.241 |    9001 |     NULL | 0.2.6.10    | Linux | unknow  | unknow   |    0 | NULL |
+#+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+----------+------+------+
+#fingerprints:
+3C0D1D4CB2E176AFF6C3F0A3C6E4CB668707BEAF,A08569BC0C977F0A305C764E30084B6BF5E90E6B,6A40EA235CEE5909805232318C550F8C4F935632
+
+
+
+
 # plab-experiments@gmx.de family
 # https://raw.githubusercontent.com/nusenu/tor-network-observations/master/2015-06-03-15_non-exit-linux-planet-labs.txt
 06B220FAA8846BC076469F1FA4211DFB327D2C46,041BCD84B2425BBC955077A5F272B16CF420D874,0448236B848D1FE817FC6570C7C04081CA2E245A,000FA8EC2253B226C08B4CD3C1EFA818BDC9FF38,02FCAACD4CE7D825FABEB9C413AB8DC07139F44B,047C2C0B27E8CAFC41699605E7D7FE08E98804A7,00307EF1DC66477BD51B034EB18BA3A80B57EDB5,014C3B1CCCDCC895C72757B3EA46A3EA3C647916
