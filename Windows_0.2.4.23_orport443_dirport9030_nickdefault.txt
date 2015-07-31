@@ -1,0 +1,484 @@
++------------+-----------------+-----+------+----------+----------+------+--------------------------------------+---------+
+| joined     | IP              | orp | dirp | torv     | nickname | cc   | asn                                  | running |
++------------+-----------------+-----+------+----------+----------+------+--------------------------------------+---------+
+| 2015-07-31 | 83.128.18.103   | 443 | 9030 | 0.2.4.23 | default  | nl   | CAIW Diensten B.V.                   |       0 |
+| 2015-07-31 | 158.181.82.126  | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-07-30 | 153.222.86.71   | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       0 |
+| 2015-07-30 | 108.129.39.33   | 443 | 9030 | 0.2.4.23 | default  | us   | BellSouth.net Inc.                   |       1 |
+| 2015-07-30 | 178.8.221.145   | 443 | 9030 | 0.2.4.23 | default  | de   | Vodafone GmbH                        |       0 |
+| 2015-07-29 | 80.244.36.191   | 443 | 9030 | 0.2.4.23 | default  | ru   | JSC SVYAZTELEKOM, Magnitogorsk, Rus  |       0 |
+| 2015-07-29 | 212.197.168.32  | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-07-29 | 43.228.96.40    | 443 | 9030 | 0.2.4.23 | default  | in   | Ishan's Network                      |       0 |
+| 2015-07-29 | 178.27.232.191  | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-29 | 91.55.33.103    | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-07-29 | 91.69.192.38    | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       1 |
+| 2015-07-29 | 95.110.3.118    | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Bashinformsvyaz                 |       0 |
+| 2015-07-28 | 46.165.34.50    | 443 | 9030 | 0.2.4.23 | default  | ru   | Nizhnetagilskie Kompyuternye Seti L  |       0 |
+| 2015-07-28 | 188.195.74.60   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-28 | 188.113.51.2    | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       0 |
+| 2015-07-28 | 42.116.55.207   | 443 | 9030 | 0.2.4.23 | default  | vn   | The Corporation for Financing & Pro  |       0 |
+| 2015-07-27 | 188.193.180.106 | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-27 | 82.176.65.159   | 443 | 9030 | 0.2.4.23 | default  | nl   | ZeelandNet BV                        |       0 |
+| 2015-07-27 | 78.85.204.59    | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       0 |
+| 2015-07-27 | 83.86.158.26    | 443 | 9030 | 0.2.4.23 | default  | nl   | Ziggo B.V.                           |       0 |
+| 2015-07-27 | 178.193.104.174 | 443 | 9030 | 0.2.4.23 | default  | ch   | Swisscom (Switzerland) Ltd           |       0 |
+| 2015-07-26 | 77.0.129.65     | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2015-07-26 | 46.5.217.56     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel BW GmbH                        |       0 |
+| 2015-07-26 | 188.193.180.106 | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-26 | 5.204.4.210     | 443 | 9030 | 0.2.4.23 | default  | hu   | Telenor Hungary plc                  |       0 |
+| 2015-07-26 | 223.204.194.136 | 443 | 9030 | 0.2.4.23 | default  | th   | JasTel Network International Gatewa  |       0 |
+| 2015-07-26 | 176.198.220.135 | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-07-26 | 188.55.62.149   | 443 | 9030 | 0.2.4.23 | default  | sa   | Saudi Telecom Company JSC            |       0 |
+| 2015-07-26 | 31.129.172.86   | 443 | 9030 | 0.2.4.23 | default  | ua   | TOV Magnus Limited                   |       0 |
+| 2015-07-26 | 37.139.104.161  | 443 | 9030 | 0.2.4.23 | default  | ua   | Lancom Ltd.                          |       0 |
+| 2015-07-26 | 220.57.62.73    | 443 | 9030 | 0.2.4.23 | default  | jp   | Softbank BB Corp.                    |       0 |
+| 2015-07-25 | 176.100.93.86   | 443 | 9030 | 0.2.4.23 | default  | ru   | ZAO Astrakhan Digital Television     |       0 |
+| 2015-07-25 | 188.193.180.106 | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-25 | 94.135.249.21   | 443 | 9030 | 0.2.4.23 | default  | de   | Versatel Deutschland GmbH            |       0 |
+| 2015-07-25 | 88.184.93.15    | 443 | 9030 | 0.2.4.23 | default  | fr   | Free SAS                             |       0 |
+| 2015-07-25 | 178.216.235.20  | 443 | 9030 | 0.2.4.23 | default  | ua   | Private Enterprise RealWeb           |       0 |
+| 2015-07-25 | 177.130.157.243 | 443 | 9030 | 0.2.4.23 | default  | br   | Rede Brasileira de Comunicacao Ltda  |       0 |
+| 2015-07-25 | 81.162.77.110   | 443 | 9030 | 0.2.4.23 | default  | ua   | Private Company Center for Developm  |       0 |
+| 2015-07-25 | 188.193.180.106 | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-25 | 188.193.180.106 | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-25 | 75.64.224.180   | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2015-07-24 | 41.224.128.21   | 443 | 9030 | 0.2.4.23 | default  | tn   | ORANGE-TN                            |       0 |
+| 2015-07-24 | 84.118.190.188  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-07-24 | 193.81.43.241   | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-07-24 | 149.202.156.108 | 443 | 9030 | 0.2.4.23 | default  | fr   | OVH SAS                              |       1 |
+| 2015-07-24 | 75.137.120.35   | 443 | 9030 | 0.2.4.23 | default  | us   | Charter Communications               |       0 |
+| 2015-07-24 | 95.170.162.168  | 443 | 9030 | 0.2.4.23 | default  | ru   | Sibirskaya set Ltd                   |       0 |
+| 2015-07-24 | 213.231.51.235  | 443 | 9030 | 0.2.4.23 | default  | ua   | TOV TRK Briz                         |       1 |
+| 2015-07-24 | 212.37.181.159  | 443 | 9030 | 0.2.4.23 | default  | de   | RFTkabel Brandenburg GmbH            |       0 |
+| 2015-07-24 | 91.65.11.212    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-24 | 80.79.64.46     | 443 | 9030 | 0.2.4.23 | default  | ru   | Moscomsvyaz Ltd                      |       0 |
+| 2015-07-23 | 93.128.219.163  | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2015-07-23 | 82.119.26.85    | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-07-23 | 218.161.95.47   | 443 | 9030 | 0.2.4.23 | default  | tw   | Data Communication Business Group    |       1 |
+| 2015-07-23 | 78.13.108.81    | 443 | 9030 | 0.2.4.23 | default  | it   | Tiscali Italia S.P.A.                |       0 |
+| 2015-07-23 | 42.112.19.168   | 443 | 9030 | 0.2.4.23 | default  | vn   | The Corporation for Financing & Pro  |       1 |
+| 2015-07-23 | 197.7.32.246    | 443 | 9030 | 0.2.4.23 | default  | tn   | Internet Assigned Numbers Authority  |       0 |
+| 2015-07-23 | 5.159.108.128   | 443 | 9030 | 0.2.4.23 | default  | ru   | Krasnoyarsk network Ltd.             |       0 |
+| 2015-07-23 | 91.114.248.161  | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-07-22 | 91.67.129.97    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-22 | 42.112.19.153   | 443 | 9030 | 0.2.4.23 | default  | vn   | The Corporation for Financing & Pro  |       1 |
+| 2015-07-22 | 42.112.16.42    | 443 | 9030 | 0.2.4.23 | default  | vn   | The Corporation for Financing & Pro  |       1 |
+| 2015-07-22 | 42.112.19.174   | 443 | 9030 | 0.2.4.23 | default  | vn   | The Corporation for Financing & Pro  |       1 |
+| 2015-07-22 | 176.148.133.175 | 443 | 9030 | 0.2.4.23 | default  | fr   | Bouygues Telecom SA                  |       0 |
+| 2015-07-22 | 88.150.48.172   | 443 | 9030 | 0.2.4.23 | default  | de   | MDlink online service center GmbH    |       0 |
+| 2015-07-22 | 5.13.24.122     | 443 | 9030 | 0.2.4.23 | default  | ro   | RCS & RDS SA                         |       0 |
+| 2015-07-22 | 42.112.16.200   | 443 | 9030 | 0.2.4.23 | default  | vn   | The Corporation for Financing & Pro  |       1 |
+| 2015-07-21 | 149.172.22.58   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel BW GmbH                        |       0 |
+| 2015-07-21 | 176.104.88.121  | 443 | 9030 | 0.2.4.23 | default  | ua   | SPD Kurilov Sergiy Oleksandrovich    |       0 |
+| 2015-07-20 | 84.119.97.204   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-07-20 | 31.18.146.26    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-07-20 | 67.158.20.177   | 443 | 9030 | 0.2.4.23 | default  | us   | WideOpenWest Finance LLC             |       0 |
+| 2015-07-20 | 88.130.36.180   | 443 | 9030 | 0.2.4.23 | default  | de   | Versatel Deutschland GmbH            |       0 |
+| 2015-07-20 | 79.32.140.215   | 443 | 9030 | 0.2.4.23 | default  | it   | Telecom Italia S.p.a.                |       0 |
+| 2015-07-19 | 178.11.4.181    | 443 | 9030 | 0.2.4.23 | default  | de   | Vodafone GmbH                        |       0 |
+| 2015-07-19 | 62.57.154.92    | 443 | 9030 | 0.2.4.23 | default  | es   | Cableuropa - ONO                     |       1 |
+| 2015-07-19 | 61.197.250.179  | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT PC Communications, Inc.          |       1 |
+| 2015-07-18 | 46.53.7.69      | 443 | 9030 | 0.2.4.23 | default  | sy   | Syrian Telecom                       |       0 |
+| 2015-07-18 | 37.79.69.44     | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       1 |
+| 2015-07-17 | 68.44.141.35    | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2015-07-17 | 77.144.87.13    | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       0 |
+| 2015-07-17 | 91.124.5.30     | 443 | 9030 | 0.2.4.23 | default  | ua   | JSC UKRTELECOM                       |       0 |
+| 2015-07-16 | 24.242.111.173  | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       0 |
+| 2015-07-16 | 2.218.119.91    | 443 | 9030 | 0.2.4.23 | default  | gb   | Sky UK Limited                       |       0 |
+| 2015-07-14 | 105.107.49.66   | 443 | 9030 | 0.2.4.23 | default  | dz   | ALGTEL-AS                            |       0 |
+| 2015-07-14 | 178.191.177.193 | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-07-14 | 90.146.76.218   | 443 | 9030 | 0.2.4.23 | default  | at   | LIWEST Kabelfernsehen Errichtungs-   |       0 |
+| 2015-07-13 | 178.200.121.43  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-07-13 | 87.170.38.13    | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-07-13 | 121.109.81.131  | 443 | 9030 | 0.2.4.23 | default  | jp   | KDDI CORPORATION                     |       0 |
+| 2015-07-12 | 115.242.210.178 | 443 | 9030 | 0.2.4.23 | default  | in   | BSES TeleCom Limited                 |       0 |
+| 2015-07-11 | 188.22.32.211   | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-07-11 | 178.201.140.227 | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-07-11 | 186.94.157.13   | 443 | 9030 | 0.2.4.23 | default  | ve   | Servicios, Venezuela                 |       0 |
+| 2015-07-10 | 88.153.179.54   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-07-09 | 88.238.184.217  | 443 | 9030 | 0.2.4.23 | default  | tr   | Turk Telekomunikasyon Anonim Sirket  |       0 |
+| 2015-07-07 | 67.213.248.209  | 443 | 9030 | 0.2.4.23 | default  | us   | UBTANET                              |       0 |
+| 2015-07-06 | 79.225.16.145   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-07-06 | 95.218.253.233  | 443 | 9030 | 0.2.4.23 | default  | sa   | Saudi Telecom Company JSC            |       1 |
+| 2015-07-06 | 122.173.114.120 | 443 | 9030 | 0.2.4.23 | default  | in   | Bharti Airtel Ltd., Telemedia Servi  |       0 |
+| 2015-07-05 | 83.78.97.26     | 443 | 9030 | 0.2.4.23 | default  | ch   | Swisscom (Switzerland) Ltd           |       0 |
+| 2015-07-05 | 92.95.66.116    | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       0 |
+| 2015-07-01 | 37.54.29.191    | 443 | 9030 | 0.2.4.23 | default  | ua   | JSC UKRTELECOM                       |       0 |
+| 2015-07-01 | 114.27.73.155   | 443 | 9030 | 0.2.4.23 | default  | tw   | Data Communication Business Group    |       1 |
+| 2015-07-01 | 83.77.171.69    | 443 | 9030 | 0.2.4.23 | default  | ch   | Swisscom (Switzerland) Ltd           |       0 |
+| 2015-06-29 | 89.129.57.167   | 443 | 9030 | 0.2.4.23 | default  | es   | France Telecom Espana SA             |       1 |
+| 2015-06-29 | 87.144.32.48    | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-06-28 | 113.144.36.63   | 443 | 9030 | 0.2.4.23 | default  | jp   | KDDI CORPORATION                     |       0 |
+| 2015-06-26 | 93.128.242.14   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       1 |
+| 2015-06-25 | 78.54.126.236   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2015-06-24 | 37.120.74.168   | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-06-24 | 118.37.5.25     | 443 | 9030 | 0.2.4.23 | default  | kr   | Korea Telecom                        |       0 |
+| 2015-06-23 | 78.55.72.174    | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2015-06-23 | 46.5.113.113    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel BW GmbH                        |       0 |
+| 2015-06-23 | 66.214.15.139   | 443 | 9030 | 0.2.4.23 | default  | us   | Charter Communications               |       1 |
+| 2015-06-23 | 49.242.209.124  | 443 | 9030 | 0.2.4.23 | default  | jp   | FreeBit Co.,Ltd.                     |       0 |
+| 2015-06-22 | 178.202.83.94   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-06-21 | 96.235.142.73   | 443 | 9030 | 0.2.4.23 | default  | us   | MCI Communications Services, Inc. d  |       0 |
+| 2015-06-21 | 114.17.212.47   | 443 | 9030 | 0.2.4.23 | default  | jp   | KDDI CORPORATION                     |       1 |
+| 2015-06-20 | 88.244.82.30    | 443 | 9030 | 0.2.4.23 | default  | tr   | Turk Telekomunikasyon Anonim Sirket  |       0 |
+| 2015-06-17 | 153.232.204.176 | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       0 |
+| 2015-06-17 | 31.214.133.30   | 443 | 9030 | 0.2.4.23 | default  | de   | Marcel Edler trading as Optimate-Se  |       0 |
+| 2015-06-17 | 5.147.86.153    | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-06-17 | 109.230.251.238 | 443 | 9030 | 0.2.4.23 | default  | de   | Marcel Edler trading as Optimate-Se  |       1 |
+| 2015-06-13 | 93.124.26.247   | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       0 |
+| 2015-06-12 | 176.199.247.101 | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-06-12 | 217.253.209.182 | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-06-11 | 84.221.222.177  | 443 | 9030 | 0.2.4.23 | default  | it   | Tiscali Italia S.P.A.                |       0 |
+| 2015-06-10 | 74.90.183.85    | 443 | 9030 | 0.2.4.23 | default  | us   | Cablevision Systems Corp.            |       1 |
+| 2015-06-09 | 85.176.45.103   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       1 |
+| 2015-06-07 | 88.75.122.41    | 443 | 9030 | 0.2.4.23 | default  | de   | Vodafone GmbH                        |       0 |
+| 2015-06-07 | 77.34.230.220   | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       0 |
+| 2015-06-05 | 78.25.181.73    | 443 | 9030 | 0.2.4.23 | default  | ru   | CJSC Kolomna-Sviaz TV                |       0 |
+| 2015-06-03 | 95.89.42.143    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-06-02 | 77.20.152.108   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-06-02 | 175.135.149.24  | 443 | 9030 | 0.2.4.23 | default  | jp   | KDDI CORPORATION                     |       1 |
+| 2015-06-02 | 31.16.209.235   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-06-01 | 212.17.120.166  | 443 | 9030 | 0.2.4.23 | default  | at   | Liberty Global Operations B.V.       |       0 |
+| 2015-05-29 | 87.154.84.117   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-05-28 | 5.0.239.163     | 443 | 9030 | 0.2.4.23 | default  | sy   | Syrian Telecom                       |       0 |
+| 2015-05-27 | 66.94.201.110   | 443 | 9030 | 0.2.4.23 | default  | us   | ITV-3                                |       0 |
+| 2015-05-27 | 153.166.46.217  | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       0 |
+| 2015-05-25 | 109.124.221.37  | 443 | 9030 | 0.2.4.23 | default  | ru   | LLC SIP NIS                          |       0 |
+| 2015-05-24 | 24.148.232.16   | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       0 |
+| 2015-05-24 | 111.89.69.220   | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT PC Communications, Inc.          |       1 |
+| 2015-05-24 | 86.56.217.85    | 443 | 9030 | 0.2.4.23 | default  | at   | LIWEST Kabelfernsehen Errichtungs-   |       0 |
+| 2015-05-23 | 93.181.63.177   | 443 | 9030 | 0.2.4.23 | default  | de   | mr. net services GmbH & Co. KG       |       1 |
+| 2015-05-22 | 5.228.181.129   | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       0 |
+| 2015-05-20 | 122.164.254.51  | 443 | 9030 | 0.2.4.23 | default  | in   | Bharti Airtel Ltd., Telemedia Servi  |       0 |
+| 2015-05-19 | 89.129.23.57    | 443 | 9030 | 0.2.4.23 | default  | es   | France Telecom Espana SA             |       0 |
+| 2015-05-17 | 2.216.47.125    | 443 | 9030 | 0.2.4.23 | default  | gb   | Sky UK Limited                       |       0 |
+| 2015-05-14 | 84.152.85.140   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-05-13 | 158.181.93.246  | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-05-11 | 91.10.221.195   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-05-10 | 45.37.59.70     | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       1 |
+| 2015-05-09 | 90.71.56.112    | 443 | 9030 | 0.2.4.23 | default  | es   | France Telecom Espana SA             |       0 |
+| 2015-05-08 | 178.203.163.176 | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-05-07 | 85.199.77.17    | 443 | 9030 | 0.2.4.23 | default  | de   | e.discom Telekommunikation GmbH      |       0 |
+| 2015-05-06 | 78.230.125.4    | 443 | 9030 | 0.2.4.23 | default  | fr   | Free SAS                             |       0 |
+| 2015-05-06 | 85.199.87.74    | 443 | 9030 | 0.2.4.23 | default  | de   | e.discom Telekommunikation GmbH      |       0 |
+| 2015-05-05 | 89.245.66.255   | 443 | 9030 | 0.2.4.23 | default  | de   | Versatel Deutschland GmbH            |       0 |
+| 2015-05-03 | 176.250.186.171 | 443 | 9030 | 0.2.4.23 | default  | gb   | Sky UK Limited                       |       0 |
+| 2015-05-01 | 79.126.11.4     | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       0 |
+| 2015-05-01 | 217.227.143.208 | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-05-01 | 189.195.238.241 | 443 | 9030 | 0.2.4.23 | default  | mx   | Y EQUIPO EN TELEFONÍA INTERNET Y TV  |       0 |
+| 2015-04-30 | 5.28.124.227    | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-04-30 | 172.254.23.228  | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       1 |
+| 2015-04-30 | 91.128.202.114  | 443 | 9030 | 0.2.4.23 | default  | at   | TELE2                                |       0 |
+| 2015-04-28 | 77.30.60.208    | 443 | 9030 | 0.2.4.23 | default  | sa   | Saudi Telecom Company JSC            |       0 |
+| 2015-04-25 | 37.120.90.108   | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-04-23 | 89.16.133.171   | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-04-23 | 180.58.207.11   | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       0 |
+| 2015-04-20 | 86.32.124.80    | 443 | 9030 | 0.2.4.23 | default  | at   | TELE2                                |       0 |
+| 2015-04-20 | 87.152.110.194  | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-04-14 | 41.58.131.228   | 443 | 9030 | 0.2.4.23 | default  | ng   | SWIFTNG-ASN                          |       0 |
+| 2015-04-12 | 92.201.32.111   | 443 | 9030 | 0.2.4.23 | default  | de   | QSC AG                               |       1 |
+| 2015-04-10 | 95.79.129.251   | 443 | 9030 | 0.2.4.23 | default  | ru   | CJSC ER-Telecom Holding              |       0 |
+| 2015-04-10 | 149.126.15.31   | 443 | 9030 | 0.2.4.23 | default  | es   | Cableuropa - ONO                     |       0 |
+| 2015-04-09 | 153.230.61.171  | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       1 |
+| 2015-04-09 | 173.51.84.222   | 443 | 9030 | 0.2.4.23 | default  | us   | MCI Communications Services, Inc. d  |       0 |
+| 2015-04-07 | 212.3.145.66    | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       1 |
+| 2015-04-07 | 203.87.14.14    | 443 | 9030 | 0.2.4.23 | default  | au   | TPG Telecom Limited                  |       0 |
+| 2015-04-07 | 79.140.21.20    | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Ufanet                          |       0 |
+| 2015-04-03 | 93.175.125.170  | 443 | 9030 | 0.2.4.23 | default  | pl   | Telekomunikacja Internetowa Sp. z o  |       1 |
+| 2015-04-03 | 37.4.189.179    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-04-03 | 73.195.196.47   | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2015-04-02 | 5.61.179.99     | 443 | 9030 | 0.2.4.23 | default  | de   | TELE AG                              |       0 |
+| 2015-03-31 | 87.166.24.170   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       1 |
+| 2015-03-29 | 88.77.148.161   | 443 | 9030 | 0.2.4.23 | default  | de   | Vodafone GmbH                        |       0 |
+| 2015-03-28 | 80.121.12.186   | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-03-28 | 5.28.73.226     | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-03-27 | 31.32.84.72     | 443 | 9030 | 0.2.4.23 | default  | fr   | Bouygues Telecom SA                  |       0 |
+| 2015-03-27 | 95.90.82.199    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-03-27 | 68.111.186.160  | 443 | 9030 | 0.2.4.23 | default  | us   | Cox Communications Inc.              |       0 |
+| 2015-03-25 | 87.88.223.76    | 443 | 9030 | 0.2.4.23 | default  | fr   | Bouygues Telecom SA                  |       1 |
+| 2015-03-24 | 37.5.166.123    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-03-22 | 78.96.144.158   | 443 | 9030 | 0.2.4.23 | default  | ro   | Liberty Global Operations B.V.       |       0 |
+| 2015-03-21 | 73.159.171.137  | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2015-03-19 | 88.153.212.151  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-03-19 | 93.219.66.132   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       1 |
+| 2015-03-18 | 84.219.226.78   | 443 | 9030 | 0.2.4.23 | default  | se   | Telenor Norge AS                     |       1 |
+| 2015-03-17 | 86.56.102.70    | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-03-17 | 92.236.113.21   | 443 | 9030 | 0.2.4.23 | default  | gb   | Virgin Media Limited                 |       0 |
+| 2015-03-15 | 109.26.8.175    | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       1 |
+| 2015-03-15 | 88.117.18.114   | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-03-14 | 79.98.88.152    | 443 | 9030 | 0.2.4.23 | default  | ru   | Net By Net Holding LLC               |       1 |
+| 2015-03-11 | 109.226.142.154 | 443 | 9030 | 0.2.4.23 | default  | de   | TELTA Citynetz GmbH                  |       0 |
+| 2015-03-11 | 217.50.247.137  | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2015-03-10 | 195.14.202.111  | 443 | 9030 | 0.2.4.23 | default  | de   | NetCologne GmbH                      |       0 |
+| 2015-03-08 | 37.24.29.183    | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-03-07 | 115.163.111.153 | 443 | 9030 | 0.2.4.23 | default  | jp   | So-net Entertainment Corporation     |       1 |
+| 2015-03-05 | 151.248.143.137 | 443 | 9030 | 0.2.4.23 | default  | ch   | WWZ Telekom AG                       |       0 |
+| 2015-03-03 | 77.174.140.70   | 443 | 9030 | 0.2.4.23 | default  | nl   | KPN B.V.                             |       0 |
+| 2015-03-03 | 77.45.6.194     | 443 | 9030 | 0.2.4.23 | default  | pl   | ASTA-NET S.A.                        |       0 |
+| 2015-03-01 | 135.19.221.82   | 443 | 9030 | 0.2.4.23 | default  | ca   | Videotron Telecom Ltee               |       0 |
+| 2015-03-01 | 77.21.240.21    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-02-28 | 84.114.185.91   | 443 | 9030 | 0.2.4.23 | default  | at   | Liberty Global Operations B.V.       |       0 |
+| 2015-02-26 | 124.215.18.241  | 443 | 9030 | 0.2.4.23 | default  | jp   | KDDI CORPORATION                     |       1 |
+| 2015-02-25 | 89.189.78.184   | 443 | 9030 | 0.2.4.23 | default  | ye   | TeleYemen                            |       0 |
+| 2015-02-25 | 5.164.144.70    | 443 | 9030 | 0.2.4.23 | default  | ru   | CJSC ER-Telecom Holding              |       1 |
+| 2015-02-22 | 84.134.125.87   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-02-21 | 109.91.221.246  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-02-18 | 92.106.26.197   | 443 | 9030 | 0.2.4.23 | default  | ch   | Swisscom (Switzerland) Ltd           |       0 |
+| 2015-02-18 | 178.24.85.71    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-02-18 | 94.134.70.149   | 443 | 9030 | 0.2.4.23 | default  | de   | Versatel Deutschland GmbH            |       0 |
+| 2015-02-16 | 92.27.214.18    | 443 | 9030 | 0.2.4.23 | default  | gb   | TalkTalk Communications Limited      |       1 |
+| 2015-02-15 | 37.120.79.229   | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-02-15 | 87.152.104.135  | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2015-02-10 | 31.17.145.133   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-02-10 | 84.29.213.167   | 443 | 9030 | 0.2.4.23 | default  | nl   | Ziggo B.V.                           |       0 |
+| 2015-02-10 | 109.91.145.134  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-02-10 | 72.213.167.66   | 443 | 9030 | 0.2.4.23 | default  | us   | Cox Communications Inc.              |       0 |
+| 2015-02-09 | 74.72.42.108    | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       1 |
+| 2015-02-09 | 85.176.49.82    | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       1 |
+| 2015-02-06 | 79.165.175.217  | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Central telegraph               |       0 |
+| 2015-02-06 | 176.190.40.169  | 443 | 9030 | 0.2.4.23 | default  | fr   | Bouygues Telecom SA                  |       0 |
+| 2015-02-04 | 79.89.64.180    | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       0 |
+| 2015-02-03 | 88.244.21.197   | 443 | 9030 | 0.2.4.23 | default  | tr   | Turk Telekomunikasyon Anonim Sirket  |       0 |
+| 2015-02-01 | 1.53.230.195    | 443 | 9030 | 0.2.4.23 | default  | vn   | The Corporation for Financing & Pro  |       0 |
+| 2015-02-01 | 2.89.122.94     | 443 | 9030 | 0.2.4.23 | default  | sa   | Saudi Telecom Company JSC            |       0 |
+| 2015-01-31 | 112.205.216.139 | 443 | 9030 | 0.2.4.23 | default  | ph   | Philippine Long Distance Telephone   |       0 |
+| 2015-01-29 | 77.174.249.134  | 443 | 9030 | 0.2.4.23 | default  | nl   | KPN B.V.                             |       1 |
+| 2015-01-29 | 71.83.14.170    | 443 | 9030 | 0.2.4.23 | default  | us   | Charter Communications               |       0 |
+| 2015-01-29 | 50.177.175.26   | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       1 |
+| 2015-01-28 | 95.27.199.36    | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Vimpelcom                       |       1 |
+| 2015-01-27 | 91.114.169.221  | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-01-26 | 176.104.84.232  | 443 | 9030 | 0.2.4.23 | default  | ua   | SPD Kurilov Sergiy Oleksandrovich    |       0 |
+| 2015-01-26 | 72.53.124.45    | 443 | 9030 | 0.2.4.23 | default  | ca   | DISTRIBUTEL COMMUNICATIONS LTD.      |       0 |
+| 2015-01-25 | 37.24.29.183    | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-01-24 | 82.236.126.246  | 443 | 9030 | 0.2.4.23 | default  | fr   | Free SAS                             |       1 |
+| 2015-01-24 | 77.223.75.207   | 443 | 9030 | 0.2.4.23 | default  | ru   | ZAO AKADO-Ekaterinburg               |       0 |
+| 2015-01-23 | 101.176.122.252 | 443 | 9030 | 0.2.4.23 | default  | au   | Telstra Pty Ltd                      |       0 |
+| 2015-01-21 | 95.89.62.21     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-01-20 | 212.197.137.152 | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-01-20 | 178.25.25.167   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-01-19 | 105.107.58.44   | 443 | 9030 | 0.2.4.23 | default  | dz   | ALGTEL-AS                            |       1 |
+| 2015-01-16 | 96.244.97.52    | 443 | 9030 | 0.2.4.23 | default  | us   | MCI Communications Services, Inc. d  |       0 |
+| 2015-01-15 | 97.101.200.122  | 443 | 9030 | 0.2.4.23 | default  | us   | BRIGHT HOUSE NETWORKS, LLC           |       0 |
+| 2015-01-14 | 75.186.8.223    | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       0 |
+| 2015-01-13 | 188.243.4.139   | 443 | 9030 | 0.2.4.23 | default  | ru   | SkyNet Ltd.                          |       0 |
+| 2015-01-12 | 122.31.55.204   | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       1 |
+| 2015-01-11 | 89.135.202.134  | 443 | 9030 | 0.2.4.23 | default  | hu   | Liberty Global Operations B.V.       |       0 |
+| 2015-01-11 | 24.137.240.119  | 443 | 9030 | 0.2.4.23 | default  | pr   | San Juan Cable, LLC                  |       0 |
+| 2015-01-10 | 178.201.202.171 | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-01-09 | 86.56.100.27    | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2015-01-09 | 186.107.1.199   | 443 | 9030 | 0.2.4.23 | default  | cl   | TELEFÓNICA CHILE S.A.                |       0 |
+| 2015-01-08 | 80.121.2.88     | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2015-01-08 | 37.5.104.139    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-01-07 | 176.189.38.65   | 443 | 9030 | 0.2.4.23 | default  | fr   | Bouygues Telecom SA                  |       0 |
+| 2015-01-06 | 31.17.192.200   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-01-05 | 189.167.135.59  | 443 | 9030 | 0.2.4.23 | default  | mx   | Uninet S.A. de C.V.                  |       0 |
+| 2015-01-02 | 85.177.167.81   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2015-01-01 | 62.143.167.160  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2015-01-01 | 95.91.2.128     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2015-01-01 | 88.152.202.54   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-12-31 | 114.172.173.88  | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       0 |
+| 2014-12-30 | 108.6.254.64    | 443 | 9030 | 0.2.4.23 | default  | us   | MCI Communications Services, Inc. d  |       0 |
+| 2014-12-30 | 73.170.88.135   | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2014-12-29 | 184.94.226.34   | 443 | 9030 | 0.2.4.23 | default  | us   | City of Windom                       |       1 |
+| 2014-12-26 | 87.115.13.55    | 443 | 9030 | 0.2.4.23 | default  | gb   | PlusNet plc.                         |       1 |
+| 2014-12-26 | 92.192.82.115   | 443 | 9030 | 0.2.4.23 | default  | de   | QSC AG                               |       0 |
+| 2014-12-23 | 88.117.124.161  | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2014-12-23 | 86.211.185.197  | 443 | 9030 | 0.2.4.23 | default  | fr   | Orange S.A.                          |       0 |
+| 2014-12-22 | 77.224.229.88   | 443 | 9030 | 0.2.4.23 | default  | es   | VODAFONE ESPANA S.A.U.               |       0 |
+| 2014-12-21 | 89.211.75.57    | 443 | 9030 | 0.2.4.23 | default  | qa   | Ooredoo Q.S.C.                       |       1 |
+| 2014-12-17 | 94.135.128.125  | 443 | 9030 | 0.2.4.23 | default  | de   | Versatel Deutschland GmbH            |       0 |
+| 2014-12-16 | 31.18.125.155   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-12-16 | 74.101.173.110  | 443 | 9030 | 0.2.4.23 | default  | us   | MCI Communications Services, Inc. d  |       0 |
+| 2014-12-16 | 31.134.85.109   | 443 | 9030 | 0.2.4.23 | default  | ua   | TOV Teleradiocompany Intermedia      |       1 |
+| 2014-12-15 | 91.64.239.43    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-12-14 | 85.182.26.177   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2014-12-13 | 81.132.131.23   | 443 | 9030 | 0.2.4.23 | default  | gb   | BT Public Internet Service           |       0 |
+| 2014-12-13 | 2.219.14.48     | 443 | 9030 | 0.2.4.23 | default  | gb   | Sky UK Limited                       |       0 |
+| 2014-12-12 | 186.147.104.83  | 443 | 9030 | 0.2.4.23 | default  | co   | Telmex Colombia S.A.                 |       0 |
+| 2014-12-11 | 85.180.102.135  | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2014-12-10 | 188.193.180.106 | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-12-09 | 89.157.221.78   | 443 | 9030 | 0.2.4.23 | default  | fr   | NC Numericable S.A.                  |       0 |
+| 2014-12-08 | 91.64.214.92    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-12-06 | 85.113.145.82   | 443 | 9030 | 0.2.4.23 | default  | ru   | Intercon JSC                         |       1 |
+| 2014-12-04 | 178.203.120.170 | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-12-03 | 93.195.197.2    | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2014-12-01 | 82.221.229.174  | 443 | 9030 | 0.2.4.23 | default  | is   | 365 - midlar ehf                     |       0 |
+| 2014-11-29 | 86.101.13.27    | 443 | 9030 | 0.2.4.23 | default  | hu   | Liberty Global Operations B.V.       |       0 |
+| 2014-11-27 | 90.146.237.211  | 443 | 9030 | 0.2.4.23 | default  | at   | LIWEST Kabelfernsehen Errichtungs-   |       0 |
+| 2014-11-26 | 189.239.26.20   | 443 | 9030 | 0.2.4.23 | default  | mx   | Uninet S.A. de C.V.                  |       0 |
+| 2014-11-26 | 95.143.21.154   | 443 | 9030 | 0.2.4.23 | default  | ru   | Azimut-R Ltd.                        |       0 |
+| 2014-11-24 | 78.24.27.97     | 443 | 9030 | 0.2.4.23 | default  | ru   | JSC Firm Progress                    |       0 |
+| 2014-11-24 | 79.213.255.146  | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2014-11-22 | 78.120.108.65   | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       0 |
+| 2014-11-21 | 187.242.66.119  | 443 | 9030 | 0.2.4.23 | default  | mx   | Mega Cable, S.A. de C.V.             |       0 |
+| 2014-11-21 | 217.249.50.63   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2014-11-20 | 130.149.200.12  | 443 | 9030 | 0.2.4.23 | default  | de   | Verein zur Foerderung eines Deutsch  |       1 |
+| 2014-11-20 | 109.125.102.87  | 443 | 9030 | 0.2.4.23 | default  | de   | AS for KMS Munich                    |       0 |
+| 2014-11-20 | 89.182.49.219   | 443 | 9030 | 0.2.4.23 | default  | de   | htp GmbH                             |       0 |
+| 2014-11-19 | 84.118.53.40    | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-11-19 | 37.5.15.174     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-11-19 | 176.199.64.87   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-11-15 | 95.89.121.231   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-11-14 | 88.179.192.130  | 443 | 9030 | 0.2.4.23 | default  | fr   | Free SAS                             |       0 |
+| 2014-11-13 | 85.179.61.157   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2014-11-12 | 93.203.66.80    | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2014-11-10 | 122.16.81.75    | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       0 |
+| 2014-11-09 | 70.191.237.170  | 443 | 9030 | 0.2.4.23 | default  | us   | Cox Communications Inc.              |       0 |
+| 2014-11-06 | 190.49.54.122   | 443 | 9030 | 0.2.4.23 | default  | ar   | Telefonica de Argentina              |       0 |
+| 2014-11-04 | 178.200.156.169 | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-11-04 | 77.20.83.67     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       1 |
+| 2014-11-01 | 217.50.207.13   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2014-10-30 | 46.162.146.211  | 443 | 9030 | 0.2.4.23 | default  | fr   | LASOTEL SARL                         |       0 |
+| 2014-10-30 | 73.204.165.116  | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2014-10-27 | 95.64.203.14    | 443 | 9030 | 0.2.4.23 | default  | ru   | Closed Joint Stock Company MultyKab  |       0 |
+| 2014-10-27 | 109.91.197.118  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-10-26 | 89.203.2.174    | 443 | 9030 | 0.2.4.23 | default  | kw   | Fast Telecommunications Company W.L  |       1 |
+| 2014-10-25 | 185.10.29.247   | 443 | 9030 | 0.2.4.23 | default  | no   | Signal Bredband AS                   |       1 |
+| 2014-10-25 | 123.1.160.137   | 443 | 9030 | 0.2.4.23 | default  | hk   | AS number for New World Telephone L  |       1 |
+| 2014-10-21 | 37.5.34.233     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-10-20 | 178.24.87.199   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-10-20 | 137.189.204.36  | 443 | 9030 | 0.2.4.23 | default  | hk   | The Chinese University of Hong Kong  |       0 |
+| 2014-10-20 | 181.162.37.231  | 443 | 9030 | 0.2.4.23 | default  | cl   | TELEFÓNICA CHILE S.A.                |       0 |
+| 2014-10-18 | 95.238.27.72    | 443 | 9030 | 0.2.4.23 | default  | it   | Telecom Italia S.p.a.                |       1 |
+| 2014-10-17 | 173.89.238.13   | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       0 |
+| 2014-10-16 | 146.52.15.197   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-10-16 | 94.219.180.79   | 443 | 9030 | 0.2.4.23 | default  | de   | Vodafone GmbH                        |       0 |
+| 2014-10-16 | 37.204.166.210  | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Rostelecom                      |       0 |
+| 2014-10-15 | 109.192.225.111 | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel BW GmbH                        |       0 |
+| 2014-10-15 | 68.228.45.69    | 443 | 9030 | 0.2.4.23 | default  | us   | Cox Communications Inc.              |       1 |
+| 2014-10-13 | 80.219.209.13   | 443 | 9030 | 0.2.4.23 | default  | ch   | Liberty Global Operations B.V.       |       0 |
+| 2014-10-12 | 84.108.132.72   | 443 | 9030 | 0.2.4.23 | default  | il   | Bezeqint Internet Backbone           |       0 |
+| 2014-10-12 | 37.120.56.148   | 443 | 9030 | 0.2.4.23 | default  | de   | Tele Columbus AG                     |       0 |
+| 2014-10-11 | 92.224.161.165  | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2014-10-08 | 31.25.121.220   | 443 | 9030 | 0.2.4.23 | default  | ch   | Glattwerk AG                         |       0 |
+| 2014-10-08 | 167.60.15.91    | 443 | 9030 | 0.2.4.23 | default  | uy   | Administracion Nacional de Telecomu  |       0 |
+| 2014-10-06 | 70.180.103.254  | 443 | 9030 | 0.2.4.23 | default  | us   | Cox Communications Inc.              |       1 |
+| 2014-10-05 | 88.132.253.168  | 443 | 9030 | 0.2.4.23 | default  | hu   | HIR-SAT 2000 Szolgaltato es Kereske  |       0 |
+| 2014-10-05 | 119.240.72.224  | 443 | 9030 | 0.2.4.23 | default  | jp   | BIGLOBE Inc.                         |       0 |
+| 2014-10-05 | 31.11.1.62      | 443 | 9030 | 0.2.4.23 | default  | ch   | ImproWare AG                         |       0 |
+| 2014-10-05 | 88.229.217.243  | 443 | 9030 | 0.2.4.23 | default  | tr   | Turk Telekomunikasyon Anonim Sirket  |       0 |
+| 2014-10-03 | 69.142.222.116  | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2014-09-30 | 5.129.245.77    | 443 | 9030 | 0.2.4.23 | default  | ru   | Metroset Ltd.                        |       1 |
+| 2014-09-30 | 58.164.103.148  | 443 | 9030 | 0.2.4.23 | default  | au   | Telstra Pty Ltd                      |       0 |
+| 2014-09-30 | 69.253.169.226  | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2014-09-30 | 151.232.236.191 | 443 | 9030 | 0.2.4.23 | default  | ir   | PJSC Fars Telecommunication Company  |       0 |
+| 2014-09-28 | 77.145.34.5     | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       0 |
+| 2014-09-27 | 68.195.108.189  | 443 | 9030 | 0.2.4.23 | default  | us   | Cablevision Systems Corp.            |       1 |
+| 2014-09-26 | 95.119.94.122   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2014-09-24 | 186.18.223.77   | 443 | 9030 | 0.2.4.23 | default  | ar   | Telecentro S.A.                      |       0 |
+| 2014-09-24 | 46.223.106.21   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel BW GmbH                        |       0 |
+| 2014-09-22 | 81.30.221.251   | 443 | 9030 | 0.2.4.23 | default  | ru   | OJSC Ufanet                          |       1 |
+| 2014-09-21 | 31.17.171.134   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-09-20 | 88.136.8.7      | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       0 |
+| 2014-09-19 | 151.75.243.248  | 443 | 9030 | 0.2.4.23 | default  | it   | WIND                                 |       0 |
+| 2014-09-18 | 31.19.224.5     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-09-17 | 201.161.216.180 | 443 | 9030 | 0.2.4.23 | default  | mx   | Cable y Comunicacion de Campeche, S  |       0 |
+| 2014-09-16 | 84.56.17.42     | 443 | 9030 | 0.2.4.23 | default  | de   | Vodafone GmbH                        |       0 |
+| 2014-09-16 | 149.172.20.206  | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel BW GmbH                        |       0 |
+| 2014-09-15 | 62.93.101.95    | 443 | 9030 | 0.2.4.23 | default  | at   | JM-DATA GmbH                         |       0 |
+| 2014-09-15 | 77.22.210.219   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-09-14 | 95.118.15.199   | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2014-09-14 | 84.117.102.103  | 443 | 9030 | 0.2.4.23 | default  | ro   | Liberty Global Operations B.V.       |       0 |
+| 2014-09-13 | 31.32.84.72     | 443 | 9030 | 0.2.4.23 | default  | fr   | Bouygues Telecom SA                  |       0 |
+| 2014-09-13 | 188.104.204.160 | 443 | 9030 | 0.2.4.23 | default  | de   | Vodafone GmbH                        |       0 |
+| 2014-09-07 | 2.90.195.111    | 443 | 9030 | 0.2.4.23 | default  | sa   | Saudi Telecom Company JSC            |       0 |
+| 2014-09-07 | 211.202.44.45   | 443 | 9030 | 0.2.4.23 | default  | kr   | Hanaro Telecom Inc.                  |       0 |
+| 2014-09-06 | 24.196.43.66    | 443 | 9030 | 0.2.4.23 | default  | us   | Charter Communications               |       0 |
+| 2014-09-03 | 84.118.181.53   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-09-02 | 222.229.111.80  | 443 | 9030 | 0.2.4.23 | default  | jp   | Community Network Center Inc.        |       0 |
+| 2014-09-02 | 151.31.76.37    | 443 | 9030 | 0.2.4.23 | default  | it   | WIND                                 |       0 |
+| 2014-09-01 | 46.182.132.90   | 443 | 9030 | 0.2.4.23 | default  | ru   | Closed Joint Stock Company SibTrans  |       1 |
+| 2014-09-01 | 77.5.112.33     | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       1 |
+| 2014-09-01 | 81.64.5.104     | 443 | 9030 | 0.2.4.23 | default  | fr   | NC Numericable S.A.                  |       0 |
+| 2014-08-30 | 81.64.230.253   | 443 | 9030 | 0.2.4.23 | default  | fr   | NC Numericable S.A.                  |       0 |
+| 2014-08-30 | 82.26.32.176    | 443 | 9030 | 0.2.4.23 | default  | gb   | Virgin Media Limited                 |       1 |
+| 2014-08-25 | 175.145.186.54  | 443 | 9030 | 0.2.4.23 | default  | my   | TM Net, Internet Service Provider    |       1 |
+| 2014-08-24 | 93.200.211.55   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       1 |
+| 2014-08-20 | 42.112.19.201   | 443 | 9030 | 0.2.4.23 | default  | vn   | The Corporation for Financing & Pro  |       1 |
+| 2014-08-18 | 88.152.59.151   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-08-18 | 61.215.52.206   | 443 | 9030 | 0.2.4.23 | default  | jp   | KDDI CORPORATION                     |       0 |
+| 2014-08-18 | 88.152.59.151   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-08-16 | 175.156.87.205  | 443 | 9030 | 0.2.4.23 | default  | sg   | MobileOne Ltd. Mobile/Internet Serv  |       0 |
+| 2014-08-15 | 24.134.171.200  | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       1 |
+| 2014-08-15 | 89.249.133.165  | 443 | 9030 | 0.2.4.23 | default  | ru   | Open Joint Stock Company Center of   |       0 |
+| 2014-08-10 | 88.138.223.186  | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       0 |
+| 2014-08-09 | 92.232.156.128  | 443 | 9030 | 0.2.4.23 | default  | gb   | Virgin Media Limited                 |       0 |
+| 2014-08-08 | 176.199.30.206  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-08-06 | 116.83.31.147   | 443 | 9030 | 0.2.4.23 | default  | jp   | FUJITSU LIMITED                      |       1 |
+| 2014-08-06 | 88.64.3.90      | 443 | 9030 | 0.2.4.23 | default  | de   | Vodafone GmbH                        |       0 |
+| 2014-08-06 | 219.109.200.9   | 443 | 9030 | 0.2.4.23 | default  | jp   | Tokyo Cable Network.,INC             |       1 |
+| 2014-08-06 | 193.169.37.72   | 443 | 9030 | 0.2.4.23 | default  | ru   | MTS OJSC                             |       0 |
+| 2014-08-03 | 184.3.210.252   | 443 | 9030 | 0.2.4.23 | default  | us   | Qwest Communications Company, LLC    |       0 |
+| 2014-08-03 | 66.108.14.236   | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       0 |
+| 2014-08-01 | 77.23.119.50    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-07-31 | 189.190.77.108  | 443 | 9030 | 0.2.4.23 | default  | mx   | Uninet S.A. de C.V.                  |       0 |
+| 2014-07-28 | 41.107.110.176  | 443 | 9030 | 0.2.4.23 | default  | dz   | ALGTEL-AS                            |       0 |
+| 2014-07-27 | 62.122.94.237   | 443 | 9030 | 0.2.4.23 | default  | ru   | ZAO Group Tower Telecom              |       0 |
+| 2014-07-24 | 77.250.232.83   | 443 | 9030 | 0.2.4.23 | default  | nl   | Liberty Global Operations B.V.       |       0 |
+| 2014-07-23 | 141.239.243.208 | 443 | 9030 | 0.2.4.23 | default  | us   | Hawaiian Telcom Services Company, I  |       1 |
+| 2014-07-17 | 72.253.92.44    | 443 | 9030 | 0.2.4.23 | default  | us   | Hawaiian Telcom Services Company, I  |       1 |
+| 2014-07-17 | 87.212.150.175  | 443 | 9030 | 0.2.4.23 | default  | nl   | Tele 2 Nederland B.V.                |       0 |
+| 2014-07-15 | 94.253.77.121   | 443 | 9030 | 0.2.4.23 | default  | ru   | Flex Ltd                             |       1 |
+| 2014-07-05 | 89.237.45.59    | 443 | 9030 | 0.2.4.23 | default  | ru   | Closed Joint Stock Company TransTel  |       0 |
+| 2014-07-03 | 217.19.24.216   | 443 | 9030 | 0.2.4.23 | default  | nl   | Cambrium IT Services B.V.            |       1 |
+| 2014-06-23 | 96.28.189.94    | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       1 |
+| 2014-06-20 | 81.102.133.158  | 443 | 9030 | 0.2.4.23 | default  | gb   | Virgin Media Limited                 |       1 |
+| 2014-06-17 | 77.21.124.228   | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       1 |
+| 2014-06-14 | 73.45.37.75     | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       1 |
+| 2014-06-07 | 68.113.40.48    | 443 | 9030 | 0.2.4.23 | default  | us   | Charter Communications               |       1 |
+| 2014-06-07 | 188.4.168.53    | 443 | 9030 | 0.2.4.23 | default  | gr   | Forthnet                             |       0 |
+| 2014-06-02 | 78.218.156.194  | 443 | 9030 | 0.2.4.23 | default  | fr   | Free SAS                             |       0 |
+| 2014-05-26 | 86.24.36.142    | 443 | 9030 | 0.2.4.23 | default  | gb   | Virgin Media Limited                 |       1 |
+| 2014-05-25 | 100.37.3.209    | 443 | 9030 | 0.2.4.23 | default  | us   | MCI Communications Services, Inc. d  |       0 |
+| 2014-05-06 | 89.2.131.218    | 443 | 9030 | 0.2.4.23 | default  | fr   | NC Numericable S.A.                  |       0 |
+| 2014-04-30 | 78.198.180.205  | 443 | 9030 | 0.2.4.23 | default  | fr   | Free SAS                             |       0 |
+| 2014-04-26 | 90.136.187.172  | 443 | 9030 | 0.2.4.23 | default  | de   | TELE2                                |       0 |
+| 2014-04-20 | 77.199.231.175  | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       1 |
+| 2014-04-18 | 78.42.146.23    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel BW GmbH                        |       1 |
+| 2014-04-18 | 84.10.172.89    | 443 | 9030 | 0.2.4.23 | default  | pl   | Liberty Global Operations B.V.       |       1 |
+| 2014-04-18 | 173.228.90.13   | 443 | 9030 | 0.2.4.23 | default  | us   | Sonic Telecom LLC                    |       1 |
+| 2014-04-09 | 2.12.104.204    | 443 | 9030 | 0.2.4.23 | default  | fr   | Orange S.A.                          |       0 |
+| 2014-04-06 | 206.116.100.192 | 443 | 9030 | 0.2.4.23 | default  | ca   | TELUS Communications Inc.            |       0 |
+| 2014-03-25 | 210.145.92.235  | 443 | 9030 | 0.2.4.23 | default  | jp   | NTT Communications Corporation       |       0 |
+| 2014-03-23 | 89.160.93.83    | 443 | 9030 | 0.2.4.23 | default  | se   | Bredband2 AB                         |       0 |
+| 2014-03-20 | 58.4.238.158    | 443 | 9030 | 0.2.4.23 | default  | jp   | UCOM Corp.                           |       0 |
+| 2014-03-17 | 113.197.146.254 | 443 | 9030 | 0.2.4.23 | default  | jp   | Internet Initiative Japan Inc.       |       0 |
+| 2014-02-27 | 83.226.240.191  | 443 | 9030 | 0.2.4.23 | default  | se   | Telenor Norge AS                     |       0 |
+| 2014-02-16 | 50.186.148.224  | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2014-02-15 | 94.134.68.90    | 443 | 9030 | 0.2.4.23 | default  | de   | Versatel Deutschland GmbH            |       0 |
+| 2014-02-10 | 78.239.183.126  | 443 | 9030 | 0.2.4.23 | default  | fr   | Free SAS                             |       0 |
+| 2014-02-10 | 62.143.215.200  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2014-02-09 | 24.9.175.96     | 443 | 9030 | 0.2.4.23 | default  | us   | Comcast Cable Communications, Inc.   |       0 |
+| 2014-02-07 | 188.193.198.134 | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-01-27 | 90.217.221.250  | 443 | 9030 | 0.2.4.23 | default  | gb   | Sky UK Limited                       |       0 |
+| 2014-01-25 | 80.121.97.112   | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       0 |
+| 2014-01-24 | 62.78.217.138   | 443 | 9030 | 0.2.4.23 | default  | fi   | DNA Oy                               |       0 |
+| 2014-01-15 | 46.10.100.215   | 443 | 9030 | 0.2.4.23 | default  | bg   | Bulgarian Telecommunications Compan  |       0 |
+| 2014-01-14 | 213.114.116.99  | 443 | 9030 | 0.2.4.23 | default  | se   | Telenor Norge AS                     |       0 |
+| 2014-01-11 | 93.128.7.58     | 443 | 9030 | 0.2.4.23 | default  | de   | Telefonica Germany GmbH & Co.OHG     |       0 |
+| 2014-01-10 | 77.23.103.23    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2014-01-06 | 188.62.209.108  | 443 | 9030 | 0.2.4.23 | default  | ch   | Swisscom (Switzerland) Ltd           |       0 |
+| 2013-12-27 | 87.240.229.30   | 443 | 9030 | 0.2.4.23 | default  | lu   | Entreprise des Postes et Telecommun  |       0 |
+| 2013-12-22 | 88.153.244.189  | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2013-12-20 | 90.231.72.149   | 443 | 9030 | 0.2.4.23 | default  | se   | TeliaSonera AB                       |       1 |
+| 2013-12-12 | 95.90.12.84     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2013-12-11 | 5.56.205.68     | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel BW GmbH                        |       0 |
+| 2013-12-08 | 77.23.91.235    | 443 | 9030 | 0.2.4.23 | default  | de   | Kabel Deutschland Vertrieb und Serv  |       0 |
+| 2013-11-30 | 89.27.83.226    | 443 | 9030 | 0.2.4.23 | default  | fi   | DNA Oy                               |       1 |
+| 2013-11-17 | 193.165.189.6   | 443 | 9030 | 0.2.4.23 | default  | cz   | PODA a.s.                            |       0 |
+| 2013-11-13 | 37.128.50.48    | 443 | 9030 | 0.2.4.23 | default  | pl   | Netia SA                             |       0 |
+| 2013-10-18 | 81.67.158.39    | 443 | 9030 | 0.2.4.23 | default  | fr   | NC Numericable S.A.                  |       0 |
+| 2013-09-29 | 84.249.84.138   | 443 | 9030 | 0.2.4.23 | default  | fi   | TeliaSonera Finland Oyj              |       0 |
+| 2013-09-26 | 85.169.111.217  | 443 | 9030 | 0.2.4.23 | default  | fr   | NC Numericable S.A.                  |       1 |
+| 2013-09-06 | 213.227.250.183 | 443 | 9030 | 0.2.4.23 | default  | ua   | PRIVATE JOINT-STOCK COMPANY FARLEP-  |       1 |
+| 2013-09-04 | 178.200.55.51   | 443 | 9030 | 0.2.4.23 | default  | de   | Liberty Global Operations B.V.       |       0 |
+| 2013-08-09 | 70.52.0.168     | 443 | 9030 | 0.2.4.23 | default  | ca   | Bell Canada                          |       1 |
+| 2013-08-08 | 98.122.180.8    | 443 | 9030 | 0.2.4.23 | default  | us   | Time Warner Cable Internet LLC       |       0 |
+| 2013-07-19 | 113.38.41.173   | 443 | 9030 | 0.2.4.23 | default  | jp   | UCOM Corp.                           |       0 |
+| 2013-07-13 | 87.142.47.124   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       1 |
+| 2013-07-07 | 89.0.199.91     | 443 | 9030 | 0.2.4.23 | default  | de   | NetCologne GmbH                      |       0 |
+| 2013-07-01 | 62.46.129.137   | 443 | 9030 | 0.2.4.23 | default  | at   | A1 Telekom Austria AG                |       1 |
+| 2013-02-21 | 91.50.153.146   | 443 | 9030 | 0.2.4.23 | default  | de   | Deutsche Telekom AG                  |       0 |
+| 2012-10-19 | 68.183.169.91   | 443 | 9030 | 0.2.4.23 | default  | us   | DSL Extreme                          |       0 |
+| 2012-09-18 | 77.192.240.8    | 443 | 9030 | 0.2.4.23 | default  | fr   | Societe Francaise du Radiotelephone  |       0 |
++------------+-----------------+-----+------+----------+----------+------+--------------------------------------+---------+
