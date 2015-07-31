@@ -38,7 +38,396 @@
 #| 2015-07-31 00:00:00 | CYBERDYNE              | se   | 46.246.52.10   |     443 |       80 | 0.2.6.10    | Linux | https://www.torservers.net/donate.h | SthTOR         |    1 | NULL |
 #+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+----------------+------+------+
 
+#Prefix: torpid
+#+---------------------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname            | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2013-07-12 21:00:00 | torpidsDEdomainf    | domainfactory GmbH     | de   | 37.200.98.5     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-07-18 19:00:00 | torpidsUSqfoundry   | Query Foundry, LLC     | us   | 107.182.131.136 |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |   37 |
+#| 2013-07-25 10:00:00 | torpidsHUazara      | Azar-A Kft.            | hu   | 91.219.237.110  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-08-10 12:00:00 | torpidsFRovh        | OVH SAS                | fr   | 37.187.20.59    |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-09-29 18:00:00 | torpidsDEinterwerk  | Dennis Rainer Warnholz | de   | 134.255.239.61  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-10-15 21:00:00 | torpidsUKuk2        | UK2 - Ltd              | gb   | 46.23.70.195    |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-10-30 21:00:00 | torpidsDEmyloc1     | myLoc managed IT AG    | de   | 185.15.244.124  |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-11-10 14:00:00 | torpidsRUpallada    | ISPsystem, cjsc        | ru   | 212.109.216.120 |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-11-10 19:00:00 | torpidsCZwedos      | WEDOS Internet, a.s.   | cz   | 46.28.110.129   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-11-25 22:00:00 | torpidsUSoplink     | The Optimal Link Corpo | us   | 216.230.230.247 |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2013-11-25 22:00:00 | torpidsDEmyloc      | myLoc managed IT AG    | de   | 46.228.199.19   |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2014-01-15 22:00:00 | torpidsUAitlas      | ITL Company            | ua   | 217.12.199.190  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2014-01-18 18:00:00 | torpidsROclues      | M247 Ltd               | ro   | 89.46.100.162   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2014-03-23 22:00:00 | torpidsCAovh        | OVH SAS                | ca   | 198.50.146.40   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2014-04-13 19:00:00 | torpidsCZgtt        | GTT a.s.               | cz   | 46.36.37.27     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2014-05-09 21:00:00 | torpidsDEmyloc3     | myLoc managed IT AG    | de   | 89.163.224.187  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
+#| 2014-08-08 23:00:00 | torpidsITseflow     | Seflow S.N.C. Di Marco | it   | 94.198.98.71    |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   37 |
+#| 2014-08-13 14:00:00 | torpidsDEcontabo    | Contabo GmbH           | de   | 91.194.90.103   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-08-26 19:00:00 | torpidsFRonline     | ONLINE S.A.S.          | fr   | 195.154.121.198 |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-10-07 21:00:00 | torpidsFRonline2    | ONLINE S.A.S.          | fr   | 195.154.116.232 |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-10-10 18:00:00 | torpidsITseflow2    | Seflow S.N.C. Di Marco | it   | 94.198.100.18   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-10-23 20:00:00 | torpidsDEisppro2    | ISPpro Internet KG     | de   | 81.7.10.251     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-10-24 21:00:00 | torpidsFRdigicube   | Digicube sas           | fr   | 95.130.11.15    |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-10-31 19:00:00 | torpidsLUroot       | root SA                | lu   | 212.117.180.107 |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-11-29 16:00:00 | torpidsNLserverius  | Serverius Holding B.V. | nl   | 217.12.208.117  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-11-29 16:00:00 | torpidsBGitlas      | ITL Company            | bg   | 217.12.203.46   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2014-11-29 17:00:00 | torpidsUScoloat     | Total Server Solutions | us   | 107.181.174.22  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2015-02-09 20:00:00 | torpidsDEisppro     | ISPpro Internet KG     | de   | 81.7.13.84      |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2015-03-12 22:00:00 | torpidsDEleaseweb   | LeaseWeb B.V.          | de   | 37.58.51.137    |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2015-03-22 22:00:00 | torpidsFRplusserver | PlusServer AG          | de   | 188.138.88.42   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2015-03-22 22:00:00 | torpidsUShsi        | Hosting Solutions Inte | us   | 69.64.46.27     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
+#| 2015-03-30 21:00:00 | torpidsFRonline3    | ONLINE S.A.S.          | fr   | 195.154.164.243 |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
+#| 2015-04-07 23:00:00 | torpidsDEisppro3    | ISPpro Internet KG     | de   | 81.7.16.182     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
+#| 2015-04-15 23:00:00 | torpidsDEmyloc2     | myLoc managed IT AG    | de   | 85.14.241.108   |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
+#| 2015-05-03 16:00:00 | torpidsDEkeyweb     | Keyweb AG              | de   | 87.118.114.134  |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
+#| 2015-05-03 18:00:00 | torpidsDEevanzo     | EVANZO e-commerce GmbH | de   | 178.254.40.5    |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
+#| 2015-05-09 20:00:00 | torpidsDEdomainf2   | domainfactory GmbH     | de   | 134.119.36.135  |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
+#| 2015-06-30 22:00:00 | torpidsFRikoula     | Ikoula Net SAS         | fr   | 213.246.56.95   |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
+#+---------------------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+E6E18151300F90C235D3809F90B31330737CEB43,FC37A7B1C264497BA01A08BF6D2C982A99D5B963,0B454C7EBA58657B91133A587C1BDAEDC6E23142,FB40DC3C724E5AA6ECD3EA1F64C0F559B48F21B5,4DDFE360220A80F20A307152186B87B59D883536,935BABE2564F82016C19AEF63C0C40B5753BA3D2,763C9556602BD6207771A7A3D958091D44C43228,6A29FD8C00D573E6C1D47852345B0E5275BA3307,91D23D8A539B83D2FB56AA67ECD4D75CC093AC55,3EE7D6BEAE015552C05E6AA40EBBCC69B251EC23,6B7191639E179965FD694612C9B2C8FB4267B27D,8073670F8F852971298F8AF2C5B23AE012645901,70C55A114C0EF3DC5784A4FAEE64388434A3398F,75C4495F4D80522CA6F6A3FB349F1B009563F4B7,5510FC1736B16D46D3F2DDA5011995C478D42594,580A91DAE04CD402AE70E85E01C3B1FD5BE5136E,BAACCB29197DB833F107E410E2BFAE5009EE7583,4C7BF55B1BFF47993DFF995A2926C89C81E4F04A,0E3DE4D738C91A8BB56432EF2DA7C28D4108F4A2,AC66FFA4AB35A59EBBF5BF4C70008BF24D8A7A5C,5A551BF2E46BF26CC50A983F7435CB749C752553,B35C5739C8C5AB72094EB2B05738FD1F8EEF6EBD,29FA22A7AEE4D8AAEA5BF9271834642EEDA849D7,E26AFC5F718E21AC502899B20C653AEFF688B0D2,CEDD9C7C371E753CDD14D292BCE1C7B8F4734D25
 
+#Prefix: PPTOR0
+#+---------------------+-----------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname  | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+-----------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2015-06-14 02:00:00 | pptor0018 | Hong Kong Serverworks  | hk   | 103.16.26.71    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min | NULL |
+#| 2015-06-15 09:00:00 | pptor0015 | Tehnologii Budushego L | ua   | 213.155.4.144   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-06-18 15:00:00 | PPTOR0016 | LeaseWeb B.V.          | de   | 178.162.194.30  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-06-19 16:00:00 | PPTOR0019 | Web2Objects LLC        | us   | 167.160.44.226  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-06-29 11:00:00 | PPTOR0034 | Bezeqint Internet Back | il   | 81.218.109.106  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-06-29 14:00:00 | PPTOR0041 | Blix Solutions AS      | no   | 91.205.187.186  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-06-29 16:00:00 | PPTOR0004 | Web2Objects LLC        | us   | 167.160.44.194  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-01 15:00:00 | PPTOR0028 | ALISTAR SECURITY SRL   | ro   | 185.57.82.25    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-01 17:00:00 | PPTOR0008 | CityNet Telekom Ltd.   | tr   | 185.65.205.18   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-02 12:00:00 | PPTOR0017 | Iomart                 | gb   | 78.129.180.33   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-02 15:00:00 | PPTOR0005 | VECTANT Ltd.           | jp   | 115.187.74.91   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-02 16:00:00 | PPTOR0040 | DataClub S.A.          | lv   | 46.183.217.244  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-02 17:00:00 | PPTOR0037 | Leaseweb Asia Pacific  | sg   | 103.254.153.202 |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-03 16:00:00 | PPTOR0027 | UAB DUOMENU CENTRAS    | lt   | 5.199.162.8     |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-03 18:00:00 | PPTOR0033 | OVH SAS                | fr   | 5.135.143.84    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-06 12:00:00 | PPTOR0038 | Core-Backbone GmbH     | cz   | 195.138.249.2   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-06 13:00:00 | PPTOR0025 | MediaServicePlus Ltd.  | ru   | 192.162.100.240 |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-06 13:00:00 | PPTOR0023 | iWeb Technologies Inc. | ca   | 67.205.89.142   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-06 14:00:00 | PPTOR0021 | Core-Backbone GmbH     | de   | 82.199.130.34   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-06 14:00:00 | PPTOR0026 | MediaServicePlus Ltd.  | ru   | 192.162.100.241 |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-06 15:00:00 | PPTOR0024 | iWeb Technologies Inc. | ca   | 67.205.112.74   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-07 14:00:00 | PPTOR0011 | Core-Backbone GmbH     | de   | 81.95.5.34      |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-07 14:00:00 | PPTOR0035 | Portlane AB            | se   | 193.105.134.50  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-07 16:00:00 | PPTOR0022 | root SA                | lu   | 94.242.243.162  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |    2 |
+#| 2015-07-07 16:00:00 | PPTOR0013 | root SA                | lu   | 94.242.243.66   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |    2 |
+#| 2015-07-07 17:00:00 | PPTOR0009 | DATAWIRE AG            | ch   | 185.19.87.36    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-08 01:00:00 | PPTOR0036 | Portlane AB            | se   | 193.105.134.156 |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-09 11:00:00 | PPTOR0002 | LeaseWeb B.V.          | nl   | 37.48.74.75     |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-09 13:00:00 | PPTOR0031 | LeaseWeb B.V.          | nl   | 62.212.82.51    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-09 13:00:00 | PPTOR0006 | LeaseWeb B.V.          | nl   | 5.79.71.195     |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-09 13:00:00 | PPTOR0003 | i3d B.V.               | nl   | 31.204.150.106  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-09 14:00:00 | PPTOR0039 | i3d B.V.               | nl   | 31.204.152.102  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-09 14:00:00 | PPTOR0014 | Keyweb AG              | de   | 217.114.218.18  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-09 14:00:00 | PPTOR0007 | i3d B.V.               | nl   | 31.204.150.138  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-17 02:00:00 | PPTOR0030 | THOR Data Center ehf   | is   | 82.221.105.61   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-27 10:00:00 | PPTOR0018 | Hong Kong Serverworks  | hk   | 103.16.26.71    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-27 10:00:00 | PPTOR0022 | root SA                | lu   | 94.242.243.162  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#| 2015-07-27 11:00:00 | PPTOR0013 | root SA                | lu   | 94.242.243.66   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
+#+---------------------+-----------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+92CEAA66CCE0394F7650BC4E3FE23A8EC8C6C645,8B4A0F603F0C842B486CAF9521EA7EA0B27A8E51,06B2E25661A5BC67557FDD799A417D1092899032,CF8F46FA59615307ADA9C92250A526E44CF43E5A,719977AFD37AC1508ADCFD531F771E2595823F11,8E445447DE7EC910FC8F0D209B527C3EA1C1D22C,B174AC101ED5CC81E3F0C7BD7781E48B3FDF2ABF,083C72334645C1BE7854AFCDAA2A883DC7AC097C,78FCECD3B480D0955FDF8FDE2201498B52D6A2D8,C27C619D2518E4B389381F25649998BE785E109D,A8FCC784B71D954BDBF86E06E1BEA3A75C2918DF,7D77CF0C8599EA4C4C1D38B509E2BC76F90552F9,52D5F209EF7B13EEC4375399D8486FC0A18BF06E,9B01F5846498F332B5DF4491D3C251BE226A7E7A,6171B98F3DDCF17D3E86C93AC157D8B5E7574454,7CFF048AC87A2C9D04F533DE6D91092A53BA8485,19E21E00BDFE5ECA51A5E8DE59B4795F8171BCB3,B2776B248AAEDBBE95FFED5725E2EB64257B2E84,4343C5D0740ED755CEBDC3315A07B2DB9EAE224A,5F6690E2A035562C694138D83084A6AC548959F0,6172A6744C818ACA9AB0B5283C28F789CE964416,B44F37BA8FA2DDE6276D2C808AB9C2A8A188200C,12D641B77CE8EF598CBC2F2D1471B60C229C020A,B239242822A3767827874838AA44A9844F85F586,B39801C26C5972F5051E271834794A59349B725E
+
+
+#Prefix: Hostpl
+#+---------------------+----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname       | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2015-06-22 13:00:00 | HostplanetME   | OVH SAS             | fr   | 176.31.159.231 |     443 |       80 | 0.2.6.9     | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-06-29 08:00:00 | HostplanetME2  | OVH SAS             | fr   | 176.31.159.230 |     443 |       80 | 0.2.6.9     | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-06-29 08:00:00 | HostplanetME3  | OVH SAS             | fr   | 176.31.159.224 |     443 |       80 | 0.2.6.9     | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-01 14:00:00 | HostplanetEXIT | Infium Ltd.         | lt   | 46.148.18.74   |     443 |     NULL | 0.2.5.12    | Linux | Hostplanet <abuse .AT. hostplanet . | NULL |
+#| 2015-07-13 13:00:00 | HostplanetME5  | ONLINE S.A.S.       | fr   | 62.210.107.27  |     443 |     NULL | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-13 13:00:00 | HostplanetME6  | ONLINE S.A.S.       | fr   | 195.154.9.161  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-13 14:00:00 | HostplanetME8  | OVH SAS             | fr   | 91.121.153.92  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-13 14:00:00 | HostplanetME7  | OVH SAS             | fr   | 91.121.192.146 |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-13 14:00:00 | HostplanetME6  | OVH SAS             | fr   | 151.80.41.25   |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-13 14:00:00 | HostplanetME9  | OVH SAS             | fr   | 91.121.154.11  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-18 22:00:00 | HostplanetME18 | OVH SAS             | fr   | 37.187.242.231 |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-18 22:00:00 | HostplanetME13 | OVH SAS             | fr   | 176.31.165.31  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-18 22:00:00 | HostplanetME10 | Digital Ocean, Inc. | nl   | 188.166.110.26 |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-18 22:00:00 | HostplanetME11 | OVH SAS             | fr   | 176.31.165.246 |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-18 22:00:00 | HostplanetME16 | OVH SAS             | fr   | 176.31.165.33  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-22 19:00:00 | HostplanetME21 | OVH SAS             | fr   | 37.187.38.113  |     443 |     NULL | 0.2.6.10    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#| 2015-07-22 19:00:00 | HostplanetME20 | OVH SAS             | fr   | 37.187.41.51   |     443 |     NULL | 0.2.6.10    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
+#+---------------------+----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+E19AA1D66715CA3DAD7F907ED524AF84C42FF333,655B1D4E5C9D85AD60F385274262AF3B67845F4A,CA8BBFF4C2389BFD24361D278006DECCE4240D31,65074CA9E6DD03BA81A38A2E553F69859E4431D1,D09943DBAD7F51A1DA350926DE93802140DE5F6B,D5DBCC0B4F029F80C7B8D33F20CF7D97F0423BB1,0BCC5CEB5FAD00D3BF111316DBBD6C2A074F65CE,6CACF0B5F03C779672F3C5C295F37C8D234CA3F7,AFBA143413D7DEEF5C8C12BC1AC13969EB8F6100,D3B2BCD5FBBBD86B49FB0EB07C0C278B17F5CFDF,631748AFB41104D77ADBB7E5CD4F8E8AE876E683,DC89521BBF2B0B7B5FD6C921B6D2E09FECB180D1,46813E4FEF639FF2CF967987C0AAF4C8860B950C,A3DE7C6D2D9938ECF19784A8636091D18027132B,239E89F5A75C1B77E57D9DA6125858EA5F4A2A1F,B6295A9960F89BD0C743EEBC5670450EA6A34685,9EA9321B16CF5E45F5B0E5CE8C34577A4D355569
+
+
+#Prefix: BrassH
+#+---------------------+------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+------+
+#| first_seen          | nickname         | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS      | contact                             | efam |
+#+---------------------+------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+------+
+#| 2014-06-05 14:00:00 | BrassHornRelay01 | Digital Ocean, Inc.    | nl   | 95.85.5.211     |    9001 |     NULL | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |   12 |
+#| 2014-07-01 14:00:00 | BrassHornRelay04 | ITL Company            | ua   | 217.12.199.209  |    9001 |     NULL | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |   12 |
+#| 2014-07-15 21:00:00 | BrassHornRelay05 | SingleHop              | us   | 198.143.136.237 |    9001 |     NULL | 0.2.5.10    | Linux   | 0xDE731050 Gareth Llewellyn <gareth |   12 |
+#| 2014-07-16 18:00:00 | BrassHornRelay06 | WEDOS Internet, a.s.   | cz   | 31.31.75.181    |    4443 |     NULL | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |   12 |
+#| 2014-09-02 11:00:00 | BrassHornRelay08 | Makonix SIA            | se   | 95.215.44.232   |    9001 |     NULL | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |    9 |
+#| 2015-03-01 14:00:00 | BrassHornExit01  | Hetzner Online AG      | de   | 176.9.99.134    |      21 |     NULL | 0.2.5.12    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |    8 |
+#| 2015-04-09 09:00:00 | BrassHornRelay07 | DediPower Managed Host | gb   | 89.151.84.124   |    4443 |     8080 | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |    9 |
+#| 2015-05-12 16:00:00 | BrassHornRelay10 | Digital Ocean, Inc.    | gb   | 178.62.8.189    |    9001 |     NULL | 0.2.5.12    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |    9 |
+#| 2015-05-27 16:00:00 | BrassHornRelay11 | Makonix SIA            | gb   | 185.86.151.102  |    9001 |     NULL | 0.2.5.12    | Linux   | 0x6F6D60C1 Security Dept <hello@bra | NULL |
+#| 2015-06-15 11:00:00 | BrassHornRelay12 | Choopa, LLC            | de   | 108.61.179.46   |    9001 |     NULL | 0.2.4.22    | OpenBSD | 0x6F6D60C1 Security Dept <hello@bra | NULL |
+#| 2015-06-19 18:00:00 | BrassHornRelay02 | Tinet SpA              | fr   | 213.200.106.133 |      21 |     NULL | 0.2.5.10    | OpenBSD | 0x6F6D60C1 Security Dept <hello@bra | NULL |
+#| 2015-06-26 10:00:00 | BrassHornExit02  | NULL                   | NULL | 185.104.120.2   |      21 |     9030 | 0.2.5.10    | OpenBSD | 0x6F6D60C1 Security Dept <hello@bra |    8 |
+#| 2015-06-26 10:00:00 | BrassHornExit03  | NULL                   | NULL | 185.104.120.4   |    9001 |     NULL | 0.2.5.12    | Linux   | 0x6F6D60C1 Security Dept <hello@bra | NULL |
+#+---------------------+------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+------+
+#fingerprints:
+B3515F16CBD1FE394539BCD903DA4CA0D911B0D2,3EB75E339637ED5A4D12E7ADD9E44191439896F7,9462B7B85F85F856B3A7AE12A4963BAE9A102D7C,518FF8708698E1DA09C823C36D35DF89A2CAD956,F92B3CB9BBE0CB22409843FB1AE4DBCD5EFAC835,EE0536196580B5465BB33DC6CB9F6A63138F2575,7109376DCD7F9A9F707B3138056408F2D786F079,445F1C853966624FB3CF1E12442570DC553CC2EC,5CAECF26A0DF40D898672560EB889D68F075E971,254EB51B0B85B2FB8A70997875DA493420A30458,AFE81C1E3B4CF0707EE80D0BFCD605869B0DA539,685C87AB7672C0934BDD87548C4EF8DFE0BCE2B3,6BC82EBA99DCD796C7FD66C3594AED9DA6CE2ADE
+
+#Prefix: Montha
+#+---------------------+--------------+------------------------+------+-----------------+---------+----------+-------------------+-------+-------------------------------------+------+
+#| first_seen          | nickname     | AS                     | cc   | IP              | or_port | dir_port | tor_version       | OS    | contact                             | efam |
+#+---------------------+--------------+------------------------+------+-----------------+---------+----------+-------------------+-------+-------------------------------------+------+
+#| 2015-04-15 21:00:00 | Montharkan1  | myLoc managed IT AG    | de   | 85.114.135.113  |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-04-15 21:00:00 | Montharkan0  | myLoc managed IT AG    | de   | 85.114.135.113  |     993 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-04-15 21:00:00 | Montharkan4  | myLoc managed IT AG    | de   | 193.111.140.118 |     443 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-04-15 21:00:00 | Montharkan5  | myLoc managed IT AG    | de   | 193.111.140.118 |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-04-15 21:00:00 | Montharkan2  | United Gameserver GmbH | de   | 213.202.208.53  |     993 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-04-15 21:00:00 | Montharkan6  | United Gameserver GmbH | de   | 213.202.208.130 |     443 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-04-15 21:00:00 | Montharkan7  | United Gameserver GmbH | de   | 213.202.208.130 |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-04-15 21:00:00 | Montharkan3  | United Gameserver GmbH | de   | 213.202.208.53  |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-06-16 13:00:00 | Montharkan8  | United Gameserver GmbH | de   | 213.202.219.199 |     443 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-06-16 13:00:00 | Montharkan9  | United Gameserver GmbH | de   | 213.202.219.199 |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-06-16 13:00:00 | Montharkan10 | United Gameserver GmbH | de   | 213.202.219.198 |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#| 2015-06-16 13:00:00 | Montharkan11 | United Gameserver GmbH | de   | 213.202.219.198 |     993 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
+#+---------------------+--------------+------------------------+------+-----------------+---------+----------+-------------------+-------+-------------------------------------+------+
+#fingerprints:
+5632FF83096A15FD3312FE68A9709E709D22D452,8B4A1D2E68DD937732FB1B0868D845FA26DC0A80,01B840FB69FA7803DA306B5F876FEEA11B444AA5,376BAD4B66A44D8FD7895ECC6F9728323615346F,117B7F36D4125770771085A7D0A4939A3CD88409,2D088C6FF11F876DDE164C747693512B27F059C7,3A78E4272083AE7B2FAD47E2181AD85A995AC761,B9D7A783F056B70D3DAA49E3389F5BB3FCA93463,19494B840C6D484AAB903745E438C457019D39E2,BE2F07AD72A77A749B56D5EB1DDEA771EE7CCC4F,32EC8D60098612FE0E515C0EB02C34B61F8D07C1,89F6662CA1D5B6663932AA3AAE0BAFE890CC81A3
+
+#Prefix: CalyxI
+#+---------------------+------------------+---------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+------+
+#| first_seen          | nickname         | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS      | contact                             | efam |
+#+---------------------+------------------+---------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+------+
+#| 2013-06-11 21:00:00 | CalyxInstitute01 | The Calyx Institute | us   | 162.247.72.7   |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot |    6 |
+#| 2013-06-14 08:00:00 | CalyxInstitute02 | The Calyx Institute | us   | 162.247.72.212 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot |    6 |
+#| 2013-06-23 03:00:00 | CalyxInstitute03 | The Calyx Institute | us   | 162.247.72.213 |    9001 |     9030 | 0.2.5.10    | FreeBSD | Nicholas Merrill <nick AT calyx dot |    6 |
+#| 2013-07-08 03:00:00 | CalyxInstitute04 | The Calyx Institute | us   | 162.247.73.204 |    9001 |     9030 | 0.2.5.10    | FreeBSD | Nicholas Merrill <nick at calyx dot |    6 |
+#| 2013-07-08 16:00:00 | CalyxInstitute05 | The Calyx Institute | us   | 162.247.73.74  |    9001 |     9030 | 0.2.5.10    | FreeBSD | Nick Merrill <nick AT calyx dot com |    6 |
+#| 2013-11-05 16:00:00 | CalyxInstitute07 | XS4ALL Internet BV  | nl   | 82.94.251.227  |     443 |       80 | 0.2.5.12    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
+#| 2013-11-12 21:00:00 | CalyxInstitute08 | The Calyx Institute | us   | 162.247.72.216 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot |    6 |
+#| 2013-11-19 05:00:00 | CalyxInstitute09 | The Calyx Institute | us   | 162.247.72.217 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
+#| 2013-11-23 00:00:00 | CalyxInstitute06 | The Calyx Institute | us   | 162.247.73.206 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
+#| 2014-12-16 20:00:00 | CalyxInstitute12 | The Calyx Institute | us   | 162.247.72.199 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
+#| 2014-12-20 17:00:00 | CalyxInstitute13 | The Calyx Institute | us   | 162.247.72.200 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
+#| 2014-12-23 17:00:00 | CalyxInstitute14 | The Calyx Institute | us   | 162.247.72.201 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
+#+---------------------+------------------+---------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+------+
+#fingerprints:
+1B9FACF25E17D26E307EA7CFA7D455B144B032E5,0011BD2485AD45D984EC4159C88FC066E5E3300E,6F4E9FD00D4251D98BE96FB1AA546FE34676A95B,51BFE90C64B84C912D3D1D303605CE2A67970EC0,84D361B736A8CD1E8818D0FC186892E91AB76881,501B3DBF250B094A05CA5DBC424AD4C3D46721A2,0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB,A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E,B34CC9056250847D1980F08285B01CF0B718C0B6,7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2,E4D1F25DFBE484208866BA4A1A958B73127CB0AD,3329E736CCA16449D02D567D42683BF1FD798676
+
+#Prefix: baurui
+#+---------------------+-------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname    | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+-------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2014-03-21 11:00:00 | bauruine121 | Hetzner Online AG      | de   | 148.251.84.200 |    9001 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   12 |
+#| 2014-04-09 10:00:00 | bauruine204 | ONLINE S.A.S.          | fr   | 212.83.154.33  |    8443 |     8080 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   12 |
+#| 2014-04-09 10:00:00 | bauruine203 | ONLINE S.A.S.          | fr   | 212.83.154.33  |     443 |     8888 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   12 |
+#| 2014-04-09 10:00:00 | bauruine42  | Hetzner Online AG      | de   | 5.9.26.219     |    8889 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   10 |
+#| 2014-04-09 11:00:00 | bauruine122 | Hetzner Online AG      | de   | 148.251.84.200 |    9223 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   10 |
+#| 2014-04-14 18:00:00 | bauruine21  | Hetzner Online AG      | de   | 176.9.103.20   |   27443 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
+#| 2014-04-14 19:00:00 | bauruine202 | ONLINE S.A.S.          | fr   | 62.210.137.230 |    8443 |     8080 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
+#| 2014-04-14 19:00:00 | bauruine41  | Hetzner Online AG      | de   | 5.9.26.219     |    8888 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
+#| 2014-04-14 19:00:00 | bauruine201 | ONLINE S.A.S.          | fr   | 62.210.137.230 |     443 |     8888 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
+#| 2015-07-27 14:00:00 | bauruine121 | Swisscom (Switzerland) | ch   | 178.194.7.113  |    9001 |     9031 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
+#+---------------------+-------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+B9122392A201701BE9497AC2B3B88E0E831A05B3,F596E1B1EF98E1DDBBDC934DB722AF54069868F6,322C6E3A973BC10FC36DE3037AD27BC89F14723B,396CAB85997AD559A3F1BBF733D52F402EED241A,A62F9AC6E22BE14A0CB888A03BFEF2A9533D3DA2,92B953F3691CC2D9D65A4AF915B42AEF11F2C8CC,3C79699D4FBC37DE1A212D5033B56DAE079AC0EF,63C1904FFE2DCB48B4F0FE8A4551CF53412EA289,52F7C67BB331A2E7C446AFAE4AD300C67C64FBB8,CD6B850159CFF4C068A8D0F1BA5296AE4EDCAB39
+
+
+#Prefix: Pascal
+#+---------------------+----------+-------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname | AS                | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+----------+-------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2011-11-04 02:00:00 | Pascal0  | Eonix Corporation | us   | 107.158.255.21 |     443 |     NULL | 0.2.5.12    | Linux | Pascal666 at Users dot SourceForge  |    6 |
+#| 2011-11-04 02:00:00 | Pascal2  | Eonix Corporation | us   | 107.158.255.22 |      80 |     NULL | 0.2.5.12    | Linux | Pascal666 at Users dot SourceForge  |    6 |
+#| 2011-11-04 02:00:00 | Pascal3  | Eonix Corporation | us   | 107.158.255.22 |     110 |     NULL | 0.2.5.12    | Linux | Pascal666 at Users dot SourceForge  |    6 |
+#| 2011-11-04 02:00:00 | Pascal1  | Eonix Corporation | us   | 107.158.255.21 |     143 |     NULL | 0.2.5.12    | Linux | Pascal666 at Users dot SourceForge  |    6 |
+#| 2014-08-13 23:00:00 | Pascal4  | Hostwinds LLC.    | us   | 23.254.128.38  |     443 |       80 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    9 |
+#| 2014-10-04 05:00:00 | Pascal5  | Hostwinds LLC.    | us   | 23.238.17.229  |      22 |       23 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    9 |
+#| 2014-11-30 03:00:00 | Pascal7  | Hostwinds LLC.    | us   | 23.254.165.250 |     143 |      587 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    7 |
+#| 2014-11-30 03:00:00 | Pascal6  | Hostwinds LLC.    | us   | 23.254.165.132 |      80 |      443 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    7 |
+#| 2014-12-01 06:00:00 | Pascal8  | Hostwinds LLC.    | us   | 23.254.166.222 |      80 |      443 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    7 |
+#| 2014-12-02 21:00:00 | Pascal9  | Hostwinds LLC.    | us   | 23.254.167.231 |      21 |       20 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  | NULL |
+#+---------------------+----------+-------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+F2C4B2B7628F48D293AFD841B868B13914C7D570,237C733E2D1BAD26FAABEAFB612BDA0CD3BC6AF4,5C67A9CE8B9A03DCEA0CC94ED77A7FF9C6A4B0C0,5B7AEB1421AC575E1A545A2092B32C0AA4760748,C04BE1845AA80AA49D5353B52EE6E35B4CF1547B,A1A8E2C578047E441F2412C91894E2785176CCE9,350F35705CDEFC1C4ED318C8CB7EE493421109CB,30BAB8EE7606CBD12F3CC269AE976E0153E7A58D,C94372690078DD1AA8000FA5A9F7D686CF44F5A6,7B2553AEA4A3FC9E1B513D772ECA652C8CC15337
+
+#Prefix: DFRIpi
+#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+------------------------------+------+
+#| first_seen          | nickname   | AS                  | cc   | IP              | or_port | dir_port | tor_version | OS    | contact                      | efam |
+#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+------------------------------+------+
+#| 2013-09-23 19:00:00 | DFRIpi016  | Bahnhof Internet AB | se   | 37.123.182.13   |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2013-09-24 13:00:00 | DFRIpi006  | Bredband2 AB        | se   | 46.162.112.129  |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2013-09-27 20:00:00 | DFRIpi018  | Tyfon               | se   | 178.174.225.229 |     643 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2013-10-03 20:00:00 | DFRIpi019  | Bahnhof Internet AB | se   | 5.150.204.198   |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2013-10-09 10:00:00 | DFRIpi013  | Bahnhof Internet AB | se   | 46.59.28.54     |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2013-12-11 14:00:00 | DFRIpi017  | Telenor Norge AS    | se   | 85.227.188.169  |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2014-01-05 16:00:00 | DFRIpiELOF | TeliaSonera AB      | se   | 90.225.80.219   |     443 |     9030 | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2014-06-18 13:00:00 | DFRIpi004  | Bahnhof Internet AB | se   | 5.150.204.149   |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2015-03-21 00:00:00 | DFRIpi008  | TeliaSonera AB      | se   | 217.209.85.237  |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#| 2015-04-09 18:00:00 | DFRIpi023  | Telenor Norge AS    | se   | 83.227.73.202   |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
+#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+------------------------------+------+
+#fingerprints:
+5A67231A7800C8198BDD6C62D0067A559913BD90,567DB3231711C1BAA3BFDC430EA0243C840D2F4F,F37D747EA849D549AC48D82A9690AA4F9645BF67,BBEEDF81801E301A7FEFAD9CEBA96900E4427745,BF636047177D23CC3B5EE785AA1FAF1E088DE8CC,CD7F4E4F18C4C7AC651850CE300A10A1D2CEC0D0,A9C7D9EC396F2FF0068F38E302C3BDD8A00EE3D5,A0E88DD278D6F1C7E32D3A3C233BD19DCB6D7113,E96C9232EDD78D2FEE204B93B8388A1303343249,57DA1B2A27676DAAED418D5C60CB3FEB3D736E71
+
+#Prefix: cloudv
+#+---------------------+----------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
+#| first_seen          | nickname | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact | efam |
+#+---------------------+----------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
+#| 2015-07-04 10:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.243.71  |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.209 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.218 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.179 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.215 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.183 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.242.92  |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.168 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.178 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.170 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
+#+---------------------+----------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
+#fingerprints:
+921EDC614CA0A401C7C814CA08A79C338F9220D9,5B247EAF6378427288A907D90206406C892219FB,DA88319D187C21AAC13BC634C083748362CBC237,1B9A17390F36C3FAC39FBB65AE5352D267B41AAC,09E6EA3343EF22220CB4302FAD27BA2341808B39,0ABC78F60FCDDC34CA597D9258665D79B6E1409D,9633EF7E07AA3655638286A3688127156055FFF9,2316E6F012ACA52FDB09C745B0F5B41E78C23AE9,51B38CAEB1CBF8EDC4F8797FF94A0E1ABB021FDC,6B78341D7E8064E94F4EEF213D565BFA3882AF0E
+
+#Prefix: chaosc
+#+---------------------+---------------------+------------------------+------+----------------+---------+----------+---------------+---------+-------------------------------------+------+
+#| first_seen          | nickname            | AS                     | cc   | IP             | or_port | dir_port | tor_version   | OS      | contact                             | efam |
+#+---------------------+---------------------+------------------------+------+----------------+---------+----------+---------------+---------+-------------------------------------+------+
+#| 2014-04-08 10:00:00 | chaoscomputerclub29 | Nessus GmbH            | at   | 77.244.254.229 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
+#| 2014-04-08 10:00:00 | chaoscomputerclub34 | Netsign Networks GmbH  | de   | 217.115.10.134 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
+#| 2014-04-08 10:00:00 | chaoscomputerclub32 | Netsign Networks GmbH  | de   | 217.115.10.132 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
+#| 2014-04-08 10:00:00 | chaoscomputerclub31 | Netsign Networks GmbH  | de   | 217.115.10.131 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
+#| 2014-04-08 10:00:00 | chaoscomputerclub27 | Nessus GmbH            | at   | 77.244.254.227 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
+#| 2014-04-08 10:00:00 | chaoscomputerclub30 | Nessus GmbH            | at   | 77.244.254.230 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
+#| 2014-04-08 10:00:00 | chaoscomputerclub28 | Nessus GmbH            | at   | 77.244.254.228 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
+#| 2015-01-19 19:00:00 | chaoscomputerclub5  | Host Europe GmbH       | de   | 80.237.226.75  |     443 |       80 | 0.2.6.9       | FreeBSD | anonymizer@ccc.de                   | NULL |
+#| 2015-04-15 22:00:00 | chaoscomputerclub19 | rrbone UG (haftungsbes | ch   | 31.172.30.2    |     443 |       80 | 0.2.7.1-alpha | SunOS   | J. Random Hacker <anonymizer@ccc.de | NULL |
+#+---------------------+---------------------+------------------------+------+----------------+---------+----------+---------------+---------+-------------------------------------+------+
+#fingerprints:
+0E22366D0EB12CA0CDD3693452F43BA0A1D9D515,31A993F413D01E68117F76247E4F242095190B87,B7BE1D35762155FEB2BC9DAE0A157C706D738FE5,A07FF746D9BA56C3F916BBD404307396BFA862E0,1A1DA6B9F262699A87F9A4F24EF48B50148EB018,9BDF3EEA1D33AA58A2EEA9E6CA58FB8A667288FC,A3279B1AC705C9F3478947598CF0557B81E12DE1,AB176BD65735A99DCCB7889184E62EF0B2E35751,7F49A3F28C403591BFDD46F46BFD1E7F802E612D
+
+
+
+#Prefix: TorAus
+#+---------------------+-------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname          | AS                 | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+-------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2014-09-07 01:00:00 | TorAustralisLVI   | ColoCrossing       | us   | 23.95.43.72    |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot | NULL |
+#| 2014-09-07 01:00:00 | TorAustralisLV    | ColoCrossing       | us   | 23.95.43.73    |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
+#| 2014-09-07 01:00:00 | TorAustralisLIII  | ColoCrossing       | us   | 23.95.43.75    |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
+#| 2014-09-07 02:00:00 | TorAustralisXVII  | HostDime.com, Inc. | us   | 162.221.184.64 |     443 |     9030 | 0.2.6.7     | Linux | <periplanetaamericanus AT gmail dot |    8 |
+#| 2014-09-20 09:00:00 | TorAustralisLIX   | ColoCrossing       | us   | 198.23.202.71  |     443 |     9030 | 0.2.6.10    | Linux | <milgramandskinner AT gmail dot com |   12 |
+#| 2014-09-20 09:00:00 | TorAustralisLVIII | ColoCrossing       | us   | 192.3.177.167  |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
+#| 2014-09-23 07:00:00 | TorAustralisLVII  | ColoCrossing       | us   | 192.3.172.236  |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
+#| 2014-10-25 13:00:00 | TorAustralisLX    | ColoCrossing       | us   | 192.3.203.97   |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
+#| 2015-07-22 14:00:00 | TorAustralisLXIII | HostDime.com, Inc. | gb   | 212.18.232.123 |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot | NULL |
+#+---------------------+-------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+446AEE9BF53E21DEFFC13669DEF29802F4E1BB2D,56F26A09171AEC56E70F8336756C8D4EB39C6024,47D04EC4A5EA83A1B6D4CD68D39F95272596001F,7A29FEA97CC41E3121B52B4EBE97FD447EB3E150,39CA2682866DED6A502B648F981C44D61AD5A97B,9471282EA0075E84E70490D13B579A8B07CC486D,5B5213C48B22135A6D24FA5D11275321880D7E87,8BFD4BAAD59C64D43DD2221C700C8D6CE9F2C7AA,4B21CBF3FCD464611564AD8848FA412EFF7F3335
+
+#Prefix: UtahSt
+#+---------------------+----------------+-----------------------+------+--------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname       | AS                    | cc   | IP           | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+----------------+-----------------------+------+--------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2014-04-09 02:00:00 | UtahStateExit1 | Utah State University | us   | 129.123.7.6  |    8443 |     8080 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 | NULL |
+#| 2014-04-09 02:00:00 | UtahStateExit0 | Utah State University | us   | 129.123.7.6  |     443 |     8008 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 | NULL |
+#| 2014-04-17 08:00:00 | UtahState0     | Utah State University | us   | 129.123.7.8  |    8443 |     8000 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 |    4 |
+#| 2014-04-17 20:00:00 | UtahState1     | Utah State University | us   | 129.123.7.8  |    9001 |     8008 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 |    4 |
+#| 2014-04-17 21:00:00 | UtahState3     | Utah State University | us   | 129.123.7.39 |    8443 |     8080 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 |    4 |
+#| 2014-04-17 21:00:00 | UtahState2     | Utah State University | us   | 129.123.7.39 |     443 |       80 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 |    4 |
+#| 2014-11-17 21:00:00 | UtahStateExit3 | Utah State University | us   | 129.123.7.7  |    8443 |     8080 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 | NULL |
+#| 2014-11-17 21:00:00 | UtahStateExit2 | Utah State University | us   | 129.123.7.7  |     443 |       80 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 | NULL |
+#+---------------------+----------------+-----------------------+------+--------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+1946F5E4748B069D3B989B5AF50C7DDD3AC61859,C6DC982A0FE54BC91AF32629F33711D5C12C5546,2FC06226AE152FBAB7620BB107CDEF0E70876A7B,7E4E1CC167300932F05AC70ECD2B9A298732C6E2,B4E641BC42DDB6FD2526CFF80504AB5221B0EB82,40DF7E2EDE33DFCB126D241BD1907EED70925498,BFA0E9F3E6F446BB538877D89CD57DB1362E799C,4B8C39A51FD0BE3F91E0A1C3F5AA67A17EC56EB7
+
+#Prefix: CatRel
+#+---------------------+------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname   | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2014-11-28 14:00:00 | CatRelay09 | ONLINE S.A.S.       | fr   | 195.154.81.108 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
+#| 2014-11-28 14:00:00 | CatRelay08 | ONLINE S.A.S.       | fr   | 195.154.87.231 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
+#| 2014-11-28 14:00:00 | CatRelay10 | ONLINE S.A.S.       | fr   | 195.154.81.110 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
+#| 2014-11-28 16:00:00 | CatRelay12 | ONLINE S.A.S.       | fr   | 195.154.81.245 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
+#| 2014-11-28 16:00:00 | CatRelay11 | ONLINE S.A.S.       | fr   | 195.154.81.227 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
+#| 2015-01-29 18:00:00 | CatRelay05 | myLoc managed IT AG | de   | 85.114.133.96  |    9001 |     9030 | 0.2.5.12    | Linux | t@or-no.de - 1L3NkCq7GPctWknh5sTEcz | NULL |
+#| 2015-02-19 22:00:00 | CatRelay01 | myLoc managed IT AG | de   | 5.104.106.38   |    9001 |     9030 | 0.2.5.12    | Linux | t@or-no.de - 1L3NkCq7GPctWknh5sTEcz | NULL |
+#+---------------------+------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+9D5A5D54EC2B63CBDA5345EAEA9768539E926C5E,BB873194370CC3DE9C1A7BFBD4477D1C7FE33EF1,CEB7F02E51A14D4BF867AA1A20CB94A1CFFF7957,16B9833CF947BCB27905212DD182ABA1EBE2DA96,6E58558F2BB4F318B01D1FD2680827DDEB0CA2A2,68651544DC720A5F71FA06F2713EA6C0B7E836DB,F9EF1F29654CF20F51A30D4BCF04E7D1012F7FDE
+
+
+#Prefix: iLoveD
+#+---------------------+------------------+---------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
+#| first_seen          | nickname         | AS                  | cc   | IP              | or_port | dir_port | tor_version | OS    | contact | efam |
+#+---------------------+------------------+---------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
+#| 2015-06-18 00:00:00 | iLoveDemocracy1  | ONLINE S.A.S.       | fr   | 195.154.110.199 |    9001 |     9030 | 0.2.4.20    | Linux | NULL    |    2 |
+#| 2015-06-18 17:00:00 | iLoveDemocracy2  | Hetzner Online AG   | de   | 5.9.43.79       |   10201 |    10202 | 0.2.4.20    | Linux | NULL    |    3 |
+#| 2015-06-18 18:00:00 | iLoveDemocracy3  | QuadraNet, Inc      | us   | 104.223.16.216  |    9001 |     NULL | 0.2.4.20    | Linux | NULL    |    2 |
+#| 2015-06-19 23:00:00 | iLoveDemocracy4  | ColoCrossing        | us   | 23.94.239.200   |    9001 |     NULL | 0.2.4.20    | Linux | NULL    | NULL |
+#| 2015-06-24 01:00:00 | iLoveDemocracy15 | ONLINE S.A.S.       | fr   | 195.154.110.199 |    9002 |     9031 | 0.2.4.20    | Linux | NULL    | NULL |
+#| 2015-07-03 06:00:00 | iLoveDemocracy5  | SunnyVision Limited | hk   | 103.41.132.27   |    9001 |     9030 | 0.2.4.20    | Linux | NULL    | NULL |
+#+---------------------+------------------+---------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
+#fingerprints:
+E04EC2A33240BB86D401C6DE0E75064D56A39455,C156D41E5977A121F0F53C4BD2E927762DF10F4D,CC7F2216A8F2C0FB0AC30CFC6F3AFED4FA8962E8,D3044D67B9847CF7ACA446C96D126BA2CE2CDB2F,25DF045F51D194B5C8E04F5BD37A0B7293B02DA7,6CB49A538797E515F29100F6618E271DC895914B
+
+#Prefix: democr
+#+---------------------+-------------+-----------------+------+----------------+---------+----------+-------------+-------+---------+------+
+#| first_seen          | nickname    | AS              | cc   | IP             | or_port | dir_port | tor_version | OS    | contact | efam |
+#+---------------------+-------------+-----------------+------+----------------+---------+----------+-------------+-------+---------+------+
+#| 2015-07-01 11:00:00 | democracy1x | BlazingFast LLC | nl   | 185.11.146.56  |    9002 |     9031 | 0.2.4.23    | Linux | NULL    | NULL |
+#| 2015-07-01 11:00:00 | democracy1  | BlazingFast LLC | nl   | 185.11.146.56  |    9001 |     9030 | 0.2.4.23    | Linux | NULL    | NULL |
+#| 2015-07-02 19:00:00 | democracy2  | BlazingFast LLC | nl   | 185.62.190.123 |    9001 |     9030 | 0.2.4.20    | Linux | NULL    | NULL |
+#| 2015-07-02 19:00:00 | democracy2x | BlazingFast LLC | nl   | 185.62.190.123 |    9002 |     9031 | 0.2.4.20    | Linux | NULL    | NULL |
+#| 2015-07-04 02:00:00 | democracy3x | NULL            | nl   | 188.209.52.158 |    9002 |     9031 | 0.2.4.20    | Linux | NULL    | NULL |
+#| 2015-07-04 05:00:00 | democracy4x | BlazingFast LLC | nl   | 185.62.190.231 |    9002 |     9031 | 0.2.4.20    | Linux | NULL    | NULL |
+#+---------------------+-------------+-----------------+------+----------------+---------+----------+-------------+-------+---------+------+
+#fingerprints:
+108A05DA6CB21AAE86F856644AA78B5E07CA2B80,2461BBE3D84FB9805B0AE06AC2711880F960208B,9B34588A68F2F9184A9EC9F5B7269ABACDDBB2E2,4AE2284D407EE15D35A987915531E780EECED1DB,B0BA40DCD63E222F9C62EB89BBDA66508A5E697D,AC69B899BDB5876A74B45D55EED6A66ECE280AF3
+
+#Prefix: pipeep
+#+---------------------+-----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| first_seen          | nickname        | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
+#+---------------------+-----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#| 2014-07-20 09:00:00 | pipeephostus    | HostUS              | us   | 45.58.48.22    |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
+#| 2015-03-08 19:00:00 | pipeepcomicsans | Digital Ocean, Inc. | us   | 104.236.96.166 |     443 |       80 | 0.2.6.10    | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
+#| 2015-04-06 06:00:00 | pipeepfirasans  | OVH SAS             | ca   | 167.114.29.117 |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
+#| 2015-05-23 07:00:00 | pipeepdroidsans | QuadraNet, Inc      | us   | 104.223.15.162 |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
+#| 2015-06-20 09:00:00 | pipeepgeorgia   | OVH SAS             | ca   | 167.114.29.114 |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
+#| 2015-06-20 09:00:00 | pipeephelvetica | OVH SAS             | fr   | 46.105.232.179 |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
+#+---------------------+-----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
+#fingerprints:
+E0D18E579C6901AEF38DB21DFB3914DDC91E8D20,6924EF4C82647B85F697A54547969F41354A287F,AB74D902B6B8A9EE0BE838EDA8E224CE73225417,71DF64DBCC0ADE3C6B6BE368FC2D82257C8527D0,E4490CA9BF6858F0954467D87BD91251F4DC1332,921D1262B797299C13DEB4ED7B909BF76CC5FFF7
+
+#Prefix: HughLa
+#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+----------------------+------+
+#| first_seen          | nickname   | AS                  | cc   | IP              | or_port | dir_port | tor_version | OS    | contact              | efam |
+#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+----------------------+------+
+#| 2014-11-19 16:00:00 | HughLaurie | Korea Telecom       | kr   | 222.114.148.248 |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
+#| 2014-11-19 16:00:00 | HughLaurie | Korea Telecom       | kr   | 221.158.149.197 |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
+#| 2015-02-18 07:00:00 | HughLaurie | Korea Telecom       | kr   | 59.27.30.43     |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
+#| 2015-03-14 12:00:00 | HughLaurie | Korea Telecom       | kr   | 59.27.30.37     |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
+#| 2015-04-06 01:00:00 | HughLaurie | Hanaro Telecom Inc. | kr   | 39.119.168.44   |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
+#| 2015-04-18 03:00:00 | HughLaurie | Hanaro Telecom Inc. | kr   | 39.119.164.83   |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
+#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+----------------------+------+
+#fingerprints:
+9A3A62F3AA98B491E72EA6E14E9D902D77E8C8E2,95D866699060B6B1C49268AF1F252F861CE8827C,A9526370668161AE54425D8119DB9DE8332C0FE7,7AF8A9B1C07E699C403AD165C4866948378D2C3D,2D6829E2D62947CEC74F99E65FA826F1BC2CD1F9,01CDAF1825C7E71EDC9D5772D9C9F2DFF215ECA1
+
+#Prefix: Babylo
+#+---------------------+------------------+------------------------+------+-----------------+---------+----------+---------------+-------+-------------------------------------+------+
+#| first_seen          | nickname         | AS                     | cc   | IP              | or_port | dir_port | tor_version   | OS    | contact                             | efam |
+#+---------------------+------------------+------------------------+------+-----------------+---------+----------+---------------+-------+-------------------------------------+------+
+#| 2015-02-28 17:00:00 | BabylonNetwork00 | myLoc managed IT AG    | de   | 80.82.215.199   |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
+#| 2015-03-09 23:00:00 | BabylonNetwork01 | myLoc managed IT AG    | de   | 193.111.136.162 |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
+#| 2015-06-07 22:00:00 | BabylonNetwork02 | OVH SAS                | fr   | 149.202.98.160  |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
+#| 2015-06-29 00:00:00 | BabylonNetwork03 | OVH SAS                | fr   | 149.202.98.161  |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
+#| 2015-07-20 22:00:00 | BabylonNetwork04 | Luke William Batchelor | se   | 192.121.82.66   |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
+#| 2015-07-26 21:00:00 | BabylonNetwork00 | myLoc managed IT AG    | de   | 80.82.215.199   |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  | NULL |
+#+---------------------+------------------+------------------------+------+-----------------+---------+----------+---------------+-------+-------------------------------------+------+
+#fingerprints:
+C79552275DFCD486B942510EF663ED36ACA1A84B,B21F7249107D80988DBA8CDABE9A53A3A3775CE2,1AE2348FBD9E1645382FCE99DA09C44E2B8F1019,345C2761F97487FCDDA17F4DE95518136FA380F4,3BEFAB76461B6B99DCF34C285E933562F5712AE4,54660C671B47E6986B465B80444414BD19E5A34B
 
 #contact: noc@cymru.com
 #+---------------------+-----------------+------+--------------+---------+----------+-------------+-------+---------------+-------------+------+------+
@@ -479,396 +868,7 @@ E51DC61D6EE94CEC6E31EA98D0B96619DBE1C653,1FCC49462AC0395CF303EAA1DE99C95F48BBEA3
 
 
 
-#Prefix: torpid
-#+---------------------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname            | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2013-07-12 21:00:00 | torpidsDEdomainf    | domainfactory GmbH     | de   | 37.200.98.5     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-07-18 19:00:00 | torpidsUSqfoundry   | Query Foundry, LLC     | us   | 107.182.131.136 |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |   37 |
-#| 2013-07-25 10:00:00 | torpidsHUazara      | Azar-A Kft.            | hu   | 91.219.237.110  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-08-10 12:00:00 | torpidsFRovh        | OVH SAS                | fr   | 37.187.20.59    |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-09-29 18:00:00 | torpidsDEinterwerk  | Dennis Rainer Warnholz | de   | 134.255.239.61  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-10-15 21:00:00 | torpidsUKuk2        | UK2 - Ltd              | gb   | 46.23.70.195    |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-10-30 21:00:00 | torpidsDEmyloc1     | myLoc managed IT AG    | de   | 185.15.244.124  |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-11-10 14:00:00 | torpidsRUpallada    | ISPsystem, cjsc        | ru   | 212.109.216.120 |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-11-10 19:00:00 | torpidsCZwedos      | WEDOS Internet, a.s.   | cz   | 46.28.110.129   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-11-25 22:00:00 | torpidsUSoplink     | The Optimal Link Corpo | us   | 216.230.230.247 |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2013-11-25 22:00:00 | torpidsDEmyloc      | myLoc managed IT AG    | de   | 46.228.199.19   |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2014-01-15 22:00:00 | torpidsUAitlas      | ITL Company            | ua   | 217.12.199.190  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2014-01-18 18:00:00 | torpidsROclues      | M247 Ltd               | ro   | 89.46.100.162   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2014-03-23 22:00:00 | torpidsCAovh        | OVH SAS                | ca   | 198.50.146.40   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2014-04-13 19:00:00 | torpidsCZgtt        | GTT a.s.               | cz   | 46.36.37.27     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2014-05-09 21:00:00 | torpidsDEmyloc3     | myLoc managed IT AG    | de   | 89.163.224.187  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   32 |
-#| 2014-08-08 23:00:00 | torpidsITseflow     | Seflow S.N.C. Di Marco | it   | 94.198.98.71    |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |   37 |
-#| 2014-08-13 14:00:00 | torpidsDEcontabo    | Contabo GmbH           | de   | 91.194.90.103   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-08-26 19:00:00 | torpidsFRonline     | ONLINE S.A.S.          | fr   | 195.154.121.198 |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-10-07 21:00:00 | torpidsFRonline2    | ONLINE S.A.S.          | fr   | 195.154.116.232 |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-10-10 18:00:00 | torpidsITseflow2    | Seflow S.N.C. Di Marco | it   | 94.198.100.18   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-10-23 20:00:00 | torpidsDEisppro2    | ISPpro Internet KG     | de   | 81.7.10.251     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-10-24 21:00:00 | torpidsFRdigicube   | Digicube sas           | fr   | 95.130.11.15    |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-10-31 19:00:00 | torpidsLUroot       | root SA                | lu   | 212.117.180.107 |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-11-29 16:00:00 | torpidsNLserverius  | Serverius Holding B.V. | nl   | 217.12.208.117  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-11-29 16:00:00 | torpidsBGitlas      | ITL Company            | bg   | 217.12.203.46   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2014-11-29 17:00:00 | torpidsUScoloat     | Total Server Solutions | us   | 107.181.174.22  |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2015-02-09 20:00:00 | torpidsDEisppro     | ISPpro Internet KG     | de   | 81.7.13.84      |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2015-03-12 22:00:00 | torpidsDEleaseweb   | LeaseWeb B.V.          | de   | 37.58.51.137    |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2015-03-22 22:00:00 | torpidsFRplusserver | PlusServer AG          | de   | 188.138.88.42   |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2015-03-22 22:00:00 | torpidsUShsi        | Hosting Solutions Inte | us   | 69.64.46.27     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF |    3 |
-#| 2015-03-30 21:00:00 | torpidsFRonline3    | ONLINE S.A.S.          | fr   | 195.154.164.243 |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
-#| 2015-04-07 23:00:00 | torpidsDEisppro3    | ISPpro Internet KG     | de   | 81.7.16.182     |     443 |       80 | 0.2.6.7     | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
-#| 2015-04-15 23:00:00 | torpidsDEmyloc2     | myLoc managed IT AG    | de   | 85.14.241.108   |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
-#| 2015-05-03 16:00:00 | torpidsDEkeyweb     | Keyweb AG              | de   | 87.118.114.134  |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
-#| 2015-05-03 18:00:00 | torpidsDEevanzo     | EVANZO e-commerce GmbH | de   | 178.254.40.5    |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
-#| 2015-05-09 20:00:00 | torpidsDEdomainf2   | domainfactory GmbH     | de   | 134.119.36.135  |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
-#| 2015-06-30 22:00:00 | torpidsFRikoula     | Ikoula Net SAS         | fr   | 213.246.56.95   |     443 |       80 | 0.2.6.10    | Linux | torpids AT yahoo dot com - 1JYHfzVF | NULL |
-#+---------------------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-E6E18151300F90C235D3809F90B31330737CEB43,FC37A7B1C264497BA01A08BF6D2C982A99D5B963,0B454C7EBA58657B91133A587C1BDAEDC6E23142,FB40DC3C724E5AA6ECD3EA1F64C0F559B48F21B5,4DDFE360220A80F20A307152186B87B59D883536,935BABE2564F82016C19AEF63C0C40B5753BA3D2,763C9556602BD6207771A7A3D958091D44C43228,6A29FD8C00D573E6C1D47852345B0E5275BA3307,91D23D8A539B83D2FB56AA67ECD4D75CC093AC55,3EE7D6BEAE015552C05E6AA40EBBCC69B251EC23,6B7191639E179965FD694612C9B2C8FB4267B27D,8073670F8F852971298F8AF2C5B23AE012645901,70C55A114C0EF3DC5784A4FAEE64388434A3398F,75C4495F4D80522CA6F6A3FB349F1B009563F4B7,5510FC1736B16D46D3F2DDA5011995C478D42594,580A91DAE04CD402AE70E85E01C3B1FD5BE5136E,BAACCB29197DB833F107E410E2BFAE5009EE7583,4C7BF55B1BFF47993DFF995A2926C89C81E4F04A,0E3DE4D738C91A8BB56432EF2DA7C28D4108F4A2,AC66FFA4AB35A59EBBF5BF4C70008BF24D8A7A5C,5A551BF2E46BF26CC50A983F7435CB749C752553,B35C5739C8C5AB72094EB2B05738FD1F8EEF6EBD,29FA22A7AEE4D8AAEA5BF9271834642EEDA849D7,E26AFC5F718E21AC502899B20C653AEFF688B0D2,CEDD9C7C371E753CDD14D292BCE1C7B8F4734D25
 
-#Prefix: PPTOR0
-#+---------------------+-----------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname  | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+-----------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2015-06-14 02:00:00 | pptor0018 | Hong Kong Serverworks  | hk   | 103.16.26.71    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min | NULL |
-#| 2015-06-15 09:00:00 | pptor0015 | Tehnologii Budushego L | ua   | 213.155.4.144   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-06-18 15:00:00 | PPTOR0016 | LeaseWeb B.V.          | de   | 178.162.194.30  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-06-19 16:00:00 | PPTOR0019 | Web2Objects LLC        | us   | 167.160.44.226  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-06-29 11:00:00 | PPTOR0034 | Bezeqint Internet Back | il   | 81.218.109.106  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-06-29 14:00:00 | PPTOR0041 | Blix Solutions AS      | no   | 91.205.187.186  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-06-29 16:00:00 | PPTOR0004 | Web2Objects LLC        | us   | 167.160.44.194  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-01 15:00:00 | PPTOR0028 | ALISTAR SECURITY SRL   | ro   | 185.57.82.25    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-01 17:00:00 | PPTOR0008 | CityNet Telekom Ltd.   | tr   | 185.65.205.18   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-02 12:00:00 | PPTOR0017 | Iomart                 | gb   | 78.129.180.33   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-02 15:00:00 | PPTOR0005 | VECTANT Ltd.           | jp   | 115.187.74.91   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-02 16:00:00 | PPTOR0040 | DataClub S.A.          | lv   | 46.183.217.244  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-02 17:00:00 | PPTOR0037 | Leaseweb Asia Pacific  | sg   | 103.254.153.202 |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-03 16:00:00 | PPTOR0027 | UAB DUOMENU CENTRAS    | lt   | 5.199.162.8     |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-03 18:00:00 | PPTOR0033 | OVH SAS                | fr   | 5.135.143.84    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-06 12:00:00 | PPTOR0038 | Core-Backbone GmbH     | cz   | 195.138.249.2   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-06 13:00:00 | PPTOR0025 | MediaServicePlus Ltd.  | ru   | 192.162.100.240 |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-06 13:00:00 | PPTOR0023 | iWeb Technologies Inc. | ca   | 67.205.89.142   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-06 14:00:00 | PPTOR0021 | Core-Backbone GmbH     | de   | 82.199.130.34   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-06 14:00:00 | PPTOR0026 | MediaServicePlus Ltd.  | ru   | 192.162.100.241 |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-06 15:00:00 | PPTOR0024 | iWeb Technologies Inc. | ca   | 67.205.112.74   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-07 14:00:00 | PPTOR0011 | Core-Backbone GmbH     | de   | 81.95.5.34      |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-07 14:00:00 | PPTOR0035 | Portlane AB            | se   | 193.105.134.50  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-07 16:00:00 | PPTOR0022 | root SA                | lu   | 94.242.243.162  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |    2 |
-#| 2015-07-07 16:00:00 | PPTOR0013 | root SA                | lu   | 94.242.243.66   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |    2 |
-#| 2015-07-07 17:00:00 | PPTOR0009 | DATAWIRE AG            | ch   | 185.19.87.36    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-08 01:00:00 | PPTOR0036 | Portlane AB            | se   | 193.105.134.156 |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-09 11:00:00 | PPTOR0002 | LeaseWeb B.V.          | nl   | 37.48.74.75     |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-09 13:00:00 | PPTOR0031 | LeaseWeb B.V.          | nl   | 62.212.82.51    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-09 13:00:00 | PPTOR0006 | LeaseWeb B.V.          | nl   | 5.79.71.195     |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-09 13:00:00 | PPTOR0003 | i3d B.V.               | nl   | 31.204.150.106  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-09 14:00:00 | PPTOR0039 | i3d B.V.               | nl   | 31.204.152.102  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-09 14:00:00 | PPTOR0014 | Keyweb AG              | de   | 217.114.218.18  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-09 14:00:00 | PPTOR0007 | i3d B.V.               | nl   | 31.204.150.138  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-17 02:00:00 | PPTOR0030 | THOR Data Center ehf   | is   | 82.221.105.61   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-27 10:00:00 | PPTOR0018 | Hong Kong Serverworks  | hk   | 103.16.26.71    |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-27 10:00:00 | PPTOR0022 | root SA                | lu   | 94.242.243.162  |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#| 2015-07-27 11:00:00 | PPTOR0013 | root SA                | lu   | 94.242.243.66   |    9001 |     9030 | 0.2.6.10    | Linux | 1024D/39B9820C admin at perfect min |   35 |
-#+---------------------+-----------+------------------------+------+-----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-92CEAA66CCE0394F7650BC4E3FE23A8EC8C6C645,8B4A0F603F0C842B486CAF9521EA7EA0B27A8E51,06B2E25661A5BC67557FDD799A417D1092899032,CF8F46FA59615307ADA9C92250A526E44CF43E5A,719977AFD37AC1508ADCFD531F771E2595823F11,8E445447DE7EC910FC8F0D209B527C3EA1C1D22C,B174AC101ED5CC81E3F0C7BD7781E48B3FDF2ABF,083C72334645C1BE7854AFCDAA2A883DC7AC097C,78FCECD3B480D0955FDF8FDE2201498B52D6A2D8,C27C619D2518E4B389381F25649998BE785E109D,A8FCC784B71D954BDBF86E06E1BEA3A75C2918DF,7D77CF0C8599EA4C4C1D38B509E2BC76F90552F9,52D5F209EF7B13EEC4375399D8486FC0A18BF06E,9B01F5846498F332B5DF4491D3C251BE226A7E7A,6171B98F3DDCF17D3E86C93AC157D8B5E7574454,7CFF048AC87A2C9D04F533DE6D91092A53BA8485,19E21E00BDFE5ECA51A5E8DE59B4795F8171BCB3,B2776B248AAEDBBE95FFED5725E2EB64257B2E84,4343C5D0740ED755CEBDC3315A07B2DB9EAE224A,5F6690E2A035562C694138D83084A6AC548959F0,6172A6744C818ACA9AB0B5283C28F789CE964416,B44F37BA8FA2DDE6276D2C808AB9C2A8A188200C,12D641B77CE8EF598CBC2F2D1471B60C229C020A,B239242822A3767827874838AA44A9844F85F586,B39801C26C5972F5051E271834794A59349B725E
-
-
-#Prefix: Hostpl
-#+---------------------+----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname       | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2015-06-22 13:00:00 | HostplanetME   | OVH SAS             | fr   | 176.31.159.231 |     443 |       80 | 0.2.6.9     | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-06-29 08:00:00 | HostplanetME2  | OVH SAS             | fr   | 176.31.159.230 |     443 |       80 | 0.2.6.9     | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-06-29 08:00:00 | HostplanetME3  | OVH SAS             | fr   | 176.31.159.224 |     443 |       80 | 0.2.6.9     | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-01 14:00:00 | HostplanetEXIT | Infium Ltd.         | lt   | 46.148.18.74   |     443 |     NULL | 0.2.5.12    | Linux | Hostplanet <abuse .AT. hostplanet . | NULL |
-#| 2015-07-13 13:00:00 | HostplanetME5  | ONLINE S.A.S.       | fr   | 62.210.107.27  |     443 |     NULL | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-13 13:00:00 | HostplanetME6  | ONLINE S.A.S.       | fr   | 195.154.9.161  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-13 14:00:00 | HostplanetME8  | OVH SAS             | fr   | 91.121.153.92  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-13 14:00:00 | HostplanetME7  | OVH SAS             | fr   | 91.121.192.146 |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-13 14:00:00 | HostplanetME6  | OVH SAS             | fr   | 151.80.41.25   |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-13 14:00:00 | HostplanetME9  | OVH SAS             | fr   | 91.121.154.11  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-18 22:00:00 | HostplanetME18 | OVH SAS             | fr   | 37.187.242.231 |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-18 22:00:00 | HostplanetME13 | OVH SAS             | fr   | 176.31.165.31  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-18 22:00:00 | HostplanetME10 | Digital Ocean, Inc. | nl   | 188.166.110.26 |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-18 22:00:00 | HostplanetME11 | OVH SAS             | fr   | 176.31.165.246 |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-18 22:00:00 | HostplanetME16 | OVH SAS             | fr   | 176.31.165.33  |     443 |       80 | 0.2.5.12    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-22 19:00:00 | HostplanetME21 | OVH SAS             | fr   | 37.187.38.113  |     443 |     NULL | 0.2.6.10    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#| 2015-07-22 19:00:00 | HostplanetME20 | OVH SAS             | fr   | 37.187.41.51   |     443 |     NULL | 0.2.6.10    | Linux | Hostplanet.me <abuse . AT . hostpla | NULL |
-#+---------------------+----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-E19AA1D66715CA3DAD7F907ED524AF84C42FF333,655B1D4E5C9D85AD60F385274262AF3B67845F4A,CA8BBFF4C2389BFD24361D278006DECCE4240D31,65074CA9E6DD03BA81A38A2E553F69859E4431D1,D09943DBAD7F51A1DA350926DE93802140DE5F6B,D5DBCC0B4F029F80C7B8D33F20CF7D97F0423BB1,0BCC5CEB5FAD00D3BF111316DBBD6C2A074F65CE,6CACF0B5F03C779672F3C5C295F37C8D234CA3F7,AFBA143413D7DEEF5C8C12BC1AC13969EB8F6100,D3B2BCD5FBBBD86B49FB0EB07C0C278B17F5CFDF,631748AFB41104D77ADBB7E5CD4F8E8AE876E683,DC89521BBF2B0B7B5FD6C921B6D2E09FECB180D1,46813E4FEF639FF2CF967987C0AAF4C8860B950C,A3DE7C6D2D9938ECF19784A8636091D18027132B,239E89F5A75C1B77E57D9DA6125858EA5F4A2A1F,B6295A9960F89BD0C743EEBC5670450EA6A34685,9EA9321B16CF5E45F5B0E5CE8C34577A4D355569
-
-
-#Prefix: BrassH
-#+---------------------+------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+------+
-#| first_seen          | nickname         | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS      | contact                             | efam |
-#+---------------------+------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+------+
-#| 2014-06-05 14:00:00 | BrassHornRelay01 | Digital Ocean, Inc.    | nl   | 95.85.5.211     |    9001 |     NULL | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |   12 |
-#| 2014-07-01 14:00:00 | BrassHornRelay04 | ITL Company            | ua   | 217.12.199.209  |    9001 |     NULL | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |   12 |
-#| 2014-07-15 21:00:00 | BrassHornRelay05 | SingleHop              | us   | 198.143.136.237 |    9001 |     NULL | 0.2.5.10    | Linux   | 0xDE731050 Gareth Llewellyn <gareth |   12 |
-#| 2014-07-16 18:00:00 | BrassHornRelay06 | WEDOS Internet, a.s.   | cz   | 31.31.75.181    |    4443 |     NULL | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |   12 |
-#| 2014-09-02 11:00:00 | BrassHornRelay08 | Makonix SIA            | se   | 95.215.44.232   |    9001 |     NULL | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |    9 |
-#| 2015-03-01 14:00:00 | BrassHornExit01  | Hetzner Online AG      | de   | 176.9.99.134    |      21 |     NULL | 0.2.5.12    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |    8 |
-#| 2015-04-09 09:00:00 | BrassHornRelay07 | DediPower Managed Host | gb   | 89.151.84.124   |    4443 |     8080 | 0.2.5.10    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |    9 |
-#| 2015-05-12 16:00:00 | BrassHornRelay10 | Digital Ocean, Inc.    | gb   | 178.62.8.189    |    9001 |     NULL | 0.2.5.12    | Linux   | 0x6F6D60C1 Security Dept <hello@bra |    9 |
-#| 2015-05-27 16:00:00 | BrassHornRelay11 | Makonix SIA            | gb   | 185.86.151.102  |    9001 |     NULL | 0.2.5.12    | Linux   | 0x6F6D60C1 Security Dept <hello@bra | NULL |
-#| 2015-06-15 11:00:00 | BrassHornRelay12 | Choopa, LLC            | de   | 108.61.179.46   |    9001 |     NULL | 0.2.4.22    | OpenBSD | 0x6F6D60C1 Security Dept <hello@bra | NULL |
-#| 2015-06-19 18:00:00 | BrassHornRelay02 | Tinet SpA              | fr   | 213.200.106.133 |      21 |     NULL | 0.2.5.10    | OpenBSD | 0x6F6D60C1 Security Dept <hello@bra | NULL |
-#| 2015-06-26 10:00:00 | BrassHornExit02  | NULL                   | NULL | 185.104.120.2   |      21 |     9030 | 0.2.5.10    | OpenBSD | 0x6F6D60C1 Security Dept <hello@bra |    8 |
-#| 2015-06-26 10:00:00 | BrassHornExit03  | NULL                   | NULL | 185.104.120.4   |    9001 |     NULL | 0.2.5.12    | Linux   | 0x6F6D60C1 Security Dept <hello@bra | NULL |
-#+---------------------+------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+------+
-#fingerprints:
-B3515F16CBD1FE394539BCD903DA4CA0D911B0D2,3EB75E339637ED5A4D12E7ADD9E44191439896F7,9462B7B85F85F856B3A7AE12A4963BAE9A102D7C,518FF8708698E1DA09C823C36D35DF89A2CAD956,F92B3CB9BBE0CB22409843FB1AE4DBCD5EFAC835,EE0536196580B5465BB33DC6CB9F6A63138F2575,7109376DCD7F9A9F707B3138056408F2D786F079,445F1C853966624FB3CF1E12442570DC553CC2EC,5CAECF26A0DF40D898672560EB889D68F075E971,254EB51B0B85B2FB8A70997875DA493420A30458,AFE81C1E3B4CF0707EE80D0BFCD605869B0DA539,685C87AB7672C0934BDD87548C4EF8DFE0BCE2B3,6BC82EBA99DCD796C7FD66C3594AED9DA6CE2ADE
-
-#Prefix: Montha
-#+---------------------+--------------+------------------------+------+-----------------+---------+----------+-------------------+-------+-------------------------------------+------+
-#| first_seen          | nickname     | AS                     | cc   | IP              | or_port | dir_port | tor_version       | OS    | contact                             | efam |
-#+---------------------+--------------+------------------------+------+-----------------+---------+----------+-------------------+-------+-------------------------------------+------+
-#| 2015-04-15 21:00:00 | Montharkan1  | myLoc managed IT AG    | de   | 85.114.135.113  |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-04-15 21:00:00 | Montharkan0  | myLoc managed IT AG    | de   | 85.114.135.113  |     993 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-04-15 21:00:00 | Montharkan4  | myLoc managed IT AG    | de   | 193.111.140.118 |     443 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-04-15 21:00:00 | Montharkan5  | myLoc managed IT AG    | de   | 193.111.140.118 |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-04-15 21:00:00 | Montharkan2  | United Gameserver GmbH | de   | 213.202.208.53  |     993 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-04-15 21:00:00 | Montharkan6  | United Gameserver GmbH | de   | 213.202.208.130 |     443 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-04-15 21:00:00 | Montharkan7  | United Gameserver GmbH | de   | 213.202.208.130 |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-04-15 21:00:00 | Montharkan3  | United Gameserver GmbH | de   | 213.202.208.53  |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-06-16 13:00:00 | Montharkan8  | United Gameserver GmbH | de   | 213.202.219.199 |     443 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-06-16 13:00:00 | Montharkan9  | United Gameserver GmbH | de   | 213.202.219.199 |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-06-16 13:00:00 | Montharkan10 | United Gameserver GmbH | de   | 213.202.219.198 |     995 |     8080 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#| 2015-06-16 13:00:00 | Montharkan11 | United Gameserver GmbH | de   | 213.202.219.198 |     993 |       80 | 0.2.7.1-alpha-dev | Linux | Christian Dietrich <admin A@T hs-bi | NULL |
-#+---------------------+--------------+------------------------+------+-----------------+---------+----------+-------------------+-------+-------------------------------------+------+
-#fingerprints:
-5632FF83096A15FD3312FE68A9709E709D22D452,8B4A1D2E68DD937732FB1B0868D845FA26DC0A80,01B840FB69FA7803DA306B5F876FEEA11B444AA5,376BAD4B66A44D8FD7895ECC6F9728323615346F,117B7F36D4125770771085A7D0A4939A3CD88409,2D088C6FF11F876DDE164C747693512B27F059C7,3A78E4272083AE7B2FAD47E2181AD85A995AC761,B9D7A783F056B70D3DAA49E3389F5BB3FCA93463,19494B840C6D484AAB903745E438C457019D39E2,BE2F07AD72A77A749B56D5EB1DDEA771EE7CCC4F,32EC8D60098612FE0E515C0EB02C34B61F8D07C1,89F6662CA1D5B6663932AA3AAE0BAFE890CC81A3
-
-#Prefix: CalyxI
-#+---------------------+------------------+---------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+------+
-#| first_seen          | nickname         | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS      | contact                             | efam |
-#+---------------------+------------------+---------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+------+
-#| 2013-06-11 21:00:00 | CalyxInstitute01 | The Calyx Institute | us   | 162.247.72.7   |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot |    6 |
-#| 2013-06-14 08:00:00 | CalyxInstitute02 | The Calyx Institute | us   | 162.247.72.212 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot |    6 |
-#| 2013-06-23 03:00:00 | CalyxInstitute03 | The Calyx Institute | us   | 162.247.72.213 |    9001 |     9030 | 0.2.5.10    | FreeBSD | Nicholas Merrill <nick AT calyx dot |    6 |
-#| 2013-07-08 03:00:00 | CalyxInstitute04 | The Calyx Institute | us   | 162.247.73.204 |    9001 |     9030 | 0.2.5.10    | FreeBSD | Nicholas Merrill <nick at calyx dot |    6 |
-#| 2013-07-08 16:00:00 | CalyxInstitute05 | The Calyx Institute | us   | 162.247.73.74  |    9001 |     9030 | 0.2.5.10    | FreeBSD | Nick Merrill <nick AT calyx dot com |    6 |
-#| 2013-11-05 16:00:00 | CalyxInstitute07 | XS4ALL Internet BV  | nl   | 82.94.251.227  |     443 |       80 | 0.2.5.12    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
-#| 2013-11-12 21:00:00 | CalyxInstitute08 | The Calyx Institute | us   | 162.247.72.216 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot |    6 |
-#| 2013-11-19 05:00:00 | CalyxInstitute09 | The Calyx Institute | us   | 162.247.72.217 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
-#| 2013-11-23 00:00:00 | CalyxInstitute06 | The Calyx Institute | us   | 162.247.73.206 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
-#| 2014-12-16 20:00:00 | CalyxInstitute12 | The Calyx Institute | us   | 162.247.72.199 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
-#| 2014-12-20 17:00:00 | CalyxInstitute13 | The Calyx Institute | us   | 162.247.72.200 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
-#| 2014-12-23 17:00:00 | CalyxInstitute14 | The Calyx Institute | us   | 162.247.72.201 |     443 |       80 | 0.2.5.10    | Linux   | Nicholas Merrill <nick AT calyx dot | NULL |
-#+---------------------+------------------+---------------------+------+----------------+---------+----------+-------------+---------+-------------------------------------+------+
-#fingerprints:
-1B9FACF25E17D26E307EA7CFA7D455B144B032E5,0011BD2485AD45D984EC4159C88FC066E5E3300E,6F4E9FD00D4251D98BE96FB1AA546FE34676A95B,51BFE90C64B84C912D3D1D303605CE2A67970EC0,84D361B736A8CD1E8818D0FC186892E91AB76881,501B3DBF250B094A05CA5DBC424AD4C3D46721A2,0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB,A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E,B34CC9056250847D1980F08285B01CF0B718C0B6,7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2,E4D1F25DFBE484208866BA4A1A958B73127CB0AD,3329E736CCA16449D02D567D42683BF1FD798676
-
-#Prefix: baurui
-#+---------------------+-------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname    | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+-------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2014-03-21 11:00:00 | bauruine121 | Hetzner Online AG      | de   | 148.251.84.200 |    9001 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   12 |
-#| 2014-04-09 10:00:00 | bauruine204 | ONLINE S.A.S.          | fr   | 212.83.154.33  |    8443 |     8080 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   12 |
-#| 2014-04-09 10:00:00 | bauruine203 | ONLINE S.A.S.          | fr   | 212.83.154.33  |     443 |     8888 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   12 |
-#| 2014-04-09 10:00:00 | bauruine42  | Hetzner Online AG      | de   | 5.9.26.219     |    8889 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   10 |
-#| 2014-04-09 11:00:00 | bauruine122 | Hetzner Online AG      | de   | 148.251.84.200 |    9223 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> |   10 |
-#| 2014-04-14 18:00:00 | bauruine21  | Hetzner Online AG      | de   | 176.9.103.20   |   27443 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
-#| 2014-04-14 19:00:00 | bauruine202 | ONLINE S.A.S.          | fr   | 62.210.137.230 |    8443 |     8080 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
-#| 2014-04-14 19:00:00 | bauruine41  | Hetzner Online AG      | de   | 5.9.26.219     |    8888 |     NULL | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
-#| 2014-04-14 19:00:00 | bauruine201 | ONLINE S.A.S.          | fr   | 62.210.137.230 |     443 |     8888 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
-#| 2015-07-27 14:00:00 | bauruine121 | Swisscom (Switzerland) | ch   | 178.194.7.113  |    9001 |     9031 | 0.2.6.10    | Linux | Bauruine <torcontact aatt tuxli.ch> | NULL |
-#+---------------------+-------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-B9122392A201701BE9497AC2B3B88E0E831A05B3,F596E1B1EF98E1DDBBDC934DB722AF54069868F6,322C6E3A973BC10FC36DE3037AD27BC89F14723B,396CAB85997AD559A3F1BBF733D52F402EED241A,A62F9AC6E22BE14A0CB888A03BFEF2A9533D3DA2,92B953F3691CC2D9D65A4AF915B42AEF11F2C8CC,3C79699D4FBC37DE1A212D5033B56DAE079AC0EF,63C1904FFE2DCB48B4F0FE8A4551CF53412EA289,52F7C67BB331A2E7C446AFAE4AD300C67C64FBB8,CD6B850159CFF4C068A8D0F1BA5296AE4EDCAB39
-
-
-#Prefix: Pascal
-#+---------------------+----------+-------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname | AS                | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+----------+-------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2011-11-04 02:00:00 | Pascal0  | Eonix Corporation | us   | 107.158.255.21 |     443 |     NULL | 0.2.5.12    | Linux | Pascal666 at Users dot SourceForge  |    6 |
-#| 2011-11-04 02:00:00 | Pascal2  | Eonix Corporation | us   | 107.158.255.22 |      80 |     NULL | 0.2.5.12    | Linux | Pascal666 at Users dot SourceForge  |    6 |
-#| 2011-11-04 02:00:00 | Pascal3  | Eonix Corporation | us   | 107.158.255.22 |     110 |     NULL | 0.2.5.12    | Linux | Pascal666 at Users dot SourceForge  |    6 |
-#| 2011-11-04 02:00:00 | Pascal1  | Eonix Corporation | us   | 107.158.255.21 |     143 |     NULL | 0.2.5.12    | Linux | Pascal666 at Users dot SourceForge  |    6 |
-#| 2014-08-13 23:00:00 | Pascal4  | Hostwinds LLC.    | us   | 23.254.128.38  |     443 |       80 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    9 |
-#| 2014-10-04 05:00:00 | Pascal5  | Hostwinds LLC.    | us   | 23.238.17.229  |      22 |       23 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    9 |
-#| 2014-11-30 03:00:00 | Pascal7  | Hostwinds LLC.    | us   | 23.254.165.250 |     143 |      587 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    7 |
-#| 2014-11-30 03:00:00 | Pascal6  | Hostwinds LLC.    | us   | 23.254.165.132 |      80 |      443 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    7 |
-#| 2014-12-01 06:00:00 | Pascal8  | Hostwinds LLC.    | us   | 23.254.166.222 |      80 |      443 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  |    7 |
-#| 2014-12-02 21:00:00 | Pascal9  | Hostwinds LLC.    | us   | 23.254.167.231 |      21 |       20 | 0.2.6.10    | Linux | Pascal666 at Users dot SourceForge  | NULL |
-#+---------------------+----------+-------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-F2C4B2B7628F48D293AFD841B868B13914C7D570,237C733E2D1BAD26FAABEAFB612BDA0CD3BC6AF4,5C67A9CE8B9A03DCEA0CC94ED77A7FF9C6A4B0C0,5B7AEB1421AC575E1A545A2092B32C0AA4760748,C04BE1845AA80AA49D5353B52EE6E35B4CF1547B,A1A8E2C578047E441F2412C91894E2785176CCE9,350F35705CDEFC1C4ED318C8CB7EE493421109CB,30BAB8EE7606CBD12F3CC269AE976E0153E7A58D,C94372690078DD1AA8000FA5A9F7D686CF44F5A6,7B2553AEA4A3FC9E1B513D772ECA652C8CC15337
-
-#Prefix: DFRIpi
-#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+------------------------------+------+
-#| first_seen          | nickname   | AS                  | cc   | IP              | or_port | dir_port | tor_version | OS    | contact                      | efam |
-#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+------------------------------+------+
-#| 2013-09-23 19:00:00 | DFRIpi016  | Bahnhof Internet AB | se   | 37.123.182.13   |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2013-09-24 13:00:00 | DFRIpi006  | Bredband2 AB        | se   | 46.162.112.129  |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2013-09-27 20:00:00 | DFRIpi018  | Tyfon               | se   | 178.174.225.229 |     643 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2013-10-03 20:00:00 | DFRIpi019  | Bahnhof Internet AB | se   | 5.150.204.198   |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2013-10-09 10:00:00 | DFRIpi013  | Bahnhof Internet AB | se   | 46.59.28.54     |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2013-12-11 14:00:00 | DFRIpi017  | Telenor Norge AS    | se   | 85.227.188.169  |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2014-01-05 16:00:00 | DFRIpiELOF | TeliaSonera AB      | se   | 90.225.80.219   |     443 |     9030 | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2014-06-18 13:00:00 | DFRIpi004  | Bahnhof Internet AB | se   | 5.150.204.149   |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2015-03-21 00:00:00 | DFRIpi008  | TeliaSonera AB      | se   | 217.209.85.237  |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#| 2015-04-09 18:00:00 | DFRIpi023  | Telenor Norge AS    | se   | 83.227.73.202   |     443 |     NULL | 0.2.5.12    | Linux | DFRI <rpitor AT dfri dot se> | NULL |
-#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+------------------------------+------+
-#fingerprints:
-5A67231A7800C8198BDD6C62D0067A559913BD90,567DB3231711C1BAA3BFDC430EA0243C840D2F4F,F37D747EA849D549AC48D82A9690AA4F9645BF67,BBEEDF81801E301A7FEFAD9CEBA96900E4427745,BF636047177D23CC3B5EE785AA1FAF1E088DE8CC,CD7F4E4F18C4C7AC651850CE300A10A1D2CEC0D0,A9C7D9EC396F2FF0068F38E302C3BDD8A00EE3D5,A0E88DD278D6F1C7E32D3A3C233BD19DCB6D7113,E96C9232EDD78D2FEE204B93B8388A1303343249,57DA1B2A27676DAAED418D5C60CB3FEB3D736E71
-
-#Prefix: cloudv
-#+---------------------+----------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
-#| first_seen          | nickname | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact | efam |
-#+---------------------+----------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
-#| 2015-07-04 10:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.243.71  |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.209 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.218 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.179 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.215 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.183 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.242.92  |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.168 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.178 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#| 2015-07-04 22:00:00 | cloudvps | XL Internet Services B | nl   | 213.187.245.170 |    9001 |     NULL | 0.2.6.9     | Linux | NULL    | NULL |
-#+---------------------+----------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
-#fingerprints:
-921EDC614CA0A401C7C814CA08A79C338F9220D9,5B247EAF6378427288A907D90206406C892219FB,DA88319D187C21AAC13BC634C083748362CBC237,1B9A17390F36C3FAC39FBB65AE5352D267B41AAC,09E6EA3343EF22220CB4302FAD27BA2341808B39,0ABC78F60FCDDC34CA597D9258665D79B6E1409D,9633EF7E07AA3655638286A3688127156055FFF9,2316E6F012ACA52FDB09C745B0F5B41E78C23AE9,51B38CAEB1CBF8EDC4F8797FF94A0E1ABB021FDC,6B78341D7E8064E94F4EEF213D565BFA3882AF0E
-
-#Prefix: chaosc
-#+---------------------+---------------------+------------------------+------+----------------+---------+----------+---------------+---------+-------------------------------------+------+
-#| first_seen          | nickname            | AS                     | cc   | IP             | or_port | dir_port | tor_version   | OS      | contact                             | efam |
-#+---------------------+---------------------+------------------------+------+----------------+---------+----------+---------------+---------+-------------------------------------+------+
-#| 2014-04-08 10:00:00 | chaoscomputerclub29 | Nessus GmbH            | at   | 77.244.254.229 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
-#| 2014-04-08 10:00:00 | chaoscomputerclub34 | Netsign Networks GmbH  | de   | 217.115.10.134 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
-#| 2014-04-08 10:00:00 | chaoscomputerclub32 | Netsign Networks GmbH  | de   | 217.115.10.132 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
-#| 2014-04-08 10:00:00 | chaoscomputerclub31 | Netsign Networks GmbH  | de   | 217.115.10.131 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
-#| 2014-04-08 10:00:00 | chaoscomputerclub27 | Nessus GmbH            | at   | 77.244.254.227 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
-#| 2014-04-08 10:00:00 | chaoscomputerclub30 | Nessus GmbH            | at   | 77.244.254.230 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
-#| 2014-04-08 10:00:00 | chaoscomputerclub28 | Nessus GmbH            | at   | 77.244.254.228 |     443 |       80 | 0.2.7.1-alpha | Linux   | J. Random Hacker <anonymizer@ccc.de |    7 |
-#| 2015-01-19 19:00:00 | chaoscomputerclub5  | Host Europe GmbH       | de   | 80.237.226.75  |     443 |       80 | 0.2.6.9       | FreeBSD | anonymizer@ccc.de                   | NULL |
-#| 2015-04-15 22:00:00 | chaoscomputerclub19 | rrbone UG (haftungsbes | ch   | 31.172.30.2    |     443 |       80 | 0.2.7.1-alpha | SunOS   | J. Random Hacker <anonymizer@ccc.de | NULL |
-#+---------------------+---------------------+------------------------+------+----------------+---------+----------+---------------+---------+-------------------------------------+------+
-#fingerprints:
-0E22366D0EB12CA0CDD3693452F43BA0A1D9D515,31A993F413D01E68117F76247E4F242095190B87,B7BE1D35762155FEB2BC9DAE0A157C706D738FE5,A07FF746D9BA56C3F916BBD404307396BFA862E0,1A1DA6B9F262699A87F9A4F24EF48B50148EB018,9BDF3EEA1D33AA58A2EEA9E6CA58FB8A667288FC,A3279B1AC705C9F3478947598CF0557B81E12DE1,AB176BD65735A99DCCB7889184E62EF0B2E35751,7F49A3F28C403591BFDD46F46BFD1E7F802E612D
-
-
-
-#Prefix: TorAus
-#+---------------------+-------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname          | AS                 | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+-------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2014-09-07 01:00:00 | TorAustralisLVI   | ColoCrossing       | us   | 23.95.43.72    |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot | NULL |
-#| 2014-09-07 01:00:00 | TorAustralisLV    | ColoCrossing       | us   | 23.95.43.73    |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
-#| 2014-09-07 01:00:00 | TorAustralisLIII  | ColoCrossing       | us   | 23.95.43.75    |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
-#| 2014-09-07 02:00:00 | TorAustralisXVII  | HostDime.com, Inc. | us   | 162.221.184.64 |     443 |     9030 | 0.2.6.7     | Linux | <periplanetaamericanus AT gmail dot |    8 |
-#| 2014-09-20 09:00:00 | TorAustralisLIX   | ColoCrossing       | us   | 198.23.202.71  |     443 |     9030 | 0.2.6.10    | Linux | <milgramandskinner AT gmail dot com |   12 |
-#| 2014-09-20 09:00:00 | TorAustralisLVIII | ColoCrossing       | us   | 192.3.177.167  |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
-#| 2014-09-23 07:00:00 | TorAustralisLVII  | ColoCrossing       | us   | 192.3.172.236  |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
-#| 2014-10-25 13:00:00 | TorAustralisLX    | ColoCrossing       | us   | 192.3.203.97   |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot |   11 |
-#| 2015-07-22 14:00:00 | TorAustralisLXIII | HostDime.com, Inc. | gb   | 212.18.232.123 |     443 |     9030 | 0.2.6.10    | Linux | <periplanetaamericanus AT gmail dot | NULL |
-#+---------------------+-------------------+--------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-446AEE9BF53E21DEFFC13669DEF29802F4E1BB2D,56F26A09171AEC56E70F8336756C8D4EB39C6024,47D04EC4A5EA83A1B6D4CD68D39F95272596001F,7A29FEA97CC41E3121B52B4EBE97FD447EB3E150,39CA2682866DED6A502B648F981C44D61AD5A97B,9471282EA0075E84E70490D13B579A8B07CC486D,5B5213C48B22135A6D24FA5D11275321880D7E87,8BFD4BAAD59C64D43DD2221C700C8D6CE9F2C7AA,4B21CBF3FCD464611564AD8848FA412EFF7F3335
-
-#Prefix: UtahSt
-#+---------------------+----------------+-----------------------+------+--------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname       | AS                    | cc   | IP           | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+----------------+-----------------------+------+--------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2014-04-09 02:00:00 | UtahStateExit1 | Utah State University | us   | 129.123.7.6  |    8443 |     8080 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 | NULL |
-#| 2014-04-09 02:00:00 | UtahStateExit0 | Utah State University | us   | 129.123.7.6  |     443 |     8008 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 | NULL |
-#| 2014-04-17 08:00:00 | UtahState0     | Utah State University | us   | 129.123.7.8  |    8443 |     8000 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 |    4 |
-#| 2014-04-17 20:00:00 | UtahState1     | Utah State University | us   | 129.123.7.8  |    9001 |     8008 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 |    4 |
-#| 2014-04-17 21:00:00 | UtahState3     | Utah State University | us   | 129.123.7.39 |    8443 |     8080 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 |    4 |
-#| 2014-04-17 21:00:00 | UtahState2     | Utah State University | us   | 129.123.7.39 |     443 |       80 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 |    4 |
-#| 2014-11-17 21:00:00 | UtahStateExit3 | Utah State University | us   | 129.123.7.7  |    8443 |     8080 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 | NULL |
-#| 2014-11-17 21:00:00 | UtahStateExit2 | Utah State University | us   | 129.123.7.7  |     443 |       80 | 0.2.6.10    | Linux | jvictors at jessevictors com, PGP 0 | NULL |
-#+---------------------+----------------+-----------------------+------+--------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-1946F5E4748B069D3B989B5AF50C7DDD3AC61859,C6DC982A0FE54BC91AF32629F33711D5C12C5546,2FC06226AE152FBAB7620BB107CDEF0E70876A7B,7E4E1CC167300932F05AC70ECD2B9A298732C6E2,B4E641BC42DDB6FD2526CFF80504AB5221B0EB82,40DF7E2EDE33DFCB126D241BD1907EED70925498,BFA0E9F3E6F446BB538877D89CD57DB1362E799C,4B8C39A51FD0BE3F91E0A1C3F5AA67A17EC56EB7
-
-#Prefix: CatRel
-#+---------------------+------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname   | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2014-11-28 14:00:00 | CatRelay09 | ONLINE S.A.S.       | fr   | 195.154.81.108 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
-#| 2014-11-28 14:00:00 | CatRelay08 | ONLINE S.A.S.       | fr   | 195.154.87.231 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
-#| 2014-11-28 14:00:00 | CatRelay10 | ONLINE S.A.S.       | fr   | 195.154.81.110 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
-#| 2014-11-28 16:00:00 | CatRelay12 | ONLINE S.A.S.       | fr   | 195.154.81.245 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
-#| 2014-11-28 16:00:00 | CatRelay11 | ONLINE S.A.S.       | fr   | 195.154.81.227 |    9001 |     9030 | 0.2.5.12    | Linux | tor@meo.ws - 1L3NkCq7GPctWknh5sTEcz | NULL |
-#| 2015-01-29 18:00:00 | CatRelay05 | myLoc managed IT AG | de   | 85.114.133.96  |    9001 |     9030 | 0.2.5.12    | Linux | t@or-no.de - 1L3NkCq7GPctWknh5sTEcz | NULL |
-#| 2015-02-19 22:00:00 | CatRelay01 | myLoc managed IT AG | de   | 5.104.106.38   |    9001 |     9030 | 0.2.5.12    | Linux | t@or-no.de - 1L3NkCq7GPctWknh5sTEcz | NULL |
-#+---------------------+------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-9D5A5D54EC2B63CBDA5345EAEA9768539E926C5E,BB873194370CC3DE9C1A7BFBD4477D1C7FE33EF1,CEB7F02E51A14D4BF867AA1A20CB94A1CFFF7957,16B9833CF947BCB27905212DD182ABA1EBE2DA96,6E58558F2BB4F318B01D1FD2680827DDEB0CA2A2,68651544DC720A5F71FA06F2713EA6C0B7E836DB,F9EF1F29654CF20F51A30D4BCF04E7D1012F7FDE
-
-
-#Prefix: iLoveD
-#+---------------------+------------------+---------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
-#| first_seen          | nickname         | AS                  | cc   | IP              | or_port | dir_port | tor_version | OS    | contact | efam |
-#+---------------------+------------------+---------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
-#| 2015-06-18 00:00:00 | iLoveDemocracy1  | ONLINE S.A.S.       | fr   | 195.154.110.199 |    9001 |     9030 | 0.2.4.20    | Linux | NULL    |    2 |
-#| 2015-06-18 17:00:00 | iLoveDemocracy2  | Hetzner Online AG   | de   | 5.9.43.79       |   10201 |    10202 | 0.2.4.20    | Linux | NULL    |    3 |
-#| 2015-06-18 18:00:00 | iLoveDemocracy3  | QuadraNet, Inc      | us   | 104.223.16.216  |    9001 |     NULL | 0.2.4.20    | Linux | NULL    |    2 |
-#| 2015-06-19 23:00:00 | iLoveDemocracy4  | ColoCrossing        | us   | 23.94.239.200   |    9001 |     NULL | 0.2.4.20    | Linux | NULL    | NULL |
-#| 2015-06-24 01:00:00 | iLoveDemocracy15 | ONLINE S.A.S.       | fr   | 195.154.110.199 |    9002 |     9031 | 0.2.4.20    | Linux | NULL    | NULL |
-#| 2015-07-03 06:00:00 | iLoveDemocracy5  | SunnyVision Limited | hk   | 103.41.132.27   |    9001 |     9030 | 0.2.4.20    | Linux | NULL    | NULL |
-#+---------------------+------------------+---------------------+------+-----------------+---------+----------+-------------+-------+---------+------+
-#fingerprints:
-E04EC2A33240BB86D401C6DE0E75064D56A39455,C156D41E5977A121F0F53C4BD2E927762DF10F4D,CC7F2216A8F2C0FB0AC30CFC6F3AFED4FA8962E8,D3044D67B9847CF7ACA446C96D126BA2CE2CDB2F,25DF045F51D194B5C8E04F5BD37A0B7293B02DA7,6CB49A538797E515F29100F6618E271DC895914B
-
-#Prefix: democr
-#+---------------------+-------------+-----------------+------+----------------+---------+----------+-------------+-------+---------+------+
-#| first_seen          | nickname    | AS              | cc   | IP             | or_port | dir_port | tor_version | OS    | contact | efam |
-#+---------------------+-------------+-----------------+------+----------------+---------+----------+-------------+-------+---------+------+
-#| 2015-07-01 11:00:00 | democracy1x | BlazingFast LLC | nl   | 185.11.146.56  |    9002 |     9031 | 0.2.4.23    | Linux | NULL    | NULL |
-#| 2015-07-01 11:00:00 | democracy1  | BlazingFast LLC | nl   | 185.11.146.56  |    9001 |     9030 | 0.2.4.23    | Linux | NULL    | NULL |
-#| 2015-07-02 19:00:00 | democracy2  | BlazingFast LLC | nl   | 185.62.190.123 |    9001 |     9030 | 0.2.4.20    | Linux | NULL    | NULL |
-#| 2015-07-02 19:00:00 | democracy2x | BlazingFast LLC | nl   | 185.62.190.123 |    9002 |     9031 | 0.2.4.20    | Linux | NULL    | NULL |
-#| 2015-07-04 02:00:00 | democracy3x | NULL            | nl   | 188.209.52.158 |    9002 |     9031 | 0.2.4.20    | Linux | NULL    | NULL |
-#| 2015-07-04 05:00:00 | democracy4x | BlazingFast LLC | nl   | 185.62.190.231 |    9002 |     9031 | 0.2.4.20    | Linux | NULL    | NULL |
-#+---------------------+-------------+-----------------+------+----------------+---------+----------+-------------+-------+---------+------+
-#fingerprints:
-108A05DA6CB21AAE86F856644AA78B5E07CA2B80,2461BBE3D84FB9805B0AE06AC2711880F960208B,9B34588A68F2F9184A9EC9F5B7269ABACDDBB2E2,4AE2284D407EE15D35A987915531E780EECED1DB,B0BA40DCD63E222F9C62EB89BBDA66508A5E697D,AC69B899BDB5876A74B45D55EED6A66ECE280AF3
-
-#Prefix: pipeep
-#+---------------------+-----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| first_seen          | nickname        | AS                  | cc   | IP             | or_port | dir_port | tor_version | OS    | contact                             | efam |
-#+---------------------+-----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#| 2014-07-20 09:00:00 | pipeephostus    | HostUS              | us   | 45.58.48.22    |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
-#| 2015-03-08 19:00:00 | pipeepcomicsans | Digital Ocean, Inc. | us   | 104.236.96.166 |     443 |       80 | 0.2.6.10    | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
-#| 2015-04-06 06:00:00 | pipeepfirasans  | OVH SAS             | ca   | 167.114.29.117 |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
-#| 2015-05-23 07:00:00 | pipeepdroidsans | QuadraNet, Inc      | us   | 104.223.15.162 |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
-#| 2015-06-20 09:00:00 | pipeepgeorgia   | OVH SAS             | ca   | 167.114.29.114 |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
-#| 2015-06-20 09:00:00 | pipeephelvetica | OVH SAS             | fr   | 46.105.232.179 |     443 |       80 | 0.2.6.9     | Linux | Benjamin Woodruff tor % b enjam _ i | NULL |
-#+---------------------+-----------------+---------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
-#fingerprints:
-E0D18E579C6901AEF38DB21DFB3914DDC91E8D20,6924EF4C82647B85F697A54547969F41354A287F,AB74D902B6B8A9EE0BE838EDA8E224CE73225417,71DF64DBCC0ADE3C6B6BE368FC2D82257C8527D0,E4490CA9BF6858F0954467D87BD91251F4DC1332,921D1262B797299C13DEB4ED7B909BF76CC5FFF7
-
-#Prefix: HughLa
-#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+----------------------+------+
-#| first_seen          | nickname   | AS                  | cc   | IP              | or_port | dir_port | tor_version | OS    | contact              | efam |
-#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+----------------------+------+
-#| 2014-11-19 16:00:00 | HughLaurie | Korea Telecom       | kr   | 222.114.148.248 |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
-#| 2014-11-19 16:00:00 | HughLaurie | Korea Telecom       | kr   | 221.158.149.197 |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
-#| 2015-02-18 07:00:00 | HughLaurie | Korea Telecom       | kr   | 59.27.30.43     |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
-#| 2015-03-14 12:00:00 | HughLaurie | Korea Telecom       | kr   | 59.27.30.37     |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
-#| 2015-04-06 01:00:00 | HughLaurie | Hanaro Telecom Inc. | kr   | 39.119.168.44   |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
-#| 2015-04-18 03:00:00 | HughLaurie | Hanaro Telecom Inc. | kr   | 39.119.164.83   |    3000 |     NULL | 0.2.4.20    | Linux | infoipworkdotcodotkr | NULL |
-#+---------------------+------------+---------------------+------+-----------------+---------+----------+-------------+-------+----------------------+------+
-#fingerprints:
-9A3A62F3AA98B491E72EA6E14E9D902D77E8C8E2,95D866699060B6B1C49268AF1F252F861CE8827C,A9526370668161AE54425D8119DB9DE8332C0FE7,7AF8A9B1C07E699C403AD165C4866948378D2C3D,2D6829E2D62947CEC74F99E65FA826F1BC2CD1F9,01CDAF1825C7E71EDC9D5772D9C9F2DFF215ECA1
-
-#Prefix: Babylo
-#+---------------------+------------------+------------------------+------+-----------------+---------+----------+---------------+-------+-------------------------------------+------+
-#| first_seen          | nickname         | AS                     | cc   | IP              | or_port | dir_port | tor_version   | OS    | contact                             | efam |
-#+---------------------+------------------+------------------------+------+-----------------+---------+----------+---------------+-------+-------------------------------------+------+
-#| 2015-02-28 17:00:00 | BabylonNetwork00 | myLoc managed IT AG    | de   | 80.82.215.199   |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
-#| 2015-03-09 23:00:00 | BabylonNetwork01 | myLoc managed IT AG    | de   | 193.111.136.162 |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
-#| 2015-06-07 22:00:00 | BabylonNetwork02 | OVH SAS                | fr   | 149.202.98.160  |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
-#| 2015-06-29 00:00:00 | BabylonNetwork03 | OVH SAS                | fr   | 149.202.98.161  |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
-#| 2015-07-20 22:00:00 | BabylonNetwork04 | Luke William Batchelor | se   | 192.121.82.66   |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  |    5 |
-#| 2015-07-26 21:00:00 | BabylonNetwork00 | myLoc managed IT AG    | de   | 80.82.215.199   |     443 |       80 | 0.2.7.1-alpha | Linux | Babylon Network | noc <AT> babylon  | NULL |
-#+---------------------+------------------+------------------------+------+-----------------+---------+----------+---------------+-------+-------------------------------------+------+
-#fingerprints:
-C79552275DFCD486B942510EF663ED36ACA1A84B,B21F7249107D80988DBA8CDABE9A53A3A3775CE2,1AE2348FBD9E1645382FCE99DA09C44E2B8F1019,345C2761F97487FCDDA17F4DE95518136FA380F4,3BEFAB76461B6B99DCF34C285E933562F5712AE4,54660C671B47E6986B465B80444414BD19E5A34B
 
 #Prefix: mistersixt
 #+---------------------+-------------+------------------------+------+----------------+---------+----------+-------------+-------+-------------------------------------+------+
