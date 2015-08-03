@@ -471,6 +471,17 @@ C79552275DFCD486B942510EF663ED36ACA1A84B,B21F7249107D80988DBA8CDABE9A53A3A3775CE
 998D8FE06B867AA3F8D257A7D28FFF16964D53E2,D56AA4A1AA71961F5279FB70A6DCF7AD7B993EB5,3A2192F50518491A6130BE0A5CA870E8252ED0EF,103C5B541924597EC64744DE5DC591085ED692BA,A7C7FD510B20BC8BE8F2A1D911364E1A23FBD09F,91361C96C91204B6BDABBB964C912FF6E9EB4C58
 
 
+#+---------------------+---------------------+------------------------------+-----------------+---------+----------+---------------------------------------------------------------+---------+
+#| first_seen          | last_restarted      | as_name                      | IP              | or_port | dir_port | contact                                                       | eFamlen |
+#+---------------------+---------------------+------------------------------+-----------------+---------+----------+---------------------------------------------------------------+---------+
+#| 2015-05-08 18:00:00 | 2015-07-15 19:46:29 | Cox Communications Inc.      | 70.164.255.174  |    9001 |       80 | admin[AT]peretsik.info - 132EHw4Qvb3pX2hSnnaph9kU7aBhU959ua   |    NULL |
+#| 2015-05-11 14:00:00 | 2015-07-15 19:46:33 | Level 3 Communications, Inc. | 4.31.64.70      |    9001 |       80 | admin[AT]arbuzik.biz - 1BtJfTMKUhc6TM3MZz9w2N2eQkofTbaPam     |    NULL |
+#| 2015-05-11 15:00:00 | 2015-07-15 19:46:42 | Abovenet Communications, Inc | 209.249.157.69  |    9001 |       80 | admin[AT]kapustik.info - 18uYYYBxReFtWd4v3P8e3C725DHRCaXdZK   |    NULL |
+#| 2015-06-16 19:00:00 | 2015-07-15 19:46:40 | Abovenet Communications, Inc | 209.249.180.198 |    9001 |       80 | admin[AT]kartofelzik.info - 1FyVbHiuSRfH9QXYabaQxMZh9uzWSd5PP |    NULL |
+#+---------------------+---------------------+------------------------------+-----------------+---------+----------+---------------------------------------------------------------+---------+
+#fingerprints:
+4BC48E7AE7F6D14C49BF048E2F7AE734E8D9E0E7,E4C42A96CED0B96BA354A2B0FDC171C36E19303E,FFCF1FD04F46C429712AC7A04BB442CAD46B255B,92861B9811A3834691C341C9A934CC35355A80DC
+
 #contact: @kosjoli
 #+---------------------+-------------------+------+--------------+---------+----------+-------------+-------+----------+---------------------+------+------+
 #| first_seen          | AS                | cc   | IP           | or_port | dir_port | tor_version | OS    | contact  | nickname            | exit | efam |
