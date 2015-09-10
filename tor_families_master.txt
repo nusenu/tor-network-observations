@@ -633,15 +633,39 @@ BCDC257EAC4FF1374CB0014B17243F372C5EE114,1B3C249EAA3C762B8F9CB7ED56254E805F75806
 68F70BFCB2A5400ED6F98C8DB30C41A36743962D,FA4E22CFC0802D6738837DE980AFC7199F7DB040,71434A44BA198F51C86BD907F4D60080D0D26F85
 
 #contact: admin@avenueoftor.com
-#+---------------------+---------------------+------+---------------+---------+----------+-------------+-------+-----------------------+---------------+------+------+
-#| first_seen          | AS                  | cc   | IP            | or_port | dir_port | tor_version | OS    | contact               | nickname      | exit | efam |
-#+---------------------+---------------------+------+---------------+---------+----------+-------------+-------+-----------------------+---------------+------+------+
-#| 2015-07-05 11:00:00 | OVH SAS             | gb   | 178.32.53.129 |     443 |       80 | 0.2.6.10    | Linux | admin@avenueoftor.com | torproject337 |    1 | NULL |
-#| 2015-07-05 15:00:00 | UAB DUOMENU CENTRAS | lt   | 5.199.165.3   |     443 |       80 | 0.2.6.10    | Linux | admin@avenueoftor.com | balticnodess  |    1 | NULL |
-#| 2015-07-05 19:00:00 | UAB DUOMENU CENTRAS | lt   | 5.199.164.108 |     443 |       80 | 0.2.6.10    | Linux | admin@avenueoftor.com | Busyglidelt   |    1 | NULL |
-#+---------------------+---------------------+------+---------------+---------+----------+-------------+-------+-----------------------+---------------+------+------+
+#+---------------------+---------------------+------+-----------------------+----------------+---------------------+---------+----------+---------------+------------------------------------------+
+#| first_seen          | last_restarted      | exit | contact               | IP             | as_name             | or_port | dir_port | nickname      | fingerprint                              |
+#+---------------------+---------------------+------+-----------------------+----------------+---------------------+---------+----------+---------------+------------------------------------------+
+#| 2015-07-05 22:00:00 | 2015-09-09 09:07:31 |    1 | admin@avenueoftor.com | 188.214.135.66 | UAB DUOMENU CENTRAS |     443 |       80 | Sworgebat99   | FE4C756290940DB7DC0929F32D25EED7D4C0FF83 |
+#| 2015-07-05 22:00:00 | 2015-09-09 09:07:38 |    1 | admin@avenueoftor.com | 188.214.135.67 | UAB DUOMENU CENTRAS |     443 |       80 | ritzcheese    | FA7A834A4D7E160C006ACC4124FC29FC123BC240 |
+#| 2015-07-06 00:00:00 | 2015-09-09 09:07:40 |    1 | admin@avenueoftor.com | 188.214.135.69 | UAB DUOMENU CENTRAS |     443 |       80 | donniedarko   | 9F056ACA2A4F22BDE381B3283A69E6E9E93AE65A |
+#| 2015-07-06 00:00:00 | 2015-09-09 09:07:42 |    1 | admin@avenueoftor.com | 188.214.135.70 | UAB DUOMENU CENTRAS |     443 |       80 | d0nni3usanode | 045D22A33BE27BBFEF8880D5DA31C1EF8CEF5AA8 |
+#| 2015-07-06 00:00:00 | 2015-09-09 09:07:40 |    1 | admin@avenueoftor.com | 188.214.135.68 | UAB DUOMENU CENTRAS |     443 |       80 | darktruck     | E8F455697880B2243BC60A215BA523220C70977D |
+#| 2015-09-09 01:00:00 | 2015-09-09 09:07:48 |    1 | NULL                  | 188.214.135.73 | UAB DUOMENU CENTRAS |     443 |       80 | electrikwerz  | 9B1F5E81AA067C0CC022A09407125DBDC7F1C0C7 |
+#| 2015-09-09 01:00:00 | 2015-09-09 09:07:45 |    1 | NULL                  | 188.214.135.71 | UAB DUOMENU CENTRAS |     443 |       80 | Overture      | 9FDCEC2DF23D354E5FEAA188D84D3B86B84FD293 |
+#| 2015-09-09 01:00:00 | 2015-09-09 09:07:47 |    1 | NULL                  | 188.214.135.72 | UAB DUOMENU CENTRAS |     443 |       80 | lostsouls     | 77C99D18086034C1BF2F96F5D391ECD60A04E7C7 |
+#| 2015-09-09 09:00:00 | 2015-09-09 11:31:36 |    1 | admin@avenueoftor.com | 188.214.135.77 | UAB DUOMENU CENTRAS |     443 |       80 | darkeyes      | 5259F4C11A3935A949F59F0A6CD4BBC78542DB35 |
+#| 2015-09-09 12:00:00 | 2015-09-09 11:23:17 |    1 | admin@avenueoftor.com | 188.214.135.76 | UAB DUOMENU CENTRAS |     443 |       80 | anonimizer    | 4FB795C02620865E9F04199AD274E55283D7F093 |
+#| 2015-09-09 13:00:00 | 2015-09-09 12:09:27 |    1 | admin@avenueoftor.com | 188.214.135.75 | UAB DUOMENU CENTRAS |     443 |       80 | iTerm         | 86C928C41EC3246AB0CC6A633BFB5AC0A8E535E5 |
+#| 2015-09-09 14:00:00 | 2015-09-09 13:22:59 |    1 | admin@avenueoftor.com | 188.214.135.78 | UAB DUOMENU CENTRAS |     443 |       80 | marlboro      | 44B05ECDF6794A93C14585EA5377D583DB096288 |
+#| 2015-09-09 14:00:00 | 2015-09-09 13:23:01 |    1 | admin@avenueoftor.com | 188.214.135.81 | UAB DUOMENU CENTRAS |     443 |       80 | lituanianpro  | D7BEF27E9A9F957113B21F2E7CF14D56CECB169F |
+#| 2015-09-09 14:00:00 | 2015-09-09 13:23:01 |    1 | admin@avenueoftor.com | 188.214.135.79 | UAB DUOMENU CENTRAS |     443 |       80 | narkotek      | C91C3A02198BCF4B45D4871DD027F299A2FF005F |
+#| 2015-09-09 14:00:00 | 2015-09-09 13:22:59 |    1 | admin@avenueoftor.com | 188.214.135.80 | UAB DUOMENU CENTRAS |     443 |       80 | voidnull      | 885196B1FD2681E7692A559FF4557ADC8F658871 |
+#| 2015-09-09 15:00:00 | 2015-09-09 14:01:32 |    1 | admin@avenueoftor.com | 188.214.135.82 | UAB DUOMENU CENTRAS |     443 |       80 | brownie       | E5C7E6142466F5E33BA84DC9615C19FFC5C6F14F |
+#| 2015-09-09 15:00:00 | 2015-09-09 14:01:34 |    1 | admin@avenueoftor.com | 188.214.135.84 | UAB DUOMENU CENTRAS |     443 |       80 | yowii         | 017A2E2B1C86093800836A7220C31642473310FD |
+#| 2015-09-09 15:00:00 | 2015-09-09 14:01:30 |    1 | admin@avenueoftor.com | 188.214.135.83 | UAB DUOMENU CENTRAS |     443 |       80 | beautifulies  | 1735736D2B22B112F98611FA99222D2E933A5469 |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:22:52 |    1 | admin@avenueoftor.com | 188.214.135.93 | UAB DUOMENU CENTRAS |     443 |       80 | drumandbassit | 59DDCC439B3A3F7F66B31AE85C20BFCE7DF832E0 |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:02:12 |    1 | admin@avenueoftor.com | 188.214.135.89 | UAB DUOMENU CENTRAS |     443 |       80 | bursterlt     | E70C71DFD737AE3C5B59E8CC266A74928E12FE1A |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:01:31 |    1 | admin@avenueoftor.com | 188.214.135.87 | UAB DUOMENU CENTRAS |     443 |       80 | chemicalsouls | 329C3682069A27774F9B5954F34D4EF07BFDA4AA |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:01:49 |    1 | admin@avenueoftor.com | 188.214.135.88 | UAB DUOMENU CENTRAS |     443 |       80 | gnulinuxlt    | 5FD62F5BD90ECA96304242BBACE1823BF56B7DBF |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:00:49 |    1 | admin@avenueoftor.com | 188.214.135.86 | UAB DUOMENU CENTRAS |     443 |       80 | balticpearl   | 013CA792C074C2538F991B4989F5FB020476AD2E |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:22:54 |    1 | admin@avenueoftor.com | 188.214.135.94 | UAB DUOMENU CENTRAS |     443 |       80 | darkmagic     | 7D420AFB129A3501A15C1C98429BDE4BCE99BCD4 |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:02:27 |    1 | admin@avenueoftor.com | 188.214.135.90 | UAB DUOMENU CENTRAS |     443 |       80 | smartnode     | 88059E95ED65216345B1F271053ECD553C934791 |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:22:47 |    1 | admin@avenueoftor.com | 188.214.135.92 | UAB DUOMENU CENTRAS |     443 |       80 | junglelist    | 7F30857609BD521BAF92D212948995C54451CD86 |
+#| 2015-09-09 20:00:00 | 2015-09-09 19:02:52 |    1 | admin@avenueoftor.com | 188.214.135.91 | UAB DUOMENU CENTRAS |     443 |       80 | futurenodes   | F1E748546D1381C9342CF4A88851238262E4FC10 |
+#+---------------------+---------------------+------+-----------------------+----------------+---------------------+---------+----------+---------------+------------------------------------------+
 #fingerprints:
-C4F0FFD70EFD76D367B861863BA9C3195D752B6E,2953B2139C256C4B8B3FFEDDD05E2D0F01CD9807,0C62906CCA9BE38D40744A7EE50CF27045D9C1E3
+FE4C756290940DB7DC0929F32D25EED7D4C0FF83,9F056ACA2A4F22BDE381B3283A69E6E9E93AE65A,E5C7E6142466F5E33BA84DC9615C19FFC5C6F14F,59DDCC439B3A3F7F66B31AE85C20BFCE7DF832E0,9B1F5E81AA067C0CC022A09407125DBDC7F1C0C7,045D22A33BE27BBFEF8880D5DA31C1EF8CEF5AA8,E70C71DFD737AE3C5B59E8CC266A74928E12FE1A,017A2E2B1C86093800836A7220C31642473310FD,4FB795C02620865E9F04199AD274E55283D7F093,329C3682069A27774F9B5954F34D4EF07BFDA4AA,5FD62F5BD90ECA96304242BBACE1823BF56B7DBF,013CA792C074C2538F991B4989F5FB020476AD2E,7D420AFB129A3501A15C1C98429BDE4BCE99BCD4,E8F455697880B2243BC60A215BA523220C70977D,88059E95ED65216345B1F271053ECD553C934791,9FDCEC2DF23D354E5FEAA188D84D3B86B84FD293,44B05ECDF6794A93C14585EA5377D583DB096288,FA7A834A4D7E160C006ACC4124FC29FC123BC240,D7BEF27E9A9F957113B21F2E7CF14D56CECB169F,5259F4C11A3935A949F59F0A6CD4BBC78542DB35,C91C3A02198BCF4B45D4871DD027F299A2FF005F,885196B1FD2681E7692A559FF4557ADC8F658871,86C928C41EC3246AB0CC6A633BFB5AC0A8E535E5,7F30857609BD521BAF92D212948995C54451CD86,77C99D18086034C1BF2F96F5D391ECD60A04E7C7
 
 #contact: bjh1004 <bjh1004@gmail.com>
 #+---------------------+---------------------+------+-----------------+---------+----------+-------------+-------+-----------------------------+----------+------+------+
