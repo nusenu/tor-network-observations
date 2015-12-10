@@ -1,0 +1,37 @@
+onionoo data from 2015-12-10 16:00:00 
+
++--------+------------+--------+--------+----+---------------+----+------------+------------------------------------------+
+| cw     | adv_mbps   | e_prob | g_prob | AS | /16 netblocks | CC | relaycount | contact                                  |
++--------+------------+--------+--------+----+---------------+----+------------+------------------------------------------+
+| 12.210 | 32312.5608 | 36.595 |  0.022 |  2 |             2 |  1 |          5 | tor-relay-admin robgjansen com           |
+|  1.444 |  2176.3150 |  4.105 |  0.113 |  2 |             2 |  2 |         10 | Torservers.net <support .AT. torservers  |
+|  1.242 |  1746.4637 |  3.523 |  0.097 |  3 |             3 |  2 |          5 | 0x02225522 Frenn vun der Enn (FVDE) <inf |
+|  0.615 |   936.3703 |  1.819 |  0.013 |  2 |             2 |  2 |          5 | Privacy Republic <abuse-team _at_ Privac |
+|  0.600 |  1070.3310 |  1.743 |  0.029 |  1 |             1 |  1 |         20 | Accessnow.org <abuse .AT. accessnow .DOT |
+|  0.519 |   605.5720 |  1.476 |  0.040 |  2 |             3 |  2 |          3 | apx <kenan@sly.mn> - 1HdGP8Tu8oNoiHPtyFU |
+|  0.500 |   773.3118 |  1.422 |  0.039 |  3 |             3 |  1 |          5 | 0x9F29C15D42A8B6F3 Nos oignons <adminsys |
+|  0.496 |   554.6724 |  1.410 |  0.039 |  1 |             1 |  1 |          7 | abuse[__aT   ]necto|doT--|onion          |
+|  0.603 |   914.0671 |  1.091 |  0.358 | 11 |            11 |  9 |         11 | tor.aTomicExit+NL1@gmail.com             |
+|  0.370 |   892.6974 |  1.053 |  0.029 |  4 |             6 |  4 |          7 | Babylon Network | noc <AT> babylon <DOT> |
+|  0.359 |   520.8367 |  1.007 |  0.037 |  2 |             2 |  1 |          3 | TvdW <tor AT tvdw DOT eu> - bitcoin 1NKK |
+|  0.306 |   294.0401 |  0.892 |  0.005 |  4 |             6 |  4 |          6 | TNinja <abuse-team _at_ tor _dot_ ninja> |
+|  0.305 |   369.0988 |  0.867 |  0.024 |  1 |             1 |  1 |          2 | NULL                                     |
+|  0.289 |   465.9436 |  0.814 |  0.020 |  2 |             2 |  2 |          5 | http://www.privacyfoundation.ch/abuse/   |
+|  0.283 |   542.1616 |  0.805 |  0.022 |  1 |             1 |  1 |          5 | drift@multinet.no - 1Geq8GGC7qTh7dfptneA |
+|  0.322 |   561.9265 |  0.744 |  0.130 |  1 |             1 |  1 |          4 | Netdiver <netdiver .AT. sigaint .DOT. or |
+|  0.208 |   527.3967 |  0.591 |  0.016 |  1 |             1 |  1 |          6 | DFRI <tor AT dfri dot se> - 1Muz37TfXVBi |
+|  0.201 |   236.5455 |  0.573 |  0.015 |  3 |             3 |  3 |          6 | ButAry <torrelay@gmx.info>               |
+|  0.304 |   493.5208 |  0.563 |  0.200 |  9 |            11 |  7 |         12 | Random Person <tor0102.10.swsnyder AT sp |
+|  0.228 |   292.9206 |  0.451 |  0.140 |  2 |             2 |  1 |          2 | Walter Heukels <walter@badexample.net>   |
++--------+------------+--------+--------+----+---------------+----+------------+------------------------------------------+
+
++--------------------------------+-------------+---------------+------------------+--------------------------+
+| contact                        | tor_version | IP            | consensus_weight | as_name                  |
++--------------------------------+-------------+---------------+------------------+--------------------------+
+| tor-relay-admin robgjansen com | 0.2.7.5-dev | 65.19.167.133 |          2150000 | Hurricane Electric, Inc. |
+| tor-relay-admin robgjansen com | 0.2.7.5-dev | 65.19.167.131 |          1810000 | Hurricane Electric, Inc. |
+| tor-relay-admin robgjansen com | 0.2.7.4-rc  | 216.17.99.183 |            12200 | A1COLO.COM               |
+| tor-relay-admin robgjansen com | 0.2.7.5-dev | 65.19.167.132 |          1820000 | Hurricane Electric, Inc. |
+| tor-relay-admin robgjansen com | 0.2.7.5-dev | 65.19.167.130 |          1820000 | Hurricane Electric, Inc. |
+| tor-relay-admin robgjansen com | 0.2.7.4-rc  | 216.17.99.183 |             4920 | A1COLO.COM               |
++--------------------------------+-------------+---------------+------------------+--------------------------+
