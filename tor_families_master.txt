@@ -163,6 +163,25 @@ E6E18151300F90C235D3809F90B31330737CEB43,FC37A7B1C264497BA01A08BF6D2C982A99D5B96
 #fingerprints:
 E19AA1D66715CA3DAD7F907ED524AF84C42FF333,655B1D4E5C9D85AD60F385274262AF3B67845F4A,CA8BBFF4C2389BFD24361D278006DECCE4240D31,65074CA9E6DD03BA81A38A2E553F69859E4431D1,D09943DBAD7F51A1DA350926DE93802140DE5F6B,D5DBCC0B4F029F80C7B8D33F20CF7D97F0423BB1,0BCC5CEB5FAD00D3BF111316DBBD6C2A074F65CE,6CACF0B5F03C779672F3C5C295F37C8D234CA3F7,AFBA143413D7DEEF5C8C12BC1AC13969EB8F6100,D3B2BCD5FBBBD86B49FB0EB07C0C278B17F5CFDF,631748AFB41104D77ADBB7E5CD4F8E8AE876E683,DC89521BBF2B0B7B5FD6C921B6D2E09FECB180D1,46813E4FEF639FF2CF967987C0AAF4C8860B950C,A3DE7C6D2D9938ECF19784A8636091D18027132B,239E89F5A75C1B77E57D9DA6125858EA5F4A2A1F,B6295A9960F89BD0C743EEBC5670450EA6A34685,9EA9321B16CF5E45F5B0E5CE8C34577A4D355569
 
+#+---------------------+---------------------+------------------------+------+-------------+---------+----------+---------------+-------+---------+------------------+------+------+
+#| first_seen          | last_restarted      | AS                     | cc   | IP          | or_port | dir_port | tor_version   | OS    | contact | nickname         | exit | efam |
+#+---------------------+---------------------+------------------------+------+-------------+---------+----------+---------------+-------+---------+------------------+------+------+
+#| 2014-07-24 13:00:00 | 2015-08-06 12:34:04 | Liberty Global Operati | ro   | 81.89.0.196 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | tDcIKKaGPVahm70w |    1 | NULL |
+#| 2014-07-24 13:00:00 | 2015-08-06 12:34:05 | Liberty Global Operati | ro   | 81.89.0.201 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | SveVzetamaWgVwUs |    1 | NULL |
+#| 2014-07-24 13:00:00 | 2015-08-06 12:34:06 | Liberty Global Operati | ro   | 81.89.0.203 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | vack8dwfKlIfnvT7 |    1 | NULL |
+#| 2014-07-24 13:00:00 | 2015-08-06 12:34:06 | Liberty Global Operati | ro   | 81.89.0.202 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | vv8UZgh1W5C4STUn |    1 | NULL |
+#| 2014-07-24 13:00:00 | 2015-08-06 12:34:06 | Liberty Global Operati | ro   | 81.89.0.197 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | v8vWLvtBg17bVsdF |    1 | NULL |
+#| 2014-07-24 13:00:00 | 2015-08-06 12:34:06 | Liberty Global Operati | ro   | 81.89.0.198 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | tS8tpUFXh7MGrxdr |    1 | NULL |
+#| 2014-07-24 13:00:00 | 2015-08-06 12:34:11 | Liberty Global Operati | ro   | 81.89.0.204 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | TgwnCla4xoOXFkgm |    1 | NULL |
+#| 2014-07-24 13:00:00 | 2015-08-06 12:34:14 | Liberty Global Operati | ro   | 81.89.0.199 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | OW7KwS0Kr9dbEEIL |    1 | NULL |
+#| 2014-07-24 14:00:00 | 2015-08-06 12:35:06 | Liberty Global Operati | ro   | 81.89.0.195 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | YSq8MUJnYfNfvobp |    1 | NULL |
+#| 2014-07-24 13:00:00 | 2015-08-06 12:35:11 | Liberty Global Operati | ro   | 81.89.0.200 |     443 |     9300 | 0.2.5.5-alpha | Linux | NULL    | 2Ob1U8qS7bfMQdkm |    1 | NULL |
+#+---------------------+---------------------+------------------------+------+-------------+---------+----------+---------------+-------+---------+------------------+------+------+
+
+#fingerprints: 
+42F752C0919357CD19B1B36865657072376960CB,8AF4E4D2A13DED432208D3B3889D43256D56FC72,F94BCE1B6E3899FA4E4CBCC3B19C4FD8CC2B33BB,9FB2DCBE32859CD510EA325FA64237F5AAE78E17,AE4E83B0BFDF679989D746C3B3DEF2EBCA35FA68,1B6D6CCF428AF68619B0B8D9D17324D5FAD6304D,AA5D47D5A96AE3084379663056C321A0812154D5,ACA45CB6D5DF151DB88AEF666D8FECC6DDED17FA,5C2B2A7AA55C60C56B4DC0BBF7EA3919731ABA1C,252A55672B450929374CBB7279404B22E0D69259
+
+
 
 #Prefix: BrassH
 #+---------------------+------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+------+
