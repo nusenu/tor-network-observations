@@ -1,6 +1,98 @@
 
 # This file contains one likely family per line (definied by tor relay fingerprints, separated by ',')
 
++---------------------+----------+----------------------+---------+-----------------+---------+----------+-------------+---------+---------+
+| first_seen          | nickname | as_name              | country | IP              | or_port | dir_port | tor_version | contact | efamily |
++---------------------+----------+----------------------+---------+-----------------+---------+----------+-------------+---------+---------+
+| 2016-03-24 10:00:00 | Unnamed  | Global Frag Networks | us      | 23.247.12.73    |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 10:00:00 | Unnamed  | Global Frag Networks | us      | 23.228.81.134   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.144.13  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.41.190  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.41.186  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.144.18  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.144.3   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.41.185  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.147.12  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.144.15  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.144.23  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.147.6   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.147.22  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.147.29  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.144.6   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.147.14  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 23.247.12.68    |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.147.11  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.147.16  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.41.169  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.144.29  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 11:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.41.171  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.137.3   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.146.28  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.141.15  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.141.25  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 157.52.161.247  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.137.26  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.147.4   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.67.135  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.146.25  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 23.247.12.71    |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 157.52.161.254  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 12:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.137.19  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 13:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.41.166  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 13:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.137.30  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 13:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.146.7   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 14:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.102.252 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 14:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.102.244 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 14:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.141.30  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 14:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.141.11  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 14:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.32.158  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-24 14:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.67.132  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 02:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.102.250 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 02:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.67.130  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 02:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.100.158 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 02:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.102.248 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 23.247.32.76    |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.32.148  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.137.7   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 104.148.13.23   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 104.223.137.11  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 192.200.204.245 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 192.200.216.247 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.102.246 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 104.148.13.21   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 192.200.204.253 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 192.200.204.243 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 104.148.13.25   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.100.154 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.32.146  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.32.152  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 192.200.204.249 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.100.152 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.32.150  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 192.200.204.251 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.32.154  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 23.247.66.66    |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 104.148.13.28   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 23.228.81.139   |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.32.156  |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 23.247.12.77    |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 107.179.100.156 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 23.247.32.78    |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
+| 2016-03-25 03:00:00 | Unnamed  | Global Frag Networks | us      | 192.200.204.247 |    9001 |     9030 | 0.2.7.6     | NULL    | NULL    |
++---------------------+----------+----------------------+---------+-----------------+---------+----------+-------------+---------+---------+
+fingerprints:
+D0F36F47048620037B94CDC3D08465566F7D3CBF,3EC7B28C250B322D281B45059F26AE0333B218E9,BC30A2B1FFE3B2F1D9C4E698C72C285AE44117DC,69F69221C80F75B2DD7F3115F102DAD41D35764E,77B440C61E16BEE4301A58B0E44145396E6DBF67,98C56D403EE56AFD497C2767172FF28681088ABD,0D6A0439E6113FC491573207EE758DF81205DB6A,150938009D15045E840D64ACF313EA3EC00002DF,812141AA3AE2F49A9FB219ABCB97D9BFD7328F12,B3FB276BBA769EE731DE8A687B89C72B9466FF63,88D8BD21FB8BB4A6AD55237C0B64B2152EFBA55F,89F4B074EDEF07D487EA1A31CAAB7D3C259B4BCF,6C079B47F500C5E7CA47305C1FA74426865AD7BC,3CF8E3A839C3C5DC453D541D7F4EFAA1BB125DE0,DB61A08CF601C2F3586BFA213830F4D94C193E33,59863A46AB02A600F4DE199BA38EB021CA2C5050,E88E44307619ACCA0854A2BFB0936A9E8517513C,C355D862A9BFA85EB97FFFDF9D5476A5BA120D4D,22FDC6D98A4C289B693741E0258A46337F0970DD,0FE6682AF706C33B3E7EE7741C584D90E542429D,5F6716D1D892DBC2A809DE6B04C6E9A11EC2E2C7,B4D603D683D4C1ABD93EB504F239C51A4CDE1B18,642A6F1F68D6575012A4C7613FC7685A7B9BB858,7152BED21E4B8985C301571A370880693996C26F,75790DD4C22CCF3280BB61FB2154A29C1996BC22
+
+
+
+
+
+
+
+
+
+
+
 # 43 exit relays joined on 2015-02-04/05 via Amazon AWS with matching restart pattern
 # https://lists.torproject.org/pipermail/tor-talk/2015-June/038066.html
 B4BEF0963E2D8B2B9331AA0FE5B26486AFED19BB,D376C8FDEF85FC8E6FC100BC86A410CE50D46A16,0D1E10434B68EC344E7AC1EC745B171D7BDEB818,10A302F74887942D2899E8856446C788C0EEB43F,351103FBD3079361C4DB4C6973AEAC1F27FBBB99,ACF7966DB1565E0833433D5D143A3076B623455F,F4212B1ACD513ED72EC694E910ABBCE61C3D75FB,52C518073F0F422E2C1A613A6F5DF4F06F8F2292,AFA38F8D2565EE2EA030C90AF9FBBFF40DD1397F,0192D34F7A122EC65A0FB65C2A514BB64A0F81F2,BA9C883CC7F4153AE643DCBF53978D782AD7FBAD,D3BDC4C51ECEBB98C37DC627BE48BE3C7A77EB61,A2ED78AA06F8653FA83832EB0E27AC1DCF6DDC38,AE8EEED65BA2AB60EA47EC11424468F759CFC365,F0DF8826E277832C5179A31CBDE126147E5A7A38,1E2AC7FD2622457553F149070D714C266D9B7CD3,9FE1A53AF2DFED1946FC0D624473D8D50D2F4532,A7EA5789FA94877C15BBDDF5A381B15680F8221B,0809C89B92A9441E2317D2EF27996C210C16BA09,1A2853EF6341D777FB7AB688187F9D154628BE01,CE1970A1E2ADA55E84399F7AFC630F1D77FDBD6E,6385394AE12B0E4DA847F8E266A11D6FF38575F7,F095559345FC8B77430CB167FF49ADFB7F8EBA5B,D8A907E857CF544358A2552EF34BA7F88E555386,41BE705292F4C71085C856596FC91A0FA169410D
