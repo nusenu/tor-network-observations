@@ -231,6 +231,54 @@ B56E55D1719A6F43B63A18E7E296BB581B2DF566,8AFE171FC437608D06FC232AAA33EE376EB92FC
 fingerprints:
 766AE785FAB1D38498190DA2F84750FD5C86A0A4,8E66A7DDF73D0B086C6D63272D30B98D8DEFF2EB,211B7AB2DF036C9379790B09B1FAF287504FF876,A3768FFE6B8066CAE0FA478FD05596E3F450DA0B
 
++------+------+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+---------+-----------+------+
+| up   | ext  | first_seen          | AS                     | cc   | IP             | or_port | dir_port | tor_version | OS    | contact | nickname  | efam |
++------+------+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+---------+-----------+------+
+|    1 |    0 | 2016-03-18 20:00:00 | 8 to Infinity Pte Ltd  | cn   | 188.42.253.7   |     443 |       80 | 0.2.6.10    | Linux | NULL    | oginome   | NULL |
+|    1 |    0 | 2016-03-18 20:00:00 | PIRADIUS NET           | my   | 111.90.146.220 |     443 |       80 | 0.2.6.10    | Linux | NULL    | tyzack    | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | PIRADIUS NET           | my   | 111.90.148.178 |     443 |       80 | 0.2.6.10    | Linux | NULL    | brialy    | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | KemiNet Ltd.           | al   | 31.171.155.103 |     443 |       80 | 0.2.6.10    | Linux | NULL    | sweyd     | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | Optima Telecom Ltd.    | kg   | 91.213.233.60  |     443 |       80 | 0.2.6.10    | Linux | NULL    | kleinbach | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | Verdina Ltd.           | bg   | 78.142.18.107  |     443 |       80 | 0.2.6.10    | Linux | NULL    | kasabian  | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | iTools LLC             | mn   | 43.231.113.34  |     443 |       80 | 0.2.6.10    | Linux | NULL    | clodagh   | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | HOSTKEY B.V.           | nl   | 146.0.74.160   |     443 |       80 | 0.2.6.10    | Linux | NULL    | mazzone   | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | CITYNET                | eg   | 41.77.136.178  |     443 |       80 | 0.2.6.10    | Linux | NULL    | heidemann | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | Mir Telematiki Ltd.    | my   | 111.90.159.45  |     443 |       80 | 0.2.6.10    | Linux | NULL    | chojnacka | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | root SA                | lu   | 94.242.199.145 |     443 |       80 | 0.2.6.10    | Linux | NULL    | colleano  | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | 453 Ladplacout Jorakha | th   | 119.59.127.104 |     443 |       80 | 0.2.6.10    | Linux | NULL    | creaghan  | NULL |
+|    1 |    0 | 2016-03-18 21:00:00 | Viettel Corporation    | vn   | 125.212.220.60 |     443 |       80 | 0.2.6.10    | Linux | NULL    | lader     | NULL |
++------+------+---------------------+------------------------+------+----------------+---------+----------+-------------+-------+---------+-----------+------+
+fingerprints:
+3F975AFC899AA9B430C81CC38791AF902DF06FD3,513C8E36869C5D32B80FC7E5F4DF8102698CD862,FCDFFDFD7524BE790751BE429E5BD6C26E3DF5E6,49BC7301250F6D87BCD676DFC9AF22048F96F599,BBBAE9B2C03496D7105565810974374E12590223,73716FACC91CBE92B2C70DFCDF9EF31DF91880FD,C7AE7642E9F9BE4E3CDD117C123CB18A9DFA7FD5,739B80EA04B1D1B007EA612EEB0A8E5D3AC595B1,DE43CB8FA0A500693E519692654D052134DC9135,DBA4D3F6CD4FCC0D6F30F594D5B2C0A693A9523F,62B210B5517E467399C240BD1FD49E08DB3B8418,244F927554330B7721B26EA3F34F8003DE01197B,CF773DE0B4F537BB80DA35643299403B7BF11AFA
+
+
++------+------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+-------------+------+
+| up   | ext  | first_seen          | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS    | contact | nickname    | efam |
++------+------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+-------------+------+
+|    1 |    0 | 2016-03-07 18:00:00 | UAB DUOMENU CENTRAS    | lt   | 89.35.178.104   |     443 |       80 | 0.2.6.10    | Linux | NULL    | tsumura     | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | myLoc managed IT AG    | de   | 46.20.35.114    |     443 |       80 | 0.2.6.10    | Linux | NULL    | vilo        | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | Leaseweb Deutschland G | de   | 178.162.222.226 |     443 |       80 | 0.2.6.10    | Linux | NULL    | prendergast | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | CMC Telecommunications | vn   | 115.146.127.224 |     443 |       80 | 0.2.6.10    | Linux | NULL    | prentace    | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | myLoc managed IT AG    | de   | 146.0.43.126    |     443 |       80 | 0.2.6.10    | Linux | NULL    | chiltern    | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | Snel.com B.V.          | nl   | 89.207.129.150  |     443 |       80 | 0.2.6.10    | Linux | NULL    | charmerace  | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | QHOSTER LTD.           | nl   | 185.77.129.35   |     443 |       80 | 0.2.6.10    | Linux | NULL    | anais       | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | THOR Data Center ehf   | is   | 82.221.139.25   |     443 |       80 | 0.2.6.10    | Linux | NULL    | larco       | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | Accelerated IT Service | de   | 82.211.31.247   |     443 |       80 | 0.2.6.10    | Linux | NULL    | tangier     | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | WorldStream            | nl   | 217.23.13.129   |     443 |       80 | 0.2.6.10    | Linux | NULL    | vilmorin    | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | OVH SAS                | fr   | 5.135.65.145    |     443 |       80 | 0.2.6.10    | Linux | NULL    | vautier     | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | Verdina Ltd.           | bg   | 86.104.15.15    |     443 |       80 | 0.2.6.10    | Linux | NULL    | cheik       | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | SPRINT S.A.            | pl   | 193.189.117.165 |     443 |       80 | 0.2.6.10    | Linux | NULL    | abra        | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | ESDS Software Solution | in   | 115.124.112.235 |     443 |       80 | 0.2.6.10    | Linux | NULL    | caligula    | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | Private Layer INC      | ch   | 179.43.146.230  |     443 |       80 | 0.2.6.10    | Linux | NULL    | leuwerik    | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | Quasi Networks LTD.    | nl   | 89.248.166.157  |     443 |       80 | 0.2.6.10    | Linux | NULL    | koto        | NULL |
+|    1 |    0 | 2016-03-07 18:00:00 | Seflow S.N.C. Di Marco | it   | 162.220.246.230 |     443 |       80 | 0.2.6.10    | Linux | NULL    | dlavolos    | NULL |
++------+------+---------------------+------------------------+------+-----------------+---------+----------+-------------+-------+---------+-------------+------+
+
+fingerprints:
+DF1EE95EB3F1A4017D41F9904CDC49B8348839F1,521C4CB1E15038F1B84600859101E79F9D8B5D9B,CEEDCE73176D5072F33B3895FB2DEB84E416735A,3F922C8CDED5ACE1816129143B815031B3C0E7E5,0269165034C5586D6551CCCFA8940D2305948754,DFF552D4D2BD921E6ABA20CDC9CA272FB49A18D8,982A103489DF8410585B8077B7FD813217093EB4,549A5E85D6BCF476BF7A03A8823E7745DD319C17,AE0F040BDF69606177F28654DE68F1E7789EEE8B,3C93D3F6B5E07303A4964F6280614A86E098127D,CEECFBB82FC484051E89719C49DC803F65AABC72,9E3845093ECDB1C46974540F45190A82E0738B3D,2154381CF3A9F09C13CE7A8B85512CF4800DA986,4AA81C61A131ACADB1033A3B31E90BD74F21CA86,B67E8AB9F674C78DC66F8C2900F2C8A9EB4F0909,F929BA46C7A23B1D668B1F99A2846A21D1377AE5,6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE
+
+
+
 #Prefix: BrassH
 #+---------------------+------------------+------------------------+------+-----------------+---------+----------+-------------+---------+-------------------------------------+------+
 #| first_seen          | nickname         | AS                     | cc   | IP              | or_port | dir_port | tor_version | OS      | contact                             | efam |
